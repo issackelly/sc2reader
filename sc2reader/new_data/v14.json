@@ -1,0 +1,4286 @@
+{
+    "abilities": {
+        "86528": {
+            "uid": "EvolveCentrifugalHooks", 
+            "vid": "EvolveCentrifugalHooks", 
+            "title": "", 
+            "gas": 150, 
+            "minerals": 150, 
+            "build_time": 110, 
+            "research": true
+        }, 
+        "32768": {
+            "uid": "FighterMode", 
+            "vid": "FighterMode", 
+            "title": ""
+        }, 
+        "72706": {
+            "uid": "WarpInAssimilator", 
+            "vid": "WarpInAssimilator", 
+            "title": "", 
+            "gas": 0, 
+            "minerals": 100, 
+            "build_time": 30, 
+            "build": true, 
+            "build_unit": "Assimilator"
+        }, 
+        "73731": {
+            "uid": "BuildImmortal", 
+            "vid": "BuildImmortal", 
+            "title": "", 
+            "gas": 100, 
+            "minerals": 250, 
+            "build_time": 55, 
+            "supply": 4, 
+            "build": true, 
+            "build_unit": "Immortal"
+        }, 
+        "78340": {
+            "uid": "EvolveFlyerCarapace2", 
+            "vid": "EvolveFlyerCarapace2", 
+            "title": "Carapace2", 
+            "gas": 225, 
+            "minerals": 225, 
+            "build_time": 190, 
+            "research": true
+        }, 
+        "78341": {
+            "uid": "EvolveFlyerCarapace3", 
+            "vid": "EvolveFlyerCarapace3", 
+            "title": "Carapace3", 
+            "gas": 300, 
+            "minerals": 300, 
+            "build_time": 220, 
+            "research": true
+        }, 
+        "70662": {
+            "uid": "ResearchInfantryArmor1", 
+            "vid": "ResearchInfantryArmor1", 
+            "title": "Armor1", 
+            "gas": 100, 
+            "minerals": 100, 
+            "build_time": 160, 
+            "research": true
+        }, 
+        "211201": {
+            "uid": "CancelRootSporeCrawler", 
+            "vid": "CancelRootSporeCrawler", 
+            "title": "", 
+            "cancel": true
+        }, 
+        "70664": {
+            "uid": "ResearchInfantryArmor3", 
+            "vid": "ResearchInfantryArmor3", 
+            "title": "Armor3", 
+            "gas": 250, 
+            "minerals": 250, 
+            "build_time": 220, 
+            "research": true
+        }, 
+        "76034": {
+            "uid": "MorphToExtractor", 
+            "vid": "MorphToExtractor", 
+            "title": "", 
+            "gas": 0, 
+            "minerals": 25, 
+            "build_time": 30, 
+            "supply": -1, 
+            "build": true, 
+            "build_unit": "Extractor"
+        }, 
+        "16640": {
+            "uid": "HallucinateColossus", 
+            "vid": "HallucinateColossus", 
+            "title": "", 
+            "energy": 100, 
+            "build": true, 
+            "build_unit": "Colossus"
+        }, 
+        "76550": {
+            "uid": "EvolveMissileAttack1", 
+            "vid": "EvolveMissileAttack1", 
+            "title": "Attack1", 
+            "gas": 100, 
+            "minerals": 100, 
+            "build_time": 160, 
+            "research": true
+        }, 
+        "78339": {
+            "uid": "EvolveFlyerCarapace1", 
+            "vid": "EvolveFlyerCarapace1", 
+            "title": "Carapace1", 
+            "gas": 150, 
+            "minerals": 150, 
+            "build_time": 160, 
+            "research": true
+        }, 
+        "89605": {
+            "uid": "ResearchAirArmor3", 
+            "vid": "ResearchAirArmor3", 
+            "title": "Armor3", 
+            "gas": 300, 
+            "minerals": 300, 
+            "build_time": 220, 
+            "research": true
+        }, 
+        "1045": {
+            "uid": "CancelRootSpineCrawler", 
+            "vid": "CancelRootSpineCrawler", 
+            "title": "", 
+            "cancel": true
+        }, 
+        "16896": {
+            "uid": "HallucinateHighTemplar", 
+            "vid": "HallucinateHighTemplar", 
+            "title": "", 
+            "energy": 100, 
+            "build": true, 
+            "build_unit": "HighTemplar"
+        }, 
+        "73221": {
+            "uid": "BuildSentry", 
+            "vid": "BuildSentry", 
+            "title": "", 
+            "gas": 100, 
+            "minerals": 50, 
+            "build_time": 42, 
+            "supply": 2, 
+            "build": true, 
+            "build_unit": "Sentry"
+        }, 
+        "70660": {
+            "uid": "ResearchInfantryWeapons3", 
+            "vid": "ResearchInfantryWeapons3", 
+            "title": "Weapons3", 
+            "gas": 250, 
+            "minerals": 250, 
+            "build_time": 220, 
+            "research": true
+        }, 
+        "78594": {
+            "uid": "MorphToOverlord", 
+            "vid": "MorphToOverlord", 
+            "title": "", 
+            "gas": 0, 
+            "minerals": 100, 
+            "build_time": 25, 
+            "build": true, 
+            "build_unit": "Overlord"
+        }, 
+        "17152": {
+            "uid": "HallucinateImmortal", 
+            "vid": "HallucinateImmortal", 
+            "title": "", 
+            "energy": 100, 
+            "build": true, 
+            "build_unit": "Immortal"
+        }, 
+        "70661": {
+            "uid": "ResearchNeosteelFrame", 
+            "vid": "ResearchNeosteelFrame", 
+            "title": "", 
+            "gas": 100, 
+            "minerals": 100, 
+            "build_time": 110, 
+            "research": true
+        }, 
+        "72736": {
+            "uid": "WarpInNexus", 
+            "vid": "WarpInNexus", 
+            "title": "", 
+            "gas": 0, 
+            "minerals": 400, 
+            "build_time": 100, 
+            "build": true, 
+            "build_unit": "Nexus"
+        }, 
+        "23585": {
+            "uid": "EvolveWorkerRally", 
+            "vid": "EvolveWorkerRally", 
+            "title": "", 
+            "research": true
+        }, 
+        "31778": {
+            "uid": "UnloadAllMedivac", 
+            "vid": "UnloadAllMedivac", 
+            "title": ""
+        }, 
+        "72739": {
+            "uid": "WarpInGateway", 
+            "vid": "WarpInGateway", 
+            "title": "", 
+            "gas": 0, 
+            "minerals": 150, 
+            "build_time": 65, 
+            "build": true, 
+            "build_unit": "Gateway"
+        }, 
+        "72740": {
+            "uid": "WarpInForge", 
+            "vid": "WarpInForge", 
+            "title": "", 
+            "gas": 0, 
+            "minerals": 150, 
+            "build_time": 45, 
+            "build": true, 
+            "build_unit": "Forge"
+        }, 
+        "72741": {
+            "uid": "WarpInFleetBeacon", 
+            "vid": "WarpInFleetBeacon", 
+            "title": "", 
+            "gas": 200, 
+            "minerals": 300, 
+            "build_time": 60, 
+            "build": true, 
+            "build_unit": "FleetBeacon"
+        }, 
+        "72742": {
+            "uid": "WarpInTwilightCouncil", 
+            "vid": "WarpInTwilightCouncil", 
+            "title": "", 
+            "gas": 100, 
+            "minerals": 150, 
+            "build_time": 50, 
+            "build": true, 
+            "build_unit": "TwilightCouncil"
+        }, 
+        "72743": {
+            "uid": "WarpInPhotonCannon", 
+            "vid": "WarpInPhotonCannon", 
+            "title": "", 
+            "gas": 0, 
+            "minerals": 150, 
+            "build_time": 40, 
+            "build": true, 
+            "build_unit": "PhotonCannon"
+        }, 
+        "72459": {
+            "uid": "ResearchShipWeapons1", 
+            "vid": "ResearchShipWeapons1", 
+            "title": "Weapons1", 
+            "gas": 100, 
+            "minerals": 100, 
+            "build_time": 160, 
+            "research": true
+        }, 
+        "72745": {
+            "uid": "WarpInStargate", 
+            "vid": "WarpInStargate", 
+            "title": "", 
+            "gas": 150, 
+            "minerals": 150, 
+            "build_time": 60, 
+            "build": true, 
+            "build_unit": "Stargate"
+        }, 
+        "72746": {
+            "uid": "WarpInTemplarArchives", 
+            "vid": "WarpInTemplarArchives", 
+            "title": "", 
+            "gas": 200, 
+            "minerals": 150, 
+            "build_time": 50, 
+            "build": true, 
+            "build_unit": "TemplarArchives"
+        }, 
+        "72747": {
+            "uid": "WarpInDarkShrine", 
+            "vid": "WarpInDarkShrine", 
+            "title": "", 
+            "gas": 250, 
+            "minerals": 100, 
+            "build_time": 100, 
+            "build": true, 
+            "build_unit": "DarkShrine"
+        }, 
+        "72748": {
+            "uid": "WarpInRoboticsBay", 
+            "vid": "WarpInRoboticsBay", 
+            "title": "", 
+            "gas": 200, 
+            "minerals": 200, 
+            "build_time": 65, 
+            "build": true, 
+            "build_unit": "RoboticsBay"
+        }, 
+        "72749": {
+            "uid": "WarpInRoboticsFacility", 
+            "vid": "WarpInRoboticsFacility", 
+            "title": "", 
+            "gas": 100, 
+            "minerals": 200, 
+            "build_time": 65, 
+            "build": true, 
+            "build_unit": "RoboticsFacility"
+        }, 
+        "72750": {
+            "uid": "WarpInCyberneticsCore", 
+            "vid": "WarpInCyberneticsCore", 
+            "title": "", 
+            "gas": 0, 
+            "minerals": 150, 
+            "build_time": 50, 
+            "build": true, 
+            "build_unit": "CyberneticsCore"
+        }, 
+        "16384": {
+            "uid": "HallucinateArchon", 
+            "vid": "HallucinateArchon", 
+            "title": "", 
+            "energy": 100, 
+            "build": true, 
+            "build_unit": "Archon"
+        }, 
+        "77313": {
+            "uid": "CancelGreaterSpire", 
+            "vid": "CancelGreaterSpire", 
+            "title": "", 
+            "cancel": true
+        }, 
+        "75272": {
+            "uid": "ResearchShield3", 
+            "vid": "ResearchShield3", 
+            "title": "Shield3", 
+            "gas": 400, 
+            "minerals": 400, 
+            "build_time": 220, 
+            "research": true
+        }, 
+        "66049": {
+            "uid": "UnloadAllCommandCenter", 
+            "vid": "UnloadAllCommandCenter", 
+            "title": ""
+        }, 
+        "79104": {
+            "uid": "Burrow", 
+            "vid": "Burrow", 
+            "title": ""
+        }, 
+        "17920": {
+            "uid": "HallucinateStalker", 
+            "vid": "HallucinateStalker", 
+            "title": "", 
+            "energy": 100, 
+            "build": true, 
+            "build_unit": "Stalker"
+        }, 
+        "78601": {
+            "uid": "MorphToRoach", 
+            "vid": "MorphToRoach", 
+            "title": "", 
+            "gas": 25, 
+            "minerals": 75, 
+            "build_time": 27, 
+            "supply": 2, 
+            "build": true, 
+            "build_unit": "Roach"
+        }, 
+        "84003": {
+            "uid": "WarpInHighTemplar", 
+            "vid": "WarpInHighTemplar", 
+            "title": "", 
+            "gas": 150, 
+            "minerals": 50, 
+            "build_time": 5, 
+            "supply": 2, 
+            "build": true, 
+            "build_unit": "HighTemplar"
+        }, 
+        "58": {
+            "uid": "Stop", 
+            "vid": "Stop", 
+            "title": ""
+        }, 
+        "59": {
+            "uid": "Hold", 
+            "vid": "Hold", 
+            "title": ""
+        }, 
+        "90144": {
+            "uid": "Nuke", 
+            "vid": "Nuke", 
+            "title": ""
+        }, 
+        "61": {
+            "uid": "Patrol", 
+            "vid": "Patrol", 
+            "title": ""
+        }, 
+        "62": {
+            "uid": "Follow", 
+            "vid": "Follow", 
+            "title": ""
+        }, 
+        "78602": {
+            "uid": "MorphToInfestor", 
+            "vid": "MorphToInfestor", 
+            "title": "", 
+            "gas": 150, 
+            "minerals": 100, 
+            "build_time": 50, 
+            "supply": 2, 
+            "build": true, 
+            "build_unit": "Infestor"
+        }, 
+        "29248": {
+            "uid": "Repair", 
+            "vid": "Repair", 
+            "title": ""
+        }, 
+        "67": {
+            "uid": "AttackObject", 
+            "vid": "AttackObject", 
+            "title": ""
+        }, 
+        "90113": {
+            "uid": "CancelNuke", 
+            "vid": "CancelNuke", 
+            "title": "", 
+            "cancel": true
+        }, 
+        "18432": {
+            "uid": "HallucinateWarpPrism", 
+            "vid": "HallucinateWarpPrism", 
+            "title": "", 
+            "energy": 100, 
+            "build": true, 
+            "build_unit": "WarpPrism"
+        }, 
+        "86274": {
+            "uid": "EvolvePathogenGlands", 
+            "vid": "EvolvePathogenGlands", 
+            "title": "", 
+            "gas": 150, 
+            "minerals": 150, 
+            "build_time": 80, 
+            "research": true
+        }, 
+        "72460": {
+            "uid": "ResearchShipWeapons2", 
+            "vid": "ResearchShipWeapons2", 
+            "title": "Weapons2", 
+            "gas": 175, 
+            "minerals": 175, 
+            "build_time": 190, 
+            "research": true
+        }, 
+        "27904": {
+            "uid": "CancelBuilding", 
+            "vid": "CancelBuilding", 
+            "title": "", 
+            "cancel": true
+        }, 
+        "13312": {
+            "uid": "WeaponsFree", 
+            "vid": "WeaponsFree", 
+            "title": ""
+        }, 
+        "84224": {
+            "uid": "Burrow", 
+            "vid": "Burrow", 
+            "title": ""
+        }, 
+        "72461": {
+            "uid": "ResearchShipWeapons3", 
+            "vid": "ResearchShipWeapons3", 
+            "title": "Weapons3", 
+            "gas": 250, 
+            "minerals": 250, 
+            "build_time": 220, 
+            "research": true
+        }, 
+        "80": {
+            "uid": "CancelBuilding", 
+            "vid": "CancelBuilding", 
+            "title": "", 
+            "cancel": true
+        }, 
+        "84000": {
+            "uid": "WarpInZealot", 
+            "vid": "WarpInZealot", 
+            "title": "", 
+            "gas": 0, 
+            "minerals": 100, 
+            "build_time": 5, 
+            "supply": 2, 
+            "build": true, 
+            "build_unit": "Zealot"
+        }, 
+        "78598": {
+            "uid": "MorphToUltralisk", 
+            "vid": "MorphToUltralisk", 
+            "title": "", 
+            "gas": 200, 
+            "minerals": 300, 
+            "build_time": 70, 
+            "supply": 6, 
+            "build": true, 
+            "build_unit": "Ultralisk"
+        }, 
+        "66147": {
+            "uid": "UnloadCommandCenter", 
+            "vid": "UnloadCommandCenter", 
+            "title": ""
+        }, 
+        "84": {
+            "uid": "HaltBuilding", 
+            "vid": "HaltBuilding", 
+            "title": ""
+        }, 
+        "84480": {
+            "uid": "Unburrow", 
+            "vid": "Unburrow", 
+            "title": ""
+        }, 
+        "88": {
+            "uid": "Cancel", 
+            "vid": "Cancel", 
+            "title": "", 
+            "cancel": true
+        }, 
+        "89": {
+            "uid": "CancelUnit", 
+            "vid": "CancelUnit", 
+            "title": "", 
+            "cancel": true
+        }, 
+        "94": {
+            "uid": "SetRallyTarget", 
+            "vid": "SetRallyTarget", 
+            "title": ""
+        }, 
+        "95": {
+            "uid": "Cancel", 
+            "vid": "Cancel", 
+            "title": "", 
+            "cancel": true
+        }, 
+        "96": {
+            "uid": "CancelUnit", 
+            "vid": "CancelUnit", 
+            "title": "", 
+            "cancel": true
+        }, 
+        "75269": {
+            "uid": "ResearchGroundArmor3", 
+            "vid": "ResearchGroundArmor3", 
+            "title": "Armor3", 
+            "gas": 250, 
+            "minerals": 250, 
+            "build_time": 220, 
+            "research": true
+        }, 
+        "1026": {
+            "uid": "UnloadNydusWorm", 
+            "vid": "UnloadNydusWorm", 
+            "title": ""
+        }, 
+        "31843": {
+            "uid": "UnloadUnitMedivac", 
+            "vid": "UnloadUnitMedivac", 
+            "title": ""
+        }, 
+        "68864": {
+            "uid": "TrainSCV", 
+            "vid": "TrainSCV", 
+            "title": "", 
+            "gas": 0, 
+            "minerals": 50, 
+            "build_time": 17, 
+            "supply": 1, 
+            "build": true, 
+            "build_unit": "SCV"
+        }, 
+        "67841": {
+            "uid": "BuildReactor", 
+            "vid": "BuildReactor", 
+            "title": "", 
+            "gas": 50, 
+            "minerals": 50, 
+            "build_time": 50, 
+            "build": true, 
+            "build_unit": "Reactor"
+        }, 
+        "85248": {
+            "uid": "Burrow", 
+            "vid": "Burrow", 
+            "title": ""
+        }, 
+        "73024": {
+            "uid": "LoadWarpPrism", 
+            "vid": "LoadWarpPrism", 
+            "title": ""
+        }, 
+        "86275": {
+            "uid": "EvolveNeuralParasite", 
+            "vid": "EvolveNeuralParasite", 
+            "title": "", 
+            "gas": 150, 
+            "minerals": 150, 
+            "build_time": 110, 
+            "research": true
+        }, 
+        "75271": {
+            "uid": "ResearchShield2", 
+            "vid": "ResearchShield2", 
+            "title": "Shield2", 
+            "gas": 300, 
+            "minerals": 300, 
+            "build_time": 190, 
+            "research": true
+        }, 
+        "85504": {
+            "uid": "Unburrow", 
+            "vid": "Unburrow", 
+            "title": ""
+        }, 
+        "28929": {
+            "uid": "HaltBuilding", 
+            "vid": "HaltBuilding", 
+            "title": ""
+        }, 
+        "84737": {
+            "uid": "UnloadNydusNetwork", 
+            "vid": "UnloadNydusNetwork", 
+            "title": ""
+        }, 
+        "85760": {
+            "uid": "MorphToOverseer", 
+            "vid": "MorphToOverseer", 
+            "title": "", 
+            "gas": 100, 
+            "minerals": 50, 
+            "build_time": 17, 
+            "build": true, 
+            "build_unit": "Overseer"
+        }, 
+        "84004": {
+            "uid": "WarpInDarkTemplar", 
+            "vid": "WarpInDarkTemplar", 
+            "title": "", 
+            "gas": 125, 
+            "minerals": 125, 
+            "build_time": 5, 
+            "supply": 2, 
+            "build": true, 
+            "build_unit": "DarkTemplar"
+        }, 
+        "1027": {
+            "uid": "UnloadNydusWorm", 
+            "vid": "UnloadNydusWorm", 
+            "title": ""
+        }, 
+        "77825": {
+            "uid": "EvolveMetabolicBoost", 
+            "vid": "EvolveMetabolicBoost", 
+            "title": "", 
+            "gas": 100, 
+            "minerals": 100, 
+            "build_time": 110, 
+            "research": true
+        }, 
+        "84800": {
+            "uid": "LoadNydusNetwork", 
+            "vid": "LoadNydusNetwork", 
+            "title": ""
+        }, 
+        "29952": {
+            "uid": "StimPack", 
+            "vid": "StimPack", 
+            "title": ""
+        }, 
+        "86016": {
+            "uid": "UpgradeToPlanetaryFortress", 
+            "vid": "UpgradeToPlanetaryFortress", 
+            "title": "", 
+            "gas": 150, 
+            "minerals": 150, 
+            "build_time": 50, 
+            "build": true, 
+            "build_unit": "PlanetaryFortress"
+        }, 
+        "22560": {
+            "uid": "SetRallyTarget", 
+            "vid": "SetRallyTarget", 
+            "title": ""
+        }, 
+        "24640": {
+            "uid": "Neural", 
+            "vid": "Neural", 
+            "title": ""
+        }, 
+        "260614": {
+            "uid": "Creep cancel", 
+            "vid": "Creep cancel", 
+            "title": "", 
+            "cancel": true
+        }, 
+        "73059": {
+            "uid": "UnloadWarpPrism", 
+            "vid": "UnloadWarpPrism", 
+            "title": ""
+        }, 
+        "20736": {
+            "uid": "SpawnChangeling", 
+            "vid": "SpawnChangeling", 
+            "title": "", 
+            "energy": 50, 
+            "build": true, 
+            "build_unit": "Changeling"
+        }, 
+        "24896": {
+            "uid": "Larva", 
+            "vid": "Larva", 
+            "title": ""
+        }, 
+        "67072": {
+            "uid": "LiftBarracks", 
+            "vid": "LiftBarracks", 
+            "title": ""
+        }, 
+        "23072": {
+            "uid": "SetRallyTarget", 
+            "vid": "SetRallyTarget", 
+            "title": ""
+        }, 
+        "68096": {
+            "uid": "LiftStarport", 
+            "vid": "LiftStarport", 
+            "title": ""
+        }, 
+        "85761": {
+            "uid": "CancelOverseer", 
+            "vid": "CancelOverseer", 
+            "title": "", 
+            "cancel": true
+        }, 
+        "84005": {
+            "uid": "WarpInSentry", 
+            "vid": "WarpInSentry", 
+            "title": "", 
+            "gas": 100, 
+            "minerals": 50, 
+            "build_time": 5, 
+            "supply": 2, 
+            "build": true, 
+            "build_unit": "Sentry"
+        }, 
+        "86784": {
+            "uid": "Burrow", 
+            "vid": "Burrow", 
+            "title": ""
+        }, 
+        "23328": {
+            "uid": "Rally", 
+            "vid": "Rally", 
+            "title": ""
+        }, 
+        "133123": {
+            "uid": "Heal", 
+            "vid": "Heal", 
+            "title": ""
+        }, 
+        "84835": {
+            "uid": "UnloadNydusNetwork", 
+            "vid": "UnloadNydusNetwork", 
+            "title": ""
+        }, 
+        "164": {
+            "uid": "StimPackMixed", 
+            "vid": "StimPackMixed", 
+            "title": ""
+        }, 
+        "70656": {
+            "uid": "ResearchHisecAutoTracking", 
+            "vid": "ResearchHisecAutoTracking", 
+            "title": "", 
+            "gas": 100, 
+            "minerals": 100, 
+            "build_time": 80, 
+            "research": true
+        }, 
+        "23584": {
+            "uid": "EvolveUnitRally", 
+            "vid": "EvolveUnitRally", 
+            "title": "", 
+            "research": true
+        }, 
+        "25664": {
+            "uid": "StrikeCannons", 
+            "vid": "StrikeCannons", 
+            "title": ""
+        }, 
+        "69889": {
+            "uid": "TrainReaper", 
+            "vid": "TrainReaper", 
+            "title": "", 
+            "gas": 50, 
+            "minerals": 50, 
+            "build_time": 45, 
+            "supply": 1, 
+            "build": true, 
+            "build_unit": "Reaper"
+        }, 
+        "87296": {
+            "uid": "UpgradeToOrbitalCommand", 
+            "vid": "UpgradeToOrbitalCommand", 
+            "title": "", 
+            "gas": 0, 
+            "minerals": 150, 
+            "build_time": 35, 
+            "build": true, 
+            "build_unit": "OrbitalCommand"
+        }, 
+        "75268": {
+            "uid": "ResearchGroundArmor2", 
+            "vid": "ResearchGroundArmor2", 
+            "title": "Armor2", 
+            "gas": 175, 
+            "minerals": 175, 
+            "build_time": 190, 
+            "research": true
+        }, 
+        "94464": {
+            "uid": "Stimpack", 
+            "vid": "Stimpack", 
+            "title": ""
+        }, 
+        "UA.CANCEL_BANELING_MORPHING,U.ZERGLING": {
+            "uid": "Cancel egg", 
+            "vid": "Cancel egg", 
+            "title": "", 
+            "cancel": true
+        }, 
+        "90912": {
+            "uid": "EMPRound", 
+            "vid": "EMPRound", 
+            "title": ""
+        }, 
+        "87552": {
+            "uid": "WarpInMode", 
+            "vid": "WarpInMode", 
+            "title": ""
+        }, 
+        "26176": {
+            "uid": "Chronoboost", 
+            "vid": "Chronoboost", 
+            "title": ""
+        }, 
+        "66817": {
+            "uid": "TrainReactor", 
+            "vid": "TrainReactor", 
+            "title": "", 
+            "gas": 50, 
+            "minerals": 50, 
+            "build_time": 50, 
+            "build": true, 
+            "build_unit": "Reactor"
+        }, 
+        "69376": {
+            "uid": "Lower", 
+            "vid": "Lower", 
+            "title": ""
+        }, 
+        "78596": {
+            "uid": "MorphToMutalisk", 
+            "vid": "MorphToMutalisk", 
+            "title": "", 
+            "gas": 100, 
+            "minerals": 100, 
+            "build_time": 33, 
+            "supply": 2, 
+            "build": true, 
+            "build_unit": "Mutalisk"
+        }, 
+        "66052": {
+            "uid": "LoadCommandCenter", 
+            "vid": "LoadCommandCenter", 
+            "title": ""
+        }, 
+        "87808": {
+            "uid": "GatewayMode", 
+            "vid": "GatewayMode", 
+            "title": ""
+        }, 
+        "24352": {
+            "uid": "Infested", 
+            "vid": "Infested", 
+            "title": ""
+        }, 
+        "91968": {
+            "uid": "Transfuse", 
+            "vid": "Transfuse", 
+            "title": ""
+        }, 
+        "96800": {
+            "uid": "RootSporeCrawler", 
+            "vid": "RootSporeCrawler", 
+            "title": ""
+        }, 
+        "97824": {
+            "uid": "BuildNydusWorm", 
+            "vid": "BuildNydusWorm", 
+            "title": "", 
+            "gas": 100, 
+            "minerals": 100, 
+            "build_time": 20, 
+            "build": true, 
+            "build_unit": "NydusWorm"
+        }, 
+        "70657": {
+            "uid": "ResearchBuildingArmor", 
+            "vid": "ResearchBuildingArmor", 
+            "title": "", 
+            "gas": 150, 
+            "minerals": 150, 
+            "build_time": 140, 
+            "research": true
+        }, 
+        "88064": {
+            "uid": "LiftOrbitalCommand", 
+            "vid": "LiftOrbitalCommand", 
+            "title": ""
+        }, 
+        "72737": {
+            "uid": "WarpInPylon", 
+            "vid": "WarpInPylon", 
+            "title": "", 
+            "gas": 0, 
+            "minerals": 100, 
+            "build_time": 25, 
+            "build": true, 
+            "build_unit": "Pylon"
+        }, 
+        "69890": {
+            "uid": "TrainGhost", 
+            "vid": "TrainGhost", 
+            "title": "", 
+            "gas": 150, 
+            "minerals": 150, 
+            "build_time": 40, 
+            "supply": 2, 
+            "build": true, 
+            "build_unit": "Ghost"
+        }, 
+        "87297": {
+            "uid": "UpgradeToOrbitalCommandCancel", 
+            "vid": "UpgradeToOrbitalCommandCancel", 
+            "title": "", 
+            "cancel": true
+        }, 
+        "89088": {
+            "uid": "TransportMode", 
+            "vid": "TransportMode", 
+            "title": ""
+        }, 
+        "17408": {
+            "uid": "HallucinatePhoenix", 
+            "vid": "HallucinatePhoenix", 
+            "title": "", 
+            "energy": 100, 
+            "build": true, 
+            "build_unit": "Phoenix"
+        }, 
+        "76067": {
+            "uid": "MorphToSpawningPool", 
+            "vid": "MorphToSpawningPool", 
+            "title": "", 
+            "gas": 0, 
+            "minerals": 200, 
+            "build_time": 65, 
+            "supply": -1, 
+            "build": true, 
+            "build_unit": "SpawningPool"
+        }, 
+        "264": {
+            "uid": "TrainSCV", 
+            "vid": "TrainSCV", 
+            "title": "", 
+            "gas": 0, 
+            "minerals": 50, 
+            "build_time": 17, 
+            "supply": 1, 
+            "build": true, 
+            "build_unit": "SCV"
+        }, 
+        "96544": {
+            "uid": "RootSpineCrawler", 
+            "vid": "RootSpineCrawler", 
+            "title": ""
+        }, 
+        "72192": {
+            "uid": "ResearchPersonalCloaking", 
+            "vid": "ResearchPersonalCloaking", 
+            "title": "", 
+            "gas": 150, 
+            "minerals": 150, 
+            "build_time": 120, 
+            "research": true
+        }, 
+        "74272": {
+            "uid": "PsionicStorm", 
+            "vid": "PsionicStorm", 
+            "title": ""
+        }, 
+        "73219": {
+            "uid": "BuildHighTemplar", 
+            "vid": "BuildHighTemplar", 
+            "title": "", 
+            "gas": 150, 
+            "minerals": 50, 
+            "build_time": 55, 
+            "supply": 2, 
+            "build": true, 
+            "build_unit": "HighTemplar"
+        }, 
+        "76068": {
+            "uid": "MorphToEvolutionChamber", 
+            "vid": "MorphToEvolutionChamber", 
+            "title": "", 
+            "gas": 0, 
+            "minerals": 75, 
+            "build_time": 35, 
+            "supply": -1, 
+            "build": true, 
+            "build_unit": "EvolutionChamber"
+        }, 
+        "181254": {
+            "uid": "CancelReactor", 
+            "vid": "CancelReactor", 
+            "title": "", 
+            "cancel": true
+        }, 
+        "79360": {
+            "uid": "Unburrow", 
+            "vid": "Unburrow", 
+            "title": ""
+        }, 
+        "9760": {
+            "uid": "Follow", 
+            "vid": "Follow", 
+            "title": ""
+        }, 
+        "88832": {
+            "uid": "PhaseMode", 
+            "vid": "PhaseMode", 
+            "title": ""
+        }, 
+        "76069": {
+            "uid": "MorphToHydraliskDen", 
+            "vid": "MorphToHydraliskDen", 
+            "title": "", 
+            "gas": 100, 
+            "minerals": 100, 
+            "build_time": 40, 
+            "supply": -1, 
+            "build": true, 
+            "build_unit": "HydraliskDen"
+        }, 
+        "263": {
+            "uid": "SetRallyTarget", 
+            "vid": "SetRallyTarget", 
+            "title": ""
+        }, 
+        "70658": {
+            "uid": "ResearchInfantryWeapons1", 
+            "vid": "ResearchInfantryWeapons1", 
+            "title": "Weapons1", 
+            "gas": 100, 
+            "minerals": 100, 
+            "build_time": 160, 
+            "research": true
+        }, 
+        "69632": {
+            "uid": "Raise", 
+            "vid": "Raise", 
+            "title": ""
+        }, 
+        "76070": {
+            "uid": "MorphToSpire", 
+            "vid": "MorphToSpire", 
+            "title": "", 
+            "gas": 200, 
+            "minerals": 200, 
+            "build_time": 100, 
+            "supply": -1, 
+            "build": true, 
+            "build_unit": "Spire"
+        }, 
+        "24064": {
+            "uid": "Attack", 
+            "vid": "Attack", 
+            "title": ""
+        }, 
+        "91168": {
+            "uid": "Vortex", 
+            "vid": "Vortex", 
+            "title": ""
+        }, 
+        "69891": {
+            "uid": "TrainMarauder", 
+            "vid": "TrainMarauder", 
+            "title": "", 
+            "gas": 25, 
+            "minerals": 100, 
+            "build_time": 30, 
+            "supply": 2, 
+            "build": true, 
+            "build_unit": "Marauder"
+        }, 
+        "9216": {
+            "uid": "Stop", 
+            "vid": "Stop", 
+            "title": ""
+        }, 
+        "75265": {
+            "uid": "ResearchGroundWeapons2", 
+            "vid": "ResearchGroundWeapons2", 
+            "title": "Weapons2", 
+            "gas": 175, 
+            "minerals": 175, 
+            "build_time": 190, 
+            "research": true
+        }, 
+        "67840": {
+            "uid": "BuildTechlab", 
+            "vid": "BuildTechlab", 
+            "title": "", 
+            "gas": 25, 
+            "minerals": 50, 
+            "build_time": 25, 
+            "build": true, 
+            "build_unit": "Techlab"
+        }, 
+        "76072": {
+            "uid": "MorphToInfestationPit", 
+            "vid": "MorphToInfestationPit", 
+            "title": "", 
+            "gas": 100, 
+            "minerals": 100, 
+            "build_time": 50, 
+            "supply": -1, 
+            "build": true, 
+            "build_unit": "InfestationPit"
+        }, 
+        "30720": {
+            "uid": "ToggleAutoHeal", 
+            "vid": "ToggleAutoHeal", 
+            "title": ""
+        }, 
+        "75008": {
+            "uid": "Interceptor", 
+            "vid": "Interceptor", 
+            "title": ""
+        }, 
+        "72193": {
+            "uid": "ResearchMoebiusReactor", 
+            "vid": "ResearchMoebiusReactor", 
+            "title": "", 
+            "gas": 100, 
+            "minerals": 100, 
+            "build_time": 80, 
+            "research": true
+        }, 
+        "89600": {
+            "uid": "ResearchAirWeapons1", 
+            "vid": "ResearchAirWeapons1", 
+            "title": "Weapons1", 
+            "gas": 100, 
+            "minerals": 100, 
+            "build_time": 160, 
+            "research": true
+        }, 
+        "29481": {
+            "uid": "BuildGhostAcademy", 
+            "vid": "BuildGhostAcademy", 
+            "title": "", 
+            "gas": 50, 
+            "minerals": 150, 
+            "build_time": 40, 
+            "build": true, 
+            "build_unit": "GhostAcademy"
+        }, 
+        "17664": {
+            "uid": "HallucinateProbe", 
+            "vid": "HallucinateProbe", 
+            "title": "", 
+            "energy": 100, 
+            "build": true, 
+            "build_unit": "Probe"
+        }, 
+        "89344": {
+            "uid": "ResearchYamatoCannon", 
+            "vid": "ResearchYamatoCannon", 
+            "title": "", 
+            "gas": 150, 
+            "minerals": 150, 
+            "build_time": 60, 
+            "research": true
+        }, 
+        "76074": {
+            "uid": "MorphToBanelingNest", 
+            "vid": "MorphToBanelingNest", 
+            "title": "", 
+            "gas": 50, 
+            "minerals": 100, 
+            "build_time": 60, 
+            "supply": -1, 
+            "build": true, 
+            "build_unit": "BanelingNest"
+        }, 
+        "89856": {
+            "uid": "ResearchCharge", 
+            "vid": "ResearchCharge", 
+            "title": "", 
+            "gas": 200, 
+            "minerals": 200, 
+            "build_time": 140, 
+            "research": true
+        }, 
+        "79616": {
+            "uid": "Burrow", 
+            "vid": "Burrow", 
+            "title": ""
+        }, 
+        "23809": {
+            "uid": "EvolveGlialRecon", 
+            "vid": "EvolveGlialRecon", 
+            "title": "", 
+            "gas": 100, 
+            "minerals": 100, 
+            "build_time": 110, 
+            "research": true
+        }, 
+        "23810": {
+            "uid": "EvolveTunnelingClaws", 
+            "vid": "EvolveTunnelingClaws", 
+            "title": "", 
+            "gas": 150, 
+            "minerals": 150, 
+            "build_time": 110, 
+            "research": true
+        }, 
+        "77571": {
+            "uid": "EvolveBurrow", 
+            "vid": "EvolveBurrow", 
+            "title": "", 
+            "gas": 100, 
+            "minerals": 100, 
+            "build_time": 100, 
+            "research": true
+        }, 
+        "73476": {
+            "uid": "BuildVoidray", 
+            "vid": "BuildVoidray", 
+            "title": "", 
+            "gas": 150, 
+            "minerals": 250, 
+            "build_time": 60, 
+            "supply": 3, 
+            "build": true, 
+            "build_unit": "Voidray"
+        }, 
+        "75525": {
+            "uid": "ResearchThermalLance", 
+            "vid": "ResearchThermalLance", 
+            "title": "", 
+            "gas": 200, 
+            "minerals": 200, 
+            "build_time": 140, 
+            "research": true
+        }, 
+        "73728": {
+            "uid": "BuildWarpPrism", 
+            "vid": "BuildWarpPrism", 
+            "title": "", 
+            "gas": 0, 
+            "minerals": 200, 
+            "build_time": 50, 
+            "supply": 2, 
+            "build": true, 
+            "build_unit": "WarpPrism"
+        }, 
+        "76289": {
+            "uid": "ReturnCargo", 
+            "vid": "ReturnCargo", 
+            "title": ""
+        }, 
+        "75780": {
+            "uid": "ResearchPsionicStorm", 
+            "vid": "ResearchPsionicStorm", 
+            "title": "", 
+            "gas": 200, 
+            "minerals": 200, 
+            "build_time": 110, 
+            "research": true
+        }, 
+        "72457": {
+            "uid": "ResearchShipPlating2", 
+            "vid": "ResearchShipPlating2", 
+            "title": "Plating2", 
+            "gas": 175, 
+            "minerals": 175, 
+            "build_time": 190, 
+            "research": true
+        }, 
+        "72458": {
+            "uid": "ResearchShipPlating3", 
+            "vid": "ResearchShipPlating3", 
+            "title": "Plating3", 
+            "gas": 250, 
+            "minerals": 250, 
+            "build_time": 220, 
+            "research": true
+        }, 
+        "69888": {
+            "uid": "TrainMarine", 
+            "vid": "TrainMarine", 
+            "title": "", 
+            "gas": 0, 
+            "minerals": 50, 
+            "build_time": 25, 
+            "supply": 1, 
+            "build": true, 
+            "build_unit": "Marine"
+        }, 
+        "84001": {
+            "uid": "WarpInStalker", 
+            "vid": "WarpInStalker", 
+            "title": "", 
+            "gas": 50, 
+            "minerals": 125, 
+            "build_time": 5, 
+            "supply": 2, 
+            "build": true, 
+            "build_unit": "Stalker"
+        }, 
+        "13824": {
+            "uid": "Explode", 
+            "vid": "Explode", 
+            "title": ""
+        }, 
+        "62222": {
+            "uid": " haltConstruction", 
+            "vid": " haltConstruction", 
+            "title": ""
+        }, 
+        "29485": {
+            "uid": "BuildArmory", 
+            "vid": "BuildArmory", 
+            "title": "", 
+            "gas": 100, 
+            "minerals": 150, 
+            "build_time": 65, 
+            "build": true, 
+            "build_unit": "Armory"
+        }, 
+        "89601": {
+            "uid": "ResearchAirWeapons2", 
+            "vid": "ResearchAirWeapons2", 
+            "title": "Weapons2", 
+            "gas": 175, 
+            "minerals": 175, 
+            "build_time": 190, 
+            "research": true
+        }, 
+        "76078": {
+            "uid": "MorphToSpineCrawler", 
+            "vid": "MorphToSpineCrawler", 
+            "title": "", 
+            "gas": 0, 
+            "minerals": 100, 
+            "build_time": 50, 
+            "supply": -1, 
+            "build": true, 
+            "build_unit": "SpineCrawler"
+        }, 
+        "73216": {
+            "uid": "BuildZealot", 
+            "vid": "BuildZealot", 
+            "title": "", 
+            "gas": 0, 
+            "minerals": 100, 
+            "build_time": 38, 
+            "supply": 2, 
+            "build": true, 
+            "build_unit": "Zealot"
+        }, 
+        "76320": {
+            "uid": "GatherResourcesDrone", 
+            "vid": "GatherResourcesDrone", 
+            "title": ""
+        }, 
+        "1028": {
+            "uid": "LoadNydusWorm", 
+            "vid": "LoadNydusWorm", 
+            "title": ""
+        }, 
+        "27648": {
+            "uid": "Cancel", 
+            "vid": "Cancel", 
+            "title": "", 
+            "cancel": true
+        }, 
+        "29487": {
+            "uid": "BuildFusionCore", 
+            "vid": "BuildFusionCore", 
+            "title": "", 
+            "gas": 150, 
+            "minerals": 150, 
+            "build_time": 65, 
+            "build": true, 
+            "build_unit": "FusionCore"
+        }, 
+        "89857": {
+            "uid": "ResearchBlink", 
+            "vid": "ResearchBlink", 
+            "title": "", 
+            "gas": 100, 
+            "minerals": 150, 
+            "build_time": 110, 
+            "research": true
+        }, 
+        "65793": {
+            "uid": "UnloadAllBunker", 
+            "vid": "UnloadAllBunker", 
+            "title": ""
+        }, 
+        "76064": {
+            "uid": "MorphToHatchery", 
+            "vid": "MorphToHatchery", 
+            "title": "", 
+            "gas": 0, 
+            "minerals": 300, 
+            "build_time": 100, 
+            "supply": -1, 
+            "build": true, 
+            "build_unit": "Hatchery"
+        }, 
+        "29473": {
+            "uid": "BuildSupplyDepot", 
+            "vid": "BuildSupplyDepot", 
+            "title": "", 
+            "gas": 0, 
+            "minerals": 100, 
+            "build_time": 30, 
+            "build": true, 
+            "build_unit": "SupplyDepot"
+        }, 
+        "72994": {
+            "uid": "UnloadAllWarpPrism", 
+            "vid": "UnloadAllWarpPrism", 
+            "title": ""
+        }, 
+        "29475": {
+            "uid": "BuildBarracks", 
+            "vid": "BuildBarracks", 
+            "title": "", 
+            "gas": 0, 
+            "minerals": 150, 
+            "build_time": 60, 
+            "build": true, 
+            "build_unit": "Barracks"
+        }, 
+        "29476": {
+            "uid": "BuildEngineeringBay", 
+            "vid": "BuildEngineeringBay", 
+            "title": "", 
+            "gas": 0, 
+            "minerals": 125, 
+            "build_time": 35, 
+            "build": true, 
+            "build_unit": "EngineeringBay"
+        }, 
+        "29477": {
+            "uid": "BuildMissileTurret", 
+            "vid": "BuildMissileTurret", 
+            "title": "", 
+            "gas": 0, 
+            "minerals": 100, 
+            "build_time": 25, 
+            "build": true, 
+            "build_unit": "MissileTurret"
+        }, 
+        "29478": {
+            "uid": "BuildBunker", 
+            "vid": "BuildBunker", 
+            "title": "", 
+            "gas": 0, 
+            "minerals": 100, 
+            "build_time": 35, 
+            "build": true, 
+            "build_unit": "Bunker"
+        }, 
+        "76071": {
+            "uid": "MorphToUltralisk", 
+            "vid": "MorphToUltralisk", 
+            "title": "", 
+            "gas": 200, 
+            "minerals": 150, 
+            "build_time": 65, 
+            "supply": -1, 
+            "build": true, 
+            "build_unit": "Ultralisk"
+        }, 
+        "29480": {
+            "uid": "BuildSensorTower", 
+            "vid": "BuildSensorTower", 
+            "title": "", 
+            "gas": 100, 
+            "minerals": 125, 
+            "build_time": 25, 
+            "build": true, 
+            "build_unit": "SensorTower"
+        }, 
+        "76073": {
+            "uid": "MorphToNydusNetwork", 
+            "vid": "MorphToNydusNetwork", 
+            "title": "", 
+            "gas": 200, 
+            "minerals": 150, 
+            "build_time": 50, 
+            "supply": -1, 
+            "build": true, 
+            "build_unit": "NydusNetwork"
+        }, 
+        "29482": {
+            "uid": "BuildFactory", 
+            "vid": "BuildFactory", 
+            "title": "", 
+            "gas": 100, 
+            "minerals": 150, 
+            "build_time": 60, 
+            "build": true, 
+            "build_unit": "Factory"
+        }, 
+        "29483": {
+            "uid": "BuildStarport", 
+            "vid": "BuildStarport", 
+            "title": "", 
+            "gas": 100, 
+            "minerals": 150, 
+            "build_time": 50, 
+            "build": true, 
+            "build_unit": "Starport"
+        }, 
+        "76077": {
+            "uid": "MorphToRoachWarren", 
+            "vid": "MorphToRoachWarren", 
+            "title": "", 
+            "gas": 0, 
+            "minerals": 150, 
+            "build_time": 55, 
+            "supply": -1, 
+            "build": true, 
+            "build_unit": "RoachWarren"
+        }, 
+        "91392": {
+            "uid": "EvolveQueen", 
+            "vid": "EvolveQueen", 
+            "title": "", 
+            "gas": 0, 
+            "minerals": 150, 
+            "build_time": 50, 
+            "research": true
+        }, 
+        "76079": {
+            "uid": "MorphToSporeCrawler", 
+            "vid": "MorphToSporeCrawler", 
+            "title": "", 
+            "gas": 0, 
+            "minerals": 75, 
+            "build_time": 30, 
+            "supply": -1, 
+            "build": true, 
+            "build_unit": "SporeCrawler"
+        }, 
+        "89602": {
+            "uid": "ResearchAirWeapons3", 
+            "vid": "ResearchAirWeapons3", 
+            "title": "Weapons3", 
+            "gas": 250, 
+            "minerals": 250, 
+            "build_time": 220, 
+            "research": true
+        }, 
+        "75264": {
+            "uid": "ResearchGroundWeapons1", 
+            "vid": "ResearchGroundWeapons1", 
+            "title": "Weapons1", 
+            "gas": 100, 
+            "minerals": 100, 
+            "build_time": 160, 
+            "research": true
+        }, 
+        "72451": {
+            "uid": "ResearchVehiclePlating2", 
+            "vid": "ResearchVehiclePlating2", 
+            "title": "Plating2", 
+            "gas": 175, 
+            "minerals": 175, 
+            "build_time": 190, 
+            "research": true
+        }, 
+        "25408": {
+            "uid": "CalldownExtraSupplies", 
+            "vid": "CalldownExtraSupplies", 
+            "title": ""
+        }, 
+        "73474": {
+            "uid": "BuildCarrier", 
+            "vid": "BuildCarrier", 
+            "title": "", 
+            "gas": 250, 
+            "minerals": 350, 
+            "build_time": 120, 
+            "supply": 6, 
+            "build": true, 
+            "build_unit": "Carrier"
+        }, 
+        "76551": {
+            "uid": "EvolveMissileAttack2", 
+            "vid": "EvolveMissileAttack2", 
+            "title": "Attack2", 
+            "gas": 150, 
+            "minerals": 150, 
+            "build_time": 190, 
+            "research": true
+        }, 
+        "14848": {
+            "uid": "AutoRepair", 
+            "vid": "AutoRepair", 
+            "title": ""
+        }, 
+        "73472": {
+            "uid": "BuildPhoenix", 
+            "vid": "BuildPhoenix", 
+            "title": "", 
+            "gas": 100, 
+            "minerals": 150, 
+            "build_time": 35, 
+            "supply": 2, 
+            "build": true, 
+            "build_unit": "Phoenix"
+        }, 
+        "70402": {
+            "uid": "BuildRaven", 
+            "vid": "BuildRaven", 
+            "title": "", 
+            "gas": 200, 
+            "minerals": 100, 
+            "build_time": 60, 
+            "supply": 2, 
+            "build": true, 
+            "build_unit": "Raven"
+        }, 
+        "26944": {
+            "uid": "GatherResourcesSCV", 
+            "vid": "GatherResourcesSCV", 
+            "title": ""
+        }, 
+        "73730": {
+            "uid": "BuildColossus", 
+            "vid": "BuildColossus", 
+            "title": "", 
+            "gas": 200, 
+            "minerals": 300, 
+            "build_time": 75, 
+            "supply": 6, 
+            "build": true, 
+            "build_unit": "Colossus"
+        }, 
+        "70659": {
+            "uid": "ResearchInfantryWeapons2", 
+            "vid": "ResearchInfantryWeapons2", 
+            "title": "Weapons2", 
+            "gas": 175, 
+            "minerals": 175, 
+            "build_time": 190, 
+            "research": true
+        }, 
+        "18176": {
+            "uid": "HallucinateVoidray", 
+            "vid": "HallucinateVoidray", 
+            "title": "", 
+            "energy": 100, 
+            "build": true, 
+            "build_unit": "Voidray"
+        }, 
+        "72454": {
+            "uid": "ResearchVehicleWeapons2", 
+            "vid": "ResearchVehicleWeapons2", 
+            "title": "Weapons2", 
+            "gas": 175, 
+            "minerals": 175, 
+            "build_time": 190, 
+            "research": true
+        }, 
+        "88608": {
+            "uid": "ForceField", 
+            "vid": "ForceField", 
+            "title": ""
+        }, 
+        "66304": {
+            "uid": "LiftCommandCenter", 
+            "vid": "LiftCommandCenter", 
+            "title": ""
+        }, 
+        "72456": {
+            "uid": "ResearchShipPlating1", 
+            "vid": "ResearchShipPlating1", 
+            "title": "Plating1", 
+            "gas": 100, 
+            "minerals": 100, 
+            "build_time": 160, 
+            "research": true
+        }, 
+        "85024": {
+            "uid": "Blink", 
+            "vid": "Blink", 
+            "title": ""
+        }, 
+        "89603": {
+            "uid": "ResearchAirArmor1", 
+            "vid": "ResearchAirArmor1", 
+            "title": "Armor1", 
+            "gas": 150, 
+            "minerals": 150, 
+            "build_time": 160, 
+            "research": true
+        }, 
+        "9763": {
+            "uid": "ScanTarget", 
+            "vid": "ScanTarget", 
+            "title": ""
+        }, 
+        "10784": {
+            "uid": "AttackObject", 
+            "vid": "AttackObject", 
+            "title": ""
+        }, 
+        "80128": {
+            "uid": "Burrow", 
+            "vid": "Burrow", 
+            "title": ""
+        }, 
+        "72452": {
+            "uid": "ResearchVehiclePlating3", 
+            "vid": "ResearchVehiclePlating3", 
+            "title": "Plating3", 
+            "gas": 250, 
+            "minerals": 250, 
+            "build_time": 220, 
+            "research": true
+        }, 
+        "14912": {
+            "uid": "Repair", 
+            "vid": "Repair", 
+            "title": ""
+        }, 
+        "32320": {
+            "uid": "YamatoCannon", 
+            "vid": "YamatoCannon", 
+            "title": ""
+        }, 
+        "14081": {
+            "uid": "ResearchGravitonCatapult", 
+            "vid": "ResearchGravitonCatapult", 
+            "title": "", 
+            "gas": 150, 
+            "minerals": 150, 
+            "build_time": 80, 
+            "research": true
+        }, 
+        "70400": {
+            "uid": "BuildMedivac", 
+            "vid": "BuildMedivac", 
+            "title": "", 
+            "gas": 100, 
+            "minerals": 100, 
+            "build_time": 42, 
+            "supply": 2, 
+            "build": true, 
+            "build_unit": "Medivac"
+        }, 
+        "75521": {
+            "uid": "ResearchBooster", 
+            "vid": "ResearchBooster", 
+            "title": "", 
+            "gas": 100, 
+            "minerals": 100, 
+            "build_time": 80, 
+            "research": true
+        }, 
+        "76544": {
+            "uid": "EvolveMeleeAttack1", 
+            "vid": "EvolveMeleeAttack1", 
+            "title": "Attack1", 
+            "gas": 100, 
+            "minerals": 100, 
+            "build_time": 160, 
+            "research": true
+        }, 
+        "29472": {
+            "uid": "BuildCommandCenter", 
+            "vid": "BuildCommandCenter", 
+            "title": "", 
+            "gas": 0, 
+            "minerals": 400, 
+            "build_time": 100, 
+            "build": true, 
+            "build_unit": "CommandCenter"
+        }, 
+        "28000": {
+            "uid": "CancelUnit", 
+            "vid": "CancelUnit", 
+            "title": "", 
+            "cancel": true
+        }, 
+        "65891": {
+            "uid": "UnloadUnitBunker", 
+            "vid": "UnloadUnitBunker", 
+            "title": ""
+        }, 
+        "131104": {
+            "uid": "LoadBunker", 
+            "vid": "LoadBunker", 
+            "title": ""
+        }, 
+        "73026": {
+            "uid": "UnloadAllMovingWarpPrism", 
+            "vid": "UnloadAllMovingWarpPrism", 
+            "title": ""
+        }, 
+        "76800": {
+            "uid": "EvolveLair", 
+            "vid": "EvolveLair", 
+            "title": "", 
+            "gas": 100, 
+            "minerals": 150, 
+            "build_time": 80, 
+            "research": true
+        }, 
+        "31808": {
+            "uid": "LoadUnitMedivac", 
+            "vid": "LoadUnitMedivac", 
+            "title": ""
+        }, 
+        "572": {
+            "uid": "MergeIntoArchon", 
+            "vid": "MergeIntoArchon", 
+            "title": ""
+        }, 
+        "14592": {
+            "uid": "GuardianShield", 
+            "vid": "GuardianShield", 
+            "title": ""
+        }, 
+        "26881": {
+            "uid": "ReturnCargo", 
+            "vid": "ReturnCargo", 
+            "title": ""
+        }, 
+        "26370": {
+            "uid": "EvolveChitinous", 
+            "vid": "EvolveChitinous", 
+            "title": "", 
+            "gas": 150, 
+            "minerals": 150, 
+            "build_time": 110, 
+            "research": true
+        }, 
+        "77056": {
+            "uid": "EvolveHive", 
+            "vid": "EvolveHive", 
+            "title": "", 
+            "gas": 150, 
+            "minerals": 200, 
+            "build_time": 100, 
+            "research": true
+        }, 
+        "15680": {
+            "uid": "Feedback", 
+            "vid": "Feedback", 
+            "title": ""
+        }, 
+        "9730": {
+            "uid": "Hold", 
+            "vid": "Hold", 
+            "title": ""
+        }, 
+        "9761": {
+            "uid": "Patrol", 
+            "vid": "Patrol", 
+            "title": ""
+        }, 
+        "27137": {
+            "uid": "ReturnCargo", 
+            "vid": "ReturnCargo", 
+            "title": ""
+        }, 
+        "31488": {
+            "uid": "Cloak", 
+            "vid": "Cloak", 
+            "title": ""
+        }, 
+        "77312": {
+            "uid": "EvolveGreaterSpire", 
+            "vid": "EvolveGreaterSpire", 
+            "title": "", 
+            "gas": 150, 
+            "minerals": 100, 
+            "build_time": 100, 
+            "research": true
+        }, 
+        "95776": {
+            "uid": "Creep", 
+            "vid": "Creep", 
+            "title": ""
+        }, 
+        "70663": {
+            "uid": "ResearchInfantryArmor2", 
+            "vid": "ResearchInfantryArmor2", 
+            "title": "Armor2", 
+            "gas": 175, 
+            "minerals": 175, 
+            "build_time": 190, 
+            "research": true
+        }, 
+        "76548": {
+            "uid": "EvolveGroundCarapace2", 
+            "vid": "EvolveGroundCarapace2", 
+            "title": "Carapace2", 
+            "gas": 225, 
+            "minerals": 225, 
+            "build_time": 190, 
+            "research": true
+        }, 
+        "75522": {
+            "uid": "ResearchDrive", 
+            "vid": "ResearchDrive", 
+            "title": "", 
+            "gas": 100, 
+            "minerals": 100, 
+            "build_time": 80, 
+            "research": true
+        }, 
+        "76545": {
+            "uid": "EvolveMeleeAttack2", 
+            "vid": "EvolveMeleeAttack2", 
+            "title": "Attack2", 
+            "gas": 150, 
+            "minerals": 150, 
+            "build_time": 190, 
+            "research": true
+        }, 
+        "80384": {
+            "uid": "Unburrow", 
+            "vid": "Unburrow", 
+            "title": ""
+        }, 
+        "89604": {
+            "uid": "ResearchAirArmor2", 
+            "vid": "ResearchAirArmor2", 
+            "title": "Armor2", 
+            "gas": 225, 
+            "minerals": 225, 
+            "build_time": 190, 
+            "research": true
+        }, 
+        "73984": {
+            "uid": "BuildProbe", 
+            "vid": "BuildProbe", 
+            "title": "", 
+            "gas": 0, 
+            "minerals": 50, 
+            "build_time": 17, 
+            "supply": 1, 
+            "build": true, 
+            "build_unit": "Probe"
+        }, 
+        "27200": {
+            "uid": "GatherResourcesProbe", 
+            "vid": "GatherResourcesProbe", 
+            "title": ""
+        }, 
+        "19488": {
+            "uid": "CalldownMuleLocation", 
+            "vid": "CalldownMuleLocation", 
+            "title": ""
+        }, 
+        "76801": {
+            "uid": "CancelLair", 
+            "vid": "CancelLair", 
+            "title": "", 
+            "cancel": true
+        }, 
+        "77824": {
+            "uid": "EvolveAdrenalGlands", 
+            "vid": "EvolveAdrenalGlands", 
+            "title": "", 
+            "gas": 200, 
+            "minerals": 200, 
+            "build_time": 130, 
+            "research": true
+        }, 
+        "14368": {
+            "uid": "Fungal", 
+            "vid": "Fungal", 
+            "title": ""
+        }, 
+        "72453": {
+            "uid": "ResearchVehicleWeapons1", 
+            "vid": "ResearchVehicleWeapons1", 
+            "title": "Weapons1", 
+            "gas": 100, 
+            "minerals": 100, 
+            "build_time": 160, 
+            "research": true
+        }, 
+        "77057": {
+            "uid": "CancelHive", 
+            "vid": "CancelHive", 
+            "title": "", 
+            "cancel": true
+        }, 
+        "909": {
+            "uid": "EvolveWorkerRally", 
+            "vid": "EvolveWorkerRally", 
+            "title": "", 
+            "research": true
+        }, 
+        "15360": {
+            "uid": "BuildMothership", 
+            "vid": "BuildMothership", 
+            "title": "", 
+            "gas": 400, 
+            "minerals": 400, 
+            "build_time": 160, 
+            "supply": 8, 
+            "build": true, 
+            "build_unit": "Mothership"
+        }, 
+        "911": {
+            "uid": "EvolveUnitRally", 
+            "vid": "EvolveUnitRally", 
+            "title": "", 
+            "research": true
+        }, 
+        "75267": {
+            "uid": "ResearchGroundArmor1", 
+            "vid": "ResearchGroundArmor1", 
+            "title": "Armor1", 
+            "gas": 100, 
+            "minerals": 100, 
+            "build_time": 160, 
+            "research": true
+        }, 
+        "913": {
+            "uid": "EvolveQueen", 
+            "vid": "EvolveQueen", 
+            "title": "", 
+            "gas": 0, 
+            "minerals": 150, 
+            "build_time": 50, 
+            "research": true
+        }, 
+        "914": {
+            "uid": "EvolveBurrow", 
+            "vid": "EvolveBurrow", 
+            "title": "", 
+            "gas": 100, 
+            "minerals": 100, 
+            "build_time": 100, 
+            "research": true
+        }, 
+        "915": {
+            "uid": "EvolveCarapace", 
+            "vid": "EvolveCarapace", 
+            "title": "", 
+            "gas": 100, 
+            "minerals": 100, 
+            "build_time": 60, 
+            "research": true
+        }, 
+        "916": {
+            "uid": "EvolveVentralSacs", 
+            "vid": "EvolveVentralSacs", 
+            "title": "", 
+            "gas": 200, 
+            "minerals": 200, 
+            "build_time": 130, 
+            "research": true
+        }, 
+        "29184": {
+            "uid": "ToggleAutoRepair", 
+            "vid": "ToggleAutoRepair", 
+            "title": ""
+        }, 
+        "75266": {
+            "uid": "ResearchGroundWeapons3", 
+            "vid": "ResearchGroundWeapons3", 
+            "title": "Weapons3", 
+            "gas": 250, 
+            "minerals": 250, 
+            "build_time": 220, 
+            "research": true
+        }, 
+        "18688": {
+            "uid": "HallucinateZealot", 
+            "vid": "HallucinateZealot", 
+            "title": "", 
+            "energy": 100, 
+            "build": true, 
+            "build_unit": "Zealot"
+        }, 
+        "76546": {
+            "uid": "EvolveMeleeAttack3", 
+            "vid": "EvolveMeleeAttack3", 
+            "title": "Attack3", 
+            "gas": 200, 
+            "minerals": 200, 
+            "build_time": 200, 
+            "research": true
+        }, 
+        "78603": {
+            "uid": "MorphToCorruptor", 
+            "vid": "MorphToCorruptor", 
+            "title": "", 
+            "gas": 150, 
+            "minerals": 150, 
+            "build_time": 40, 
+            "supply": 2, 
+            "build": true, 
+            "build_unit": "Corruptor"
+        }, 
+        "77569": {
+            "uid": "EvolveCarapace", 
+            "vid": "EvolveCarapace", 
+            "title": "", 
+            "gas": 100, 
+            "minerals": 100, 
+            "build_time": 60, 
+            "research": true
+        }, 
+        "13056": {
+            "uid": "HoldFire", 
+            "vid": "HoldFire", 
+            "title": ""
+        }, 
+        "97056": {
+            "uid": "Creep", 
+            "vid": "Creep", 
+            "title": ""
+        }, 
+        "25088": {
+            "uid": "StimPackMixed", 
+            "vid": "StimPackMixed", 
+            "title": ""
+        }, 
+        "80640": {
+            "uid": "Burrow", 
+            "vid": "Burrow", 
+            "title": ""
+        }, 
+        "78848": {
+            "uid": "MorphToBroodlord", 
+            "vid": "MorphToBroodlord", 
+            "title": "", 
+            "gas": 150, 
+            "minerals": 150, 
+            "build_time": 34, 
+            "build": true, 
+            "build_unit": "Broodlord"
+        }, 
+        "97312": {
+            "uid": "BuildAutoTurret", 
+            "vid": "BuildAutoTurret", 
+            "title": ""
+        }, 
+        "132160": {
+            "uid": "Contaminate", 
+            "vid": "Contaminate", 
+            "title": ""
+        }, 
+        "89606": {
+            "uid": "ResearchWarpIngate", 
+            "vid": "ResearchWarpIngate", 
+            "title": "", 
+            "gas": 50, 
+            "minerals": 50, 
+            "build_time": 140, 
+            "research": true
+        }, 
+        "73217": {
+            "uid": "BuildStalker", 
+            "vid": "BuildStalker", 
+            "title": "", 
+            "gas": 50, 
+            "minerals": 125, 
+            "build_time": 42, 
+            "supply": 2, 
+            "build": true, 
+            "build_unit": "Stalker"
+        }, 
+        "95488": {
+            "uid": "Creep", 
+            "vid": "Creep", 
+            "title": ""
+        }, 
+        "32032": {
+            "uid": "ScannerSweep", 
+            "vid": "ScannerSweep", 
+            "title": ""
+        }, 
+        "72455": {
+            "uid": "ResearchVehicleWeapons3", 
+            "vid": "ResearchVehicleWeapons3", 
+            "title": "Weapons3", 
+            "gas": 250, 
+            "minerals": 250, 
+            "build_time": 220, 
+            "research": true
+        }, 
+        "70404": {
+            "uid": "BuildViking", 
+            "vid": "BuildViking", 
+            "title": "", 
+            "gas": 75, 
+            "minerals": 150, 
+            "build_time": 42, 
+            "supply": 2, 
+            "build": true, 
+            "build_unit": "Viking"
+        }, 
+        "78337": {
+            "uid": "EvolveFlyerAttack2", 
+            "vid": "EvolveFlyerAttack2", 
+            "title": "Attack2", 
+            "gas": 175, 
+            "minerals": 175, 
+            "build_time": 190, 
+            "research": true
+        }, 
+        "73220": {
+            "uid": "BuildDarkTemplar", 
+            "vid": "BuildDarkTemplar", 
+            "title": "", 
+            "gas": 125, 
+            "minerals": 125, 
+            "build_time": 55, 
+            "supply": 2, 
+            "build": true, 
+            "build_unit": "DarkTemplar"
+        }, 
+        "30208": {
+            "uid": "Cloak", 
+            "vid": "Cloak", 
+            "title": ""
+        }, 
+        "15904": {
+            "uid": "MassRecall", 
+            "vid": "MassRecall", 
+            "title": ""
+        }, 
+        "76547": {
+            "uid": "EvolveGroundCarapace1", 
+            "vid": "EvolveGroundCarapace1", 
+            "title": "Carapace1", 
+            "gas": 150, 
+            "minerals": 150, 
+            "build_time": 160, 
+            "research": true
+        }, 
+        "77570": {
+            "uid": "EvolveVentralSacs", 
+            "vid": "EvolveVentralSacs", 
+            "title": "", 
+            "gas": 200, 
+            "minerals": 200, 
+            "build_time": 130, 
+            "research": true
+        }, 
+        "28672": {
+            "uid": "Cancel", 
+            "vid": "Cancel", 
+            "title": "", 
+            "cancel": true
+        }, 
+        "78593": {
+            "uid": "MorphToZergling", 
+            "vid": "MorphToZergling", 
+            "title": "", 
+            "gas": 0, 
+            "minerals": 50, 
+            "build_time": 24, 
+            "supply": 1, 
+            "build": true, 
+            "build_unit": "Zergling"
+        }, 
+        "96000": {
+            "uid": "UprootSpineCrawler", 
+            "vid": "UprootSpineCrawler", 
+            "title": ""
+        }, 
+        "16160": {
+            "uid": "BuildPointDefenceDrone", 
+            "vid": "BuildPointDefenceDrone", 
+            "title": ""
+        }, 
+        "71168": {
+            "uid": "ResearchArmSiloWithNuke", 
+            "vid": "ResearchArmSiloWithNuke", 
+            "title": "", 
+            "gas": 100, 
+            "minerals": 100, 
+            "build_time": 60, 
+            "research": true
+        }, 
+        "96256": {
+            "uid": "UprootSporeCrawler", 
+            "vid": "UprootSporeCrawler", 
+            "title": ""
+        }, 
+        "90624": {
+            "uid": "Salvage", 
+            "vid": "Salvage", 
+            "title": ""
+        }, 
+        "89607": {
+            "uid": "ResearchHallucination", 
+            "vid": "ResearchHallucination", 
+            "title": "", 
+            "gas": 100, 
+            "minerals": 100, 
+            "build_time": 80, 
+            "research": true
+        }, 
+        "72450": {
+            "uid": "ResearchVehiclePlating1", 
+            "vid": "ResearchVehiclePlating1", 
+            "title": "Plating1", 
+            "gas": 100, 
+            "minerals": 100, 
+            "build_time": 160, 
+            "research": true
+        }, 
+        "78082": {
+            "uid": "EvolveGroovedSpines", 
+            "vid": "EvolveGroovedSpines", 
+            "title": "", 
+            "gas": 150, 
+            "minerals": 150, 
+            "build_time": 80, 
+            "research": true
+        }, 
+        "66816": {
+            "uid": "TrainTechlab", 
+            "vid": "TrainTechlab", 
+            "title": "", 
+            "gas": 25, 
+            "minerals": 50, 
+            "build_time": 25, 
+            "build": true, 
+            "build_unit": "Techlab"
+        }, 
+        "95489": {
+            "uid": "CancelCreep", 
+            "vid": "CancelCreep", 
+            "title": "", 
+            "cancel": true
+        }, 
+        "30976": {
+            "uid": "SiegeMode", 
+            "vid": "SiegeMode", 
+            "title": ""
+        }, 
+        "200449": {
+            "uid": "UpgradeToPlanetaryFortressCancel", 
+            "vid": "UpgradeToPlanetaryFortressCancel", 
+            "title": "", 
+            "cancel": true
+        }, 
+        "76552": {
+            "uid": "EvolveMissileAttack3", 
+            "vid": "EvolveMissileAttack3", 
+            "title": "Attack3", 
+            "gas": 200, 
+            "minerals": 200, 
+            "build_time": 220, 
+            "research": true
+        }, 
+        "78338": {
+            "uid": "EvolveFlyerAttack3", 
+            "vid": "EvolveFlyerAttack3", 
+            "title": "Attack3", 
+            "gas": 250, 
+            "minerals": 250, 
+            "build_time": 220, 
+            "research": true
+        }, 
+        "78336": {
+            "uid": "EvolveFlyerAttack1", 
+            "vid": "EvolveFlyerAttack1", 
+            "title": "Attack1", 
+            "gas": 100, 
+            "minerals": 100, 
+            "build_time": 160, 
+            "research": true
+        }, 
+        "30209": {
+            "uid": "Uncloak", 
+            "vid": "Uncloak", 
+            "title": ""
+        }, 
+        "31232": {
+            "uid": "TankMode", 
+            "vid": "TankMode", 
+            "title": ""
+        }, 
+        "30528": {
+            "uid": "SniperRound", 
+            "vid": "SniperRound", 
+            "title": ""
+        }, 
+        "29442": {
+            "uid": "BuildRefinery", 
+            "vid": "BuildRefinery", 
+            "title": "", 
+            "gas": 0, 
+            "minerals": 75, 
+            "build_time": 30, 
+            "build": true, 
+            "build_unit": "Refinery"
+        }, 
+        "75270": {
+            "uid": "ResearchShield1", 
+            "vid": "ResearchShield1", 
+            "title": "Shield1", 
+            "gas": 200, 
+            "minerals": 200, 
+            "build_time": 160, 
+            "research": true
+        }, 
+        "15104": {
+            "uid": "MorphToBaneling", 
+            "vid": "MorphToBaneling", 
+            "title": "", 
+            "gas": 25, 
+            "minerals": 25, 
+            "build_time": 20, 
+            "build": true, 
+            "build_unit": "Baneling"
+        }, 
+        "19264": {
+            "uid": "SeekerMissle", 
+            "vid": "SeekerMissle", 
+            "title": ""
+        }, 
+        "28928": {
+            "uid": "CancelUnit", 
+            "vid": "CancelUnit", 
+            "title": "", 
+            "cancel": true
+        }, 
+        "79872": {
+            "uid": "Unburrow", 
+            "vid": "Unburrow", 
+            "title": ""
+        }, 
+        "70403": {
+            "uid": "BuildBattlecruiser", 
+            "vid": "BuildBattlecruiser", 
+            "title": "", 
+            "gas": 0, 
+            "minerals": 50, 
+            "build_time": 25, 
+            "supply": 1, 
+            "build": true, 
+            "build_unit": "Battlecruiser"
+        }, 
+        "80896": {
+            "uid": "Unburrow", 
+            "vid": "Unburrow", 
+            "title": ""
+        }, 
+        "87040": {
+            "uid": "Unburrow", 
+            "vid": "Unburrow", 
+            "title": ""
+        }, 
+        "UA.UNLOAD_ALL,U.MEDIVAC": {
+            "uid": "UnloadAllMovingMedivac", 
+            "vid": "UnloadAllMovingMedivac", 
+            "title": ""
+        }, 
+        "97536": {
+            "uid": "MergeIntoArchon", 
+            "vid": "MergeIntoArchon", 
+            "title": ""
+        }, 
+        "19776": {
+            "uid": "GravitonBeam", 
+            "vid": "GravitonBeam", 
+            "title": ""
+        }, 
+        "70401": {
+            "uid": "BuildBanshee", 
+            "vid": "BuildBanshee", 
+            "title": "", 
+            "gas": 100, 
+            "minerals": 150, 
+            "build_time": 60, 
+            "supply": 3, 
+            "build": true, 
+            "build_unit": "Banshee"
+        }, 
+        "78592": {
+            "uid": "MorphToDrone", 
+            "vid": "MorphToDrone", 
+            "title": "", 
+            "gas": 0, 
+            "minerals": 50, 
+            "build_time": 17, 
+            "supply": 1, 
+            "build": true, 
+            "build_unit": "Drone"
+        }, 
+        "76549": {
+            "uid": "EvolveGroundCarapace3", 
+            "vid": "EvolveGroundCarapace3", 
+            "title": "Carapace3", 
+            "gas": 300, 
+            "minerals": 300, 
+            "build_time": 220, 
+            "research": true
+        }, 
+        "78595": {
+            "uid": "MorphToHydralisk", 
+            "vid": "MorphToHydralisk", 
+            "title": "", 
+            "gas": 50, 
+            "minerals": 100, 
+            "build_time": 33, 
+            "supply": 2, 
+            "build": true, 
+            "build_unit": "Hydralisk"
+        }, 
+        "10246": {
+            "uid": "CancelReactor", 
+            "vid": "CancelReactor", 
+            "title": "", 
+            "cancel": true
+        }, 
+        "12800": {
+            "uid": "Corruption", 
+            "vid": "Corruption", 
+            "title": ""
+        }, 
+        "31489": {
+            "uid": "Uncloak", 
+            "vid": "Uncloak", 
+            "title": ""
+        }, 
+        "73729": {
+            "uid": "BuildObserver", 
+            "vid": "BuildObserver", 
+            "title": "", 
+            "gas": 75, 
+            "minerals": 25, 
+            "build_time": 40, 
+            "supply": 1, 
+            "build": true, 
+            "build_unit": "Observer"
+        }, 
+        "32512": {
+            "uid": "AssaultMode", 
+            "vid": "AssaultMode", 
+            "title": ""
+        }
+    }, 
+    "object_defaults": {
+        "abilities": [
+            "RightClickLocation", 
+            "RightClickTarget"
+        ], 
+        "psionic": false, 
+        "uid": "", 
+        "vid": "", 
+        "title": "", 
+        "mechanical": false, 
+        "worker": false, 
+        "air": false, 
+        "attacker": false, 
+        "production": false, 
+        "massive": false, 
+        "race": "Neutral", 
+        "moveable": false, 
+        "biological": false, 
+        "main": false, 
+        "research": false, 
+        "structure": false, 
+        "ground": false
+    }, 
+    "moveable_abilities": [
+        "move", 
+        "patrol", 
+        "stop", 
+        "follow", 
+        "hold"
+    ], 
+    "objects": {
+        "28161": {
+            "uid": "Observer", 
+            "vid": "Observer", 
+            "title": "Observer", 
+            "race": "Protoss", 
+            "mechanical": true, 
+            "air": true, 
+            "abilities": [
+                "Hold", 
+                "Stop", 
+                "Patrol", 
+                "Follow"
+            ]
+        }, 
+        "31745": {
+            "uid": "BanelingNest", 
+            "vid": "BanelingNest", 
+            "title": "BanelingNest", 
+            "race": "Zerg", 
+            "ground": true, 
+            "structure": true, 
+            "research": true, 
+            "abilities": [
+                "EvolveCentrifugalHooks", 
+                "Cancel", 
+                "CancelUnit"
+            ]
+        }, 
+        "24577": {
+            "uid": "TemplarArchives", 
+            "vid": "TemplarArchives", 
+            "title": "TemplarArchives", 
+            "race": "Protoss", 
+            "mechanical": true, 
+            "ground": true, 
+            "structure": true, 
+            "research": true, 
+            "abilities": [
+                "CancelUnit", 
+                "ResearchPsionicStorm", 
+                "Cancel"
+            ]
+        }, 
+        "32001": {
+            "uid": "RoachWarren", 
+            "vid": "RoachWarren", 
+            "title": "RoachWarren", 
+            "race": "Zerg", 
+            "ground": true, 
+            "structure": true, 
+            "research": true, 
+            "abilities": [
+                "EvolveGlialRecon", 
+                "EvolveTunnelingClaws", 
+                "Cancel", 
+                "CancelUnit"
+            ]
+        }, 
+        "15873": {
+            "uid": "Viking", 
+            "vid": "Viking", 
+            "title": "Viking", 
+            "race": "Terran", 
+            "mechanical": true, 
+            "air": true, 
+            "abilities": [
+                "AssaultMode", 
+                "FighterMode", 
+                "Hold", 
+                "Stop", 
+                "Patrol", 
+                "AttackObject", 
+                "Follow"
+            ]
+        }, 
+        "32513": {
+            "uid": "SporeCrawler", 
+            "vid": "SporeCrawler", 
+            "title": "SporeCrawler", 
+            "race": "Zerg", 
+            "ground": true, 
+            "structure": true, 
+            "abilities": [
+                "UprootSporeCrawler", 
+                "RootSporeCrawler", 
+                "CancelRootSporeCrawler"
+            ]
+        }, 
+        "32769": {
+            "uid": "Lair", 
+            "vid": "Lair", 
+            "title": "Lair", 
+            "race": "Zerg", 
+            "ground": true, 
+            "structure": true, 
+            "production": true, 
+            "research": true, 
+            "main": true, 
+            "abilities": [
+                "EvolveHive", 
+                "CancelHive", 
+                "EvolveVentralSacs", 
+                "EvolveBurrow", 
+                "EvolveWorkerRally", 
+                "EvolveUnitRally", 
+                "EvolveQueen", 
+                "EvolveCarapace"
+            ]
+        }, 
+        "28417": {
+            "uid": "Immortal", 
+            "vid": "Immortal", 
+            "title": "Immortal", 
+            "race": "Protoss", 
+            "mechanical": true, 
+            "ground": true, 
+            "abilities": [
+                "Hold", 
+                "Stop", 
+                "Patrol", 
+                "Follow", 
+                "AttackObject"
+            ]
+        }, 
+        "33025": {
+            "uid": "Hive", 
+            "vid": "Hive", 
+            "title": "Hive", 
+            "race": "Zerg", 
+            "ground": true, 
+            "structure": true, 
+            "production": true, 
+            "research": true, 
+            "main": true, 
+            "abilities": [
+                "EvolveVentralSacs", 
+                "EvolveBurrow", 
+                "EvolveWorkerRally", 
+                "EvolveUnitRally", 
+                "EvolveQueen", 
+                "EvolveCarapace"
+            ]
+        }, 
+        "18689": {
+            "uid": "SCV", 
+            "vid": "SCV", 
+            "title": "SCV", 
+            "race": "Terran", 
+            "biological": true, 
+            "mechanical": true, 
+            "ground": true, 
+            "worker": true, 
+            "abilities": [
+                "ReturnCargo", 
+                "BuildRefinery", 
+                "Hold", 
+                " haltConstruction", 
+                "ToggleAutoRepair", 
+                "AttackObject", 
+                "Repair", 
+                "BuildCommandCenter", 
+                "BuildSupplyDepot", 
+                "BuildBarracks", 
+                "BuildEngineeringBay", 
+                "BuildMissileTurret", 
+                "BuildBunker", 
+                "BuildSensorTower", 
+                "BuildGhostAcademy", 
+                "BuildFactory", 
+                "BuildStarport", 
+                "BuildArmory", 
+                "BuildFusionCore", 
+                "GatherResourcesSCV", 
+                "Follow", 
+                "Patrol", 
+                "Stop"
+            ]
+        }, 
+        "33281": {
+            "uid": "GreaterSpire", 
+            "vid": "GreaterSpire", 
+            "title": "GreaterSpire", 
+            "race": "Zerg", 
+            "ground": true, 
+            "structure": true, 
+            "research": true, 
+            "abilities": [
+                "EvolveFlyerAttack1", 
+                "EvolveFlyerAttack2", 
+                "EvolveFlyerAttack3", 
+                "EvolveFlyerCarapace1", 
+                "EvolveFlyerCarapace2", 
+                "EvolveFlyerCarapace3", 
+                "Cancel", 
+                "CancelGreaterSpire", 
+                "CancelUnit", 
+                "EvolveGreaterSpire"
+            ]
+        }, 
+        "33537": {
+            "uid": "Egg", 
+            "vid": "Egg", 
+            "title": "Egg", 
+            "race": "Zerg", 
+            "biological": true, 
+            "ground": true, 
+            "abilities": [
+                "Cancel egg"
+            ]
+        }, 
+        "12289": {
+            "uid": "Barracks", 
+            "vid": "Barracks", 
+            "title": "Barracks", 
+            "race": "Terran", 
+            "mechanical": true, 
+            "ground": true, 
+            "structure": true, 
+            "production": true, 
+            "abilities": [
+                "TrainMarine", 
+                "TrainReaper", 
+                "TrainGhost", 
+                "TrainMarauder", 
+                "CancelReactor", 
+                "TrainReactor", 
+                "TrainTechlab", 
+                "Cancel", 
+                "CancelUnit", 
+                "LiftBarracks", 
+                "HaltBuilding", 
+                "SetRallyTarget"
+            ]
+        }, 
+        "33793": {
+            "uid": "Drone", 
+            "vid": "Drone", 
+            "title": "Drone", 
+            "race": "Zerg", 
+            "biological": true, 
+            "ground": true, 
+            "worker": true, 
+            "abilities": [
+                "Unburrow", 
+                "ReturnCargo", 
+                "MorphToExtractor", 
+                "Burrow", 
+                "Hold", 
+                "GatherResourcesDrone", 
+                "Patrol", 
+                "MorphToSpawningPool", 
+                "MorphToEvolutionChamber", 
+                "MorphToHydraliskDen", 
+                "Stop", 
+                "MorphToUltralisk", 
+                "MorphToInfestationPit", 
+                "MorphToNydusNetwork", 
+                "MorphToBanelingNest", 
+                "MorphToRoachWarren", 
+                "MorphToSpineCrawler", 
+                "MorphToSporeCrawler", 
+                "MorphToHatchery", 
+                "MorphToSpire", 
+                "Follow"
+            ]
+        }, 
+        "25345": {
+            "uid": "RoboticsFacility", 
+            "vid": "RoboticsFacility", 
+            "title": "RoboticsFacility", 
+            "race": "Protoss", 
+            "mechanical": true, 
+            "ground": true, 
+            "structure": true, 
+            "production": true, 
+            "abilities": [
+                "BuildWarpPrism", 
+                "BuildObserver", 
+                "BuildColossus", 
+                "BuildImmortal", 
+                "Cancel", 
+                "SetRallyTarget", 
+                "CancelUnit"
+            ]
+        }, 
+        "34049": {
+            "uid": "Zergling", 
+            "vid": "Zergling", 
+            "title": "Zergling", 
+            "race": "Zerg", 
+            "biological": true, 
+            "ground": true, 
+            "abilities": [
+                "MorphToBaneling", 
+                "Hold", 
+                "Stop", 
+                "Patrol", 
+                "AttackObject", 
+                "Follow"
+            ]
+        }, 
+        "34305": {
+            "uid": "Overlord", 
+            "vid": "Overlord", 
+            "title": "Overlord", 
+            "race": "Zerg", 
+            "biological": true, 
+            "air": true, 
+            "abilities": [
+                "Creep", 
+                "CancelCreep", 
+                "Hold", 
+                "ScanTarget", 
+                "Stop", 
+                "CancelOverseer", 
+                "MorphToOverseer", 
+                "Patrol", 
+                "Follow"
+            ]
+        }, 
+        "34561": {
+            "uid": "Hydralisk", 
+            "vid": "Hydralisk", 
+            "title": "Hydralisk", 
+            "race": "Zerg", 
+            "biological": true, 
+            "ground": true, 
+            "abilities": [
+                "Burrow", 
+                "Unburrow", 
+                "Hold", 
+                "Stop", 
+                "Patrol", 
+                "AttackObject", 
+                "Follow"
+            ]
+        }, 
+        "9217": {
+            "uid": "Mothership", 
+            "vid": "Mothership", 
+            "title": "Mothership", 
+            "race": "Protoss", 
+            "mechanical": true, 
+            "psionic": true, 
+            "air": true, 
+            "massive": true, 
+            "abilities": [
+                "Vortex", 
+                "MassRecall", 
+                "Hold", 
+                "Stop", 
+                "Patrol", 
+                "AttackObject", 
+                "Follow"
+            ]
+        }, 
+        "34817": {
+            "uid": "Mutalisk", 
+            "vid": "Mutalisk", 
+            "title": "Mutalisk", 
+            "race": "Zerg", 
+            "biological": true, 
+            "air": true, 
+            "abilities": [
+                "Hold", 
+                "Stop", 
+                "Patrol", 
+                "Follow", 
+                "AttackObject"
+            ]
+        }, 
+        "12545": {
+            "uid": "EngineeringBay", 
+            "vid": "EngineeringBay", 
+            "title": "EngineeringBay", 
+            "race": "Terran", 
+            "mechanical": true, 
+            "ground": true, 
+            "structure": true, 
+            "research": true, 
+            "abilities": [
+                "ResearchHisecAutoTracking", 
+                "ResearchBuildingArmor", 
+                "ResearchInfantryWeapons1", 
+                "ResearchInfantryWeapons2", 
+                "ResearchInfantryWeapons3", 
+                "ResearchNeosteelFrame", 
+                "ResearchInfantryArmor1", 
+                "ResearchInfantryArmor2", 
+                "ResearchInfantryArmor3", 
+                "CancelUnit", 
+                "HaltBuilding", 
+                "Cancel"
+            ]
+        }, 
+        "35073": {
+            "uid": "Ultralisk", 
+            "vid": "Ultralisk", 
+            "title": "Ultralisk", 
+            "race": "Zerg", 
+            "biological": true, 
+            "ground": true, 
+            "massive": true, 
+            "abilities": [
+                "Burrow", 
+                "Unburrow", 
+                "Hold", 
+                "Stop", 
+                "Patrol", 
+                "AttackObject", 
+                "Follow"
+            ]
+        }, 
+        "25601": {
+            "uid": "CyberneticsCore", 
+            "vid": "CyberneticsCore", 
+            "title": "CyberneticsCore", 
+            "race": "Protoss", 
+            "mechanical": true, 
+            "ground": true, 
+            "structure": true, 
+            "research": true, 
+            "abilities": [
+                "ResearchAirWeapons1", 
+                "ResearchAirWeapons2", 
+                "ResearchAirWeapons3", 
+                "ResearchAirArmor1", 
+                "ResearchAirArmor2", 
+                "ResearchAirArmor3", 
+                "ResearchWarpIngate", 
+                "ResearchHallucination", 
+                "CancelUnit", 
+                "Cancel"
+            ]
+        }, 
+        "35329": {
+            "uid": "Roach", 
+            "vid": "Roach", 
+            "title": "Roach", 
+            "race": "Zerg", 
+            "biological": true, 
+            "ground": true, 
+            "abilities": [
+                "Burrow", 
+                "Unburrow", 
+                "Hold", 
+                "Stop", 
+                "Patrol", 
+                "AttackObject", 
+                "Follow"
+            ]
+        }, 
+        "35585": {
+            "uid": "Infestor", 
+            "vid": "Infestor", 
+            "title": "Infestor", 
+            "race": "Zerg", 
+            "biological": true, 
+            "psionic": true, 
+            "ground": true, 
+            "abilities": [
+                "Burrow", 
+                "Unburrow", 
+                "Hold", 
+                "Stop", 
+                "Fungal", 
+                "Neural", 
+                "AttackObject", 
+                "Patrol", 
+                "Follow", 
+                "Infested"
+            ]
+        }, 
+        "19457": {
+            "uid": "Marine", 
+            "vid": "Marine", 
+            "title": "Marine", 
+            "race": "Terran", 
+            "biological": true, 
+            "ground": true, 
+            "abilities": [
+                "StimPackMixed", 
+                "Hold", 
+                "Stop", 
+                "Patrol", 
+                "AttackObject", 
+                "Follow"
+            ]
+        }, 
+        "19713": {
+            "uid": "Reaper", 
+            "vid": "Reaper", 
+            "title": "Reaper", 
+            "race": "Terran", 
+            "biological": true, 
+            "ground": true, 
+            "abilities": [
+                "Hold", 
+                "Stop", 
+                "Patrol", 
+                "Follow", 
+                "AttackObject"
+            ]
+        }, 
+        "36353": {
+            "uid": "Broodlord", 
+            "vid": "Broodlord", 
+            "title": "Broodlord", 
+            "race": "Neutral", 
+            "air": true, 
+            "massive": true, 
+            "abilities": [
+                "Hold", 
+                "Stop", 
+                "Patrol", 
+                "Follow", 
+                "AttackObject"
+            ]
+        }, 
+        "32257": {
+            "uid": "SpineCrawler", 
+            "vid": "SpineCrawler", 
+            "title": "SpineCrawler", 
+            "race": "Zerg", 
+            "ground": true, 
+            "structure": true, 
+            "abilities": [
+                "UprootSpineCrawler", 
+                "RootSpineCrawler", 
+                "CancelRootSpineCrawler"
+            ]
+        }, 
+        "20225": {
+            "uid": "Marauder", 
+            "vid": "Marauder", 
+            "title": "Marauder", 
+            "race": "Terran", 
+            "biological": true, 
+            "ground": true, 
+            "abilities": [
+                "StimPack", 
+                "StimPackMixed", 
+                "Hold", 
+                "Stop", 
+                "Patrol", 
+                "AttackObject", 
+                "Follow"
+            ]
+        }, 
+        "29185": {
+            "uid": "Hatchery", 
+            "vid": "Hatchery", 
+            "title": "Hatchery", 
+            "race": "Zerg", 
+            "ground": true, 
+            "structure": true, 
+            "production": true, 
+            "research": true, 
+            "main": true, 
+            "abilities": [
+                "EvolveLair", 
+                "CancelLair", 
+                "EvolveVentralSacs", 
+                "EvolveBurrow", 
+                "EvolveWorkerRally", 
+                "EvolveUnitRally", 
+                "EvolveQueen", 
+                "EvolveCarapace"
+            ]
+        }, 
+        "20481": {
+            "uid": "Thor", 
+            "vid": "Thor", 
+            "title": "Thor", 
+            "race": "Terran", 
+            "mechanical": true, 
+            "ground": true, 
+            "massive": true, 
+            "abilities": [
+                "StrikeCannons", 
+                "Hold", 
+                "Stop", 
+                "Patrol", 
+                "AttackObject", 
+                "Follow"
+            ]
+        }, 
+        "42241": {
+            "uid": "", 
+            "vid": "Burrowed", 
+            "title": "Burrowed", 
+            "race": "Neutral", 
+            "abilities": [
+                "Creep", 
+                "Creep cancel"
+            ]
+        }, 
+        "20993": {
+            "uid": "Medivac", 
+            "vid": "Medivac", 
+            "title": "Medivac", 
+            "race": "Terran", 
+            "mechanical": true, 
+            "air": true, 
+            "abilities": [
+                "LoadUnitMedivac", 
+                "ToggleAutoHeal", 
+                "UnloadAllMedivac", 
+                "UnloadUnitMedivac", 
+                "Stop", 
+                "Patrol", 
+                "UnloadAllMovingMedivac", 
+                "Hold", 
+                "Heal", 
+                "AttackObject", 
+                "Follow"
+            ]
+        }, 
+        "35841": {
+            "uid": "Corruptor", 
+            "vid": "Corruptor", 
+            "title": "Corruptor", 
+            "race": "Zerg", 
+            "biological": true, 
+            "air": true, 
+            "abilities": [
+                "MorphToBroodlord", 
+                "Corruption", 
+                "Hold", 
+                "Stop", 
+                "Patrol", 
+                "AttackObject", 
+                "Follow"
+            ]
+        }, 
+        "13057": {
+            "uid": "Bunker", 
+            "vid": "Bunker", 
+            "title": "Bunker", 
+            "race": "Terran", 
+            "mechanical": true, 
+            "ground": true, 
+            "structure": true, 
+            "abilities": [
+                "Salvage", 
+                "Stimpack", 
+                "UnloadUnitBunker", 
+                "LoadBunker", 
+                "UnloadAllBunker", 
+                "HaltBuilding"
+            ]
+        }, 
+        "21249": {
+            "uid": "Banshee", 
+            "vid": "Banshee", 
+            "title": "Banshee", 
+            "race": "Terran", 
+            "mechanical": true, 
+            "air": true, 
+            "abilities": [
+                "Cloak", 
+                "Uncloak", 
+                "Hold", 
+                "Stop", 
+                "Patrol", 
+                "AttackObject", 
+                "Follow"
+            ]
+        }, 
+        "26113": {
+            "uid": "Stalker", 
+            "vid": "Stalker", 
+            "title": "Stalker", 
+            "race": "Protoss", 
+            "mechanical": true, 
+            "ground": true, 
+            "abilities": [
+                "Blink", 
+                "Hold", 
+                "Stop", 
+                "Patrol", 
+                "AttackObject", 
+                "Follow"
+            ]
+        }, 
+        "21505": {
+            "uid": "Raven", 
+            "vid": "Raven", 
+            "title": "Raven", 
+            "race": "Terran", 
+            "mechanical": true, 
+            "air": true, 
+            "abilities": [
+                "BuildAutoTurret", 
+                "BuildPointDefenceDrone", 
+                "Hold", 
+                "Stop", 
+                "Patrol", 
+                "SeekerMissle", 
+                "Follow"
+            ]
+        }, 
+        "21761": {
+            "uid": "Battlecruiser", 
+            "vid": "Battlecruiser", 
+            "title": "Battlecruiser", 
+            "race": "Terran", 
+            "mechanical": true, 
+            "air": true, 
+            "massive": true, 
+            "abilities": [
+                "YamatoCannon", 
+                "Hold", 
+                "Stop", 
+                "Patrol", 
+                "AttackObject", 
+                "Follow"
+            ]
+        }, 
+        "22273": {
+            "uid": "Nexus", 
+            "vid": "Nexus", 
+            "title": "Nexus", 
+            "race": "Protoss", 
+            "mechanical": true, 
+            "ground": true, 
+            "structure": true, 
+            "production": true, 
+            "main": true, 
+            "abilities": [
+                "BuildProbe", 
+                "BuildMothership", 
+                "Cancel", 
+                "SetRallyTarget", 
+                "CancelUnit", 
+                "Chronoboost", 
+                "Rally"
+            ]
+        }, 
+        "13313": {
+            "uid": "SensorTower", 
+            "vid": "SensorTower", 
+            "title": "SensorTower", 
+            "race": "Terran", 
+            "mechanical": true, 
+            "ground": true, 
+            "structure": true, 
+            "abilities": [
+                "HaltBuilding"
+            ]
+        }, 
+        "22529": {
+            "uid": "Pylon", 
+            "vid": "Pylon", 
+            "title": "Pylon", 
+            "race": "Protoss", 
+            "mechanical": true, 
+            "ground": true, 
+            "structure": true, 
+            "abilities": []
+        }, 
+        "39425": {
+            "uid": "Queen", 
+            "vid": "Queen", 
+            "title": "Queen", 
+            "race": "Zerg", 
+            "biological": true, 
+            "psionic": true, 
+            "ground": true, 
+            "abilities": [
+                "Burrow", 
+                "Unburrow", 
+                "Hold", 
+                "Stop", 
+                "Patrol", 
+                "Larva", 
+                "AttackObject", 
+                "Creep", 
+                "Transfuse", 
+                "Follow"
+            ]
+        }, 
+        "22785": {
+            "uid": "Assimilator", 
+            "vid": "Assimilator", 
+            "title": "Assimilator", 
+            "race": "Protoss", 
+            "mechanical": true, 
+            "ground": true, 
+            "structure": true, 
+            "abilities": []
+        }, 
+        "23041": {
+            "uid": "Gateway", 
+            "vid": "Gateway", 
+            "title": "Gateway", 
+            "race": "Protoss", 
+            "mechanical": true, 
+            "ground": true, 
+            "structure": true, 
+            "production": true, 
+            "abilities": [
+                "BuildZealot", 
+                "BuildStalker", 
+                "BuildHighTemplar", 
+                "BuildDarkTemplar", 
+                "BuildSentry", 
+                "Cancel", 
+                "SetRallyTarget", 
+                "CancelUnit", 
+                "WarpInMode"
+            ]
+        }, 
+        "40193": {
+            "uid": "Overseer", 
+            "vid": "Overseer", 
+            "title": "Overseer", 
+            "race": "Zerg", 
+            "biological": true, 
+            "air": true, 
+            "abilities": [
+                "SpawnChangeling", 
+                "Contaminate", 
+                "Hold", 
+                "Stop", 
+                "Patrol", 
+                "AttackObject", 
+                "Follow"
+            ]
+        }, 
+        "19969": {
+            "uid": "Ghost", 
+            "vid": "Ghost", 
+            "title": "Ghost", 
+            "race": "Terran", 
+            "biological": true, 
+            "psionic": true, 
+            "ground": true, 
+            "abilities": [
+                "Cloak", 
+                "Uncloak", 
+                "Hold", 
+                "WeaponsFree", 
+                "CancelNuke", 
+                "Stop", 
+                "AttackObject", 
+                "Patrol", 
+                "SniperRound", 
+                "Nuke", 
+                "Follow", 
+                "HoldFire", 
+                "EMPRound"
+            ]
+        }, 
+        "23297": {
+            "uid": "Forge", 
+            "vid": "Forge", 
+            "title": "Forge", 
+            "race": "Protoss", 
+            "mechanical": true, 
+            "ground": true, 
+            "structure": true, 
+            "research": true, 
+            "abilities": [
+                "ResearchGroundWeapons1", 
+                "ResearchGroundWeapons2", 
+                "ResearchGroundWeapons3", 
+                "ResearchGroundArmor1", 
+                "ResearchGroundArmor2", 
+                "ResearchGroundArmor3", 
+                "ResearchShield1", 
+                "ResearchShield2", 
+                "ResearchShield3", 
+                "CancelUnit", 
+                "Cancel"
+            ]
+        }, 
+        "27393": {
+            "uid": "Carrier", 
+            "vid": "Carrier", 
+            "title": "Carrier", 
+            "race": "Protoss", 
+            "mechanical": true, 
+            "air": true, 
+            "massive": true, 
+            "abilities": [
+                "Interceptor", 
+                "Hold", 
+                "Stop", 
+                "Patrol", 
+                "AttackObject", 
+                "Follow"
+            ]
+        }, 
+        "23553": {
+            "uid": "FleetBeacon", 
+            "vid": "FleetBeacon", 
+            "title": "FleetBeacon", 
+            "race": "Protoss", 
+            "mechanical": true, 
+            "ground": true, 
+            "structure": true, 
+            "research": true, 
+            "abilities": [
+                "ResearchGravitonCatapult", 
+                "Cancel", 
+                "CancelUnit"
+            ]
+        }, 
+        "23809": {
+            "uid": "TwilightCouncil", 
+            "vid": "TwilightCouncil", 
+            "title": "TwilightCouncil", 
+            "race": "Protoss", 
+            "mechanical": true, 
+            "ground": true, 
+            "structure": true, 
+            "research": true, 
+            "abilities": [
+                "ResearchCharge", 
+                "ResearchBlink", 
+                "Cancel", 
+                "CancelUnit"
+            ]
+        }, 
+        "40449": {
+            "uid": "PlanetaryFortress", 
+            "vid": "PlanetaryFortress", 
+            "title": "PlanetaryFortress", 
+            "race": "Terran", 
+            "mechanical": true, 
+            "ground": true, 
+            "structure": true, 
+            "production": true, 
+            "main": true, 
+            "abilities": [
+                "CancelBuilding", 
+                "Cancel", 
+                "HaltBuilding", 
+                "TrainSCV", 
+                "CancelUnit", 
+                "SetRallyTarget", 
+                "SetRallyTarget"
+            ]
+        }, 
+        "29953": {
+            "uid": "SpawningPool", 
+            "vid": "SpawningPool", 
+            "title": "SpawningPool", 
+            "race": "Zerg", 
+            "ground": true, 
+            "structure": true, 
+            "research": true, 
+            "abilities": [
+                "EvolveAdrenalGlands", 
+                "EvolveMetabolicBoost", 
+                "Cancel", 
+                "CancelUnit"
+            ]
+        }, 
+        "24321": {
+            "uid": "Stargate", 
+            "vid": "Stargate", 
+            "title": "Stargate", 
+            "race": "Protoss", 
+            "mechanical": true, 
+            "ground": true, 
+            "structure": true, 
+            "production": true, 
+            "abilities": [
+                "BuildPhoenix", 
+                "BuildCarrier", 
+                "BuildVoidray", 
+                "Cancel", 
+                "SetRallyTarget", 
+                "CancelUnit"
+            ]
+        }, 
+        "43009": {
+            "uid": "Archon", 
+            "vid": "Archon", 
+            "title": "Archon", 
+            "race": "Protoss", 
+            "mechanical": true, 
+            "psionic": true, 
+            "ground": true, 
+            "massive": true, 
+            "abilities": [
+                "Hold", 
+                "Stop", 
+                "Patrol", 
+                "Follow", 
+                "AttackObject"
+            ]
+        }, 
+        "40961": {
+            "uid": "OrbitalCommand", 
+            "vid": "OrbitalCommand", 
+            "title": "OrbitalCommand", 
+            "race": "Terran", 
+            "mechanical": true, 
+            "ground": true, 
+            "structure": true, 
+            "production": true, 
+            "main": true, 
+            "abilities": [
+                "LiftOrbitalCommand", 
+                "CalldownMuleLocation", 
+                "Cancel", 
+                "HaltBuilding", 
+                "TrainSCV", 
+                "CancelBuilding", 
+                "ScannerSweep", 
+                "CancelUnit", 
+                "SetRallyTarget", 
+                "CalldownExtraSupplies", 
+                "SetRallyTarget"
+            ]
+        }, 
+        "41217": {
+            "uid": "WarpGate", 
+            "vid": "WarpGate", 
+            "title": "WarpGate", 
+            "race": "Protoss", 
+            "mechanical": true, 
+            "ground": true, 
+            "structure": true, 
+            "production": true, 
+            "abilities": [
+                "WarpInZealot", 
+                "WarpInStalker", 
+                "WarpInHighTemplar", 
+                "WarpInDarkTemplar", 
+                "WarpInSentry", 
+                "Cancel", 
+                "SetRallyTarget", 
+                "CancelUnit", 
+                "GatewayMode"
+            ]
+        }, 
+        "25089": {
+            "uid": "RoboticsBay", 
+            "vid": "RoboticsBay", 
+            "title": "RoboticsBay", 
+            "race": "Protoss", 
+            "mechanical": true, 
+            "ground": true, 
+            "structure": true, 
+            "research": true, 
+            "abilities": [
+                "ResearchBooster", 
+                "ResearchDrive", 
+                "ResearchThermalLance", 
+                "Cancel", 
+                "CancelUnit"
+            ]
+        }, 
+        "26881": {
+            "uid": "Sentry", 
+            "vid": "Sentry", 
+            "title": "Sentry", 
+            "race": "Protoss", 
+            "mechanical": true, 
+            "psionic": true, 
+            "ground": true, 
+            "abilities": [
+                "HallucinateArchon", 
+                "HallucinateColossus", 
+                "Hold", 
+                "HallucinatePhoenix", 
+                "Patrol", 
+                "HallucinateVoidray", 
+                "Stop", 
+                "HallucinateProbe", 
+                "HallucinateWarpPrism", 
+                "AttackObject", 
+                "GuardianShield", 
+                "HallucinateHighTemplar", 
+                "ForceField", 
+                "HallucinateZealot", 
+                "Follow", 
+                "HallucinateImmortal", 
+                "HallucinateStalker"
+            ]
+        }, 
+        "8961": {
+            "uid": "Baneling", 
+            "vid": "Baneling", 
+            "title": "Baneling", 
+            "race": "Zerg", 
+            "biological": true, 
+            "ground": true, 
+            "abilities": [
+                "Burrow", 
+                "Unburrow", 
+                "Hold", 
+                "Attack", 
+                "Patrol", 
+                "Stop", 
+                "AttackObject", 
+                "Explode", 
+                "Follow"
+            ]
+        }, 
+        "7425": {
+            "uid": "Colossus", 
+            "vid": "Colossus", 
+            "title": "Colossus", 
+            "race": "Protoss", 
+            "mechanical": true, 
+            "ground": true, 
+            "massive": true, 
+            "abilities": [
+                "Hold", 
+                "Stop", 
+                "Patrol", 
+                "Follow", 
+                "AttackObject"
+            ]
+        }, 
+        "25857": {
+            "uid": "Zealot", 
+            "vid": "Zealot", 
+            "title": "Zealot", 
+            "race": "Protoss", 
+            "biological": true, 
+            "ground": true, 
+            "abilities": [
+                "Hold", 
+                "Stop", 
+                "Patrol", 
+                "Follow", 
+                "AttackObject"
+            ]
+        }, 
+        "9729": {
+            "uid": "Changeling", 
+            "vid": "Changeling", 
+            "title": "Changeling", 
+            "race": "Zerg", 
+            "biological": true, 
+            "ground": true, 
+            "abilities": [
+                "Hold", 
+                "Stop", 
+                "Patrol", 
+                "Follow"
+            ]
+        }, 
+        "14081": {
+            "uid": "Starport", 
+            "vid": "Starport", 
+            "title": "Starport", 
+            "race": "Terran", 
+            "mechanical": true, 
+            "ground": true, 
+            "structure": true, 
+            "production": true, 
+            "abilities": [
+                "BuildMedivac", 
+                "BuildBanshee", 
+                "BuildRaven", 
+                "BuildBattlecruiser", 
+                "BuildViking", 
+                "CancelReactor", 
+                "BuildReactor", 
+                "BuildTechlab", 
+                "Cancel", 
+                "CancelUnit", 
+                "LiftStarport", 
+                "HaltBuilding", 
+                "SetRallyTarget"
+            ]
+        }, 
+        "26369": {
+            "uid": "HighTemplar", 
+            "vid": "HighTemplar", 
+            "title": "HighTemplar", 
+            "race": "Protoss", 
+            "biological": true, 
+            "psionic": true, 
+            "ground": true, 
+            "abilities": [
+                "PsionicStorm", 
+                "Feedback", 
+                "Hold", 
+                "Stop", 
+                "Patrol", 
+                "MergeIntoArchon", 
+                "AttackObject", 
+                "Follow"
+            ]
+        }, 
+        "26625": {
+            "uid": "DarkTemplar", 
+            "vid": "DarkTemplar", 
+            "title": "DarkTemplar", 
+            "race": "Protoss", 
+            "biological": true, 
+            "psionic": true, 
+            "ground": true, 
+            "abilities": [
+                "MergeIntoArchon", 
+                "Hold", 
+                "Stop", 
+                "Patrol", 
+                "AttackObject", 
+                "Follow"
+            ]
+        }, 
+        "43265": {
+            "uid": "NydusWorm", 
+            "vid": "NydusWorm", 
+            "title": "NydusWorm", 
+            "race": "Zerg", 
+            "ground": true, 
+            "structure": true, 
+            "abilities": [
+                "LoadNydusWorm", 
+                "UnloadNydusWorm", 
+                "UnloadNydusWorm"
+            ]
+        }, 
+        "27137": {
+            "uid": "Phoenix", 
+            "vid": "Phoenix", 
+            "title": "Phoenix", 
+            "race": "Neutral", 
+            "abilities": [
+                "GravitonBeam", 
+                "Hold", 
+                "Stop", 
+                "Patrol", 
+                "AttackObject", 
+                "Follow"
+            ]
+        }, 
+        "24065": {
+            "uid": "PhotonCannon", 
+            "vid": "PhotonCannon", 
+            "title": "PhotonCannon", 
+            "race": "Protoss", 
+            "mechanical": true, 
+            "ground": true, 
+            "structure": true, 
+            "abilities": [
+                "Stop", 
+                "AttackObject"
+            ]
+        }, 
+        "15617": {
+            "uid": "SiegeTank", 
+            "vid": "SiegeTank", 
+            "title": "SiegeTank", 
+            "race": "Terran", 
+            "mechanical": true, 
+            "ground": true, 
+            "abilities": [
+                "SiegeMode", 
+                "TankMode", 
+                "Hold", 
+                "Stop", 
+                "Patrol", 
+                "AttackObject", 
+                "Follow"
+            ]
+        }, 
+        "27649": {
+            "uid": "Voidray", 
+            "vid": "Voidray", 
+            "title": "Voidray", 
+            "race": "Protoss", 
+            "mechanical": true, 
+            "air": true, 
+            "abilities": [
+                "Hold", 
+                "Stop", 
+                "Patrol", 
+                "Follow", 
+                "AttackObject"
+            ]
+        }, 
+        "11521": {
+            "uid": "CommandCenter", 
+            "vid": "CommandCenter", 
+            "title": "CommandCenter", 
+            "race": "Terran", 
+            "mechanical": true, 
+            "ground": true, 
+            "structure": true, 
+            "production": true, 
+            "main": true, 
+            "abilities": [
+                "LiftCommandCenter", 
+                "UnloadAllCommandCenter", 
+                "CancelBuilding", 
+                "UnloadCommandCenter", 
+                "LoadCommandCenter", 
+                "UpgradeToPlanetaryFortress", 
+                "UpgradeToOrbitalCommandCancel", 
+                "TrainSCV", 
+                "UpgradeToOrbitalCommand", 
+                "Cancel", 
+                "CancelUnit", 
+                "SetRallyTarget", 
+                "HaltBuilding", 
+                "SetRallyTarget", 
+                "UpgradeToPlanetaryFortressCancel"
+            ]
+        }, 
+        "11777": {
+            "uid": "SupplyDepot", 
+            "vid": "SupplyDepot", 
+            "title": "SupplyDepot", 
+            "race": "Terran", 
+            "mechanical": true, 
+            "ground": true, 
+            "structure": true, 
+            "abilities": [
+                "Lower", 
+                "Raise", 
+                "HaltBuilding"
+            ]
+        }, 
+        "12033": {
+            "uid": "Refinery", 
+            "vid": "Refinery", 
+            "title": "Refinery", 
+            "race": "Terran", 
+            "mechanical": true, 
+            "ground": true, 
+            "structure": true, 
+            "abilities": [
+                "HaltBuilding"
+            ]
+        }, 
+        "28673": {
+            "uid": "Probe", 
+            "vid": "Probe", 
+            "title": "Probe", 
+            "race": "Protoss", 
+            "mechanical": true, 
+            "ground": true, 
+            "worker": true, 
+            "abilities": [
+                "Stop", 
+                "ReturnCargo", 
+                "WarpInAssimilator", 
+                "Hold", 
+                "AttackObject", 
+                "WarpInNexus", 
+                "WarpInPylon", 
+                "WarpInGateway", 
+                "WarpInForge", 
+                "WarpInFleetBeacon", 
+                "WarpInTwilightCouncil", 
+                "WarpInPhotonCannon", 
+                "WarpInStargate", 
+                "WarpInTemplarArchives", 
+                "WarpInDarkShrine", 
+                "WarpInRoboticsBay", 
+                "WarpInRoboticsFacility", 
+                "WarpInCyberneticsCore", 
+                "GatherResourcesProbe", 
+                "Follow", 
+                "Patrol"
+            ]
+        }, 
+        "45313": {
+            "uid": "Larva", 
+            "vid": "Larva", 
+            "title": "Larva", 
+            "race": "Zerg", 
+            "biological": true, 
+            "ground": true, 
+            "abilities": [
+                "MorphToDrone", 
+                "MorphToZergling", 
+                "MorphToOverlord", 
+                "MorphToHydralisk", 
+                "MorphToMutalisk", 
+                "MorphToUltralisk", 
+                "MorphToRoach", 
+                "MorphToInfestor", 
+                "MorphToCorruptor"
+            ]
+        }, 
+        "12801": {
+            "uid": "MissileTurret", 
+            "vid": "MissileTurret", 
+            "title": "MissileTurret", 
+            "race": "Terran", 
+            "mechanical": true, 
+            "ground": true, 
+            "structure": true, 
+            "abilities": [
+                "AttackObject", 
+                "Stop", 
+                "HaltBuilding"
+            ]
+        }, 
+        "30977": {
+            "uid": "UltraliskCavern", 
+            "vid": "UltraliskCavern", 
+            "title": "UltraliskCavern", 
+            "race": "Zerg", 
+            "ground": true, 
+            "structure": true, 
+            "research": true, 
+            "abilities": [
+                "EvolveChitinous", 
+                "CancelUnit", 
+                "Cancel"
+            ]
+        }, 
+        "29441": {
+            "uid": "CreepTumor", 
+            "vid": "CreepTumor", 
+            "title": "CreepTumor", 
+            "race": "Zerg", 
+            "biological": true, 
+            "ground": true, 
+            "abilities": []
+        }, 
+        "29697": {
+            "uid": "Extractor", 
+            "vid": "Extractor", 
+            "title": "Extractor", 
+            "race": "Zerg", 
+            "ground": true, 
+            "structure": true, 
+            "abilities": []
+        }, 
+        "47361": {
+            "uid": "MULE", 
+            "vid": "MULE", 
+            "title": "MULE", 
+            "race": "Terran", 
+            "mechanical": true, 
+            "ground": true, 
+            "worker": true, 
+            "abilities": [
+                "AutoRepair", 
+                "Repair", 
+                "Hold", 
+                "Stop", 
+                "Patrol", 
+                "AttackObject", 
+                "Follow"
+            ]
+        }, 
+        "13569": {
+            "uid": "GhostAcademy", 
+            "vid": "GhostAcademy", 
+            "title": "GhostAcademy", 
+            "race": "Terran", 
+            "mechanical": true, 
+            "ground": true, 
+            "structure": true, 
+            "research": true, 
+            "abilities": [
+                "ResearchArmSiloWithNuke", 
+                "ResearchPersonalCloaking", 
+                "Cancel", 
+                "HaltBuilding", 
+                "CancelUnit", 
+                "ResearchMoebiusReactor"
+            ]
+        }, 
+        "30209": {
+            "uid": "EvolutionChamber", 
+            "vid": "EvolutionChamber", 
+            "title": "EvolutionChamber", 
+            "race": "Zerg", 
+            "ground": true, 
+            "structure": true, 
+            "research": true, 
+            "abilities": [
+                "EvolveMeleeAttack1", 
+                "EvolveMeleeAttack2", 
+                "EvolveMeleeAttack3", 
+                "EvolveGroundCarapace1", 
+                "EvolveGroundCarapace2", 
+                "EvolveGroundCarapace3", 
+                "EvolveMissileAttack1", 
+                "EvolveMissileAttack2", 
+                "EvolveMissileAttack3", 
+                "CancelUnit", 
+                "Cancel"
+            ]
+        }, 
+        "27905": {
+            "uid": "WarpPrism", 
+            "vid": "WarpPrism", 
+            "title": "WarpPrism", 
+            "race": "Protoss", 
+            "mechanical": true, 
+            "psionic": true, 
+            "air": true, 
+            "abilities": [
+                "LoadWarpPrism", 
+                "PhaseMode", 
+                "UnloadAllWarpPrism", 
+                "UnloadWarpPrism", 
+                "TransportMode", 
+                "Patrol", 
+                "Stop", 
+                "UnloadAllMovingWarpPrism", 
+                "Hold", 
+                "Follow"
+            ]
+        }, 
+        "30465": {
+            "uid": "HydraliskDen", 
+            "vid": "HydraliskDen", 
+            "title": "HydraliskDen", 
+            "race": "Zerg", 
+            "ground": true, 
+            "structure": true, 
+            "research": true, 
+            "abilities": [
+                "EvolveGroovedSpines", 
+                "CancelUnit", 
+                "Cancel"
+            ]
+        }, 
+        "31233": {
+            "uid": "InfestationPit", 
+            "vid": "InfestationPit", 
+            "title": "InfestationPit", 
+            "race": "Zerg", 
+            "ground": true, 
+            "structure": true, 
+            "research": true, 
+            "abilities": [
+                "EvolvePathogenGlands", 
+                "EvolveNeuralParasite", 
+                "Cancel", 
+                "CancelUnit"
+            ]
+        }, 
+        "30721": {
+            "uid": "Spire", 
+            "vid": "Spire", 
+            "title": "Spire", 
+            "race": "Zerg", 
+            "ground": true, 
+            "structure": true, 
+            "research": true, 
+            "abilities": [
+                "EvolveFlyerAttack1", 
+                "EvolveFlyerAttack2", 
+                "EvolveFlyerAttack3", 
+                "EvolveFlyerCarapace1", 
+                "EvolveFlyerCarapace2", 
+                "EvolveFlyerCarapace3", 
+                "Cancel", 
+                "CancelGreaterSpire", 
+                "CancelUnit", 
+                "EvolveGreaterSpire"
+            ]
+        }, 
+        "14593": {
+            "uid": "Armory", 
+            "vid": "Armory", 
+            "title": "Armory", 
+            "race": "Terran", 
+            "mechanical": true, 
+            "ground": true, 
+            "structure": true, 
+            "research": true, 
+            "abilities": [
+                "ResearchVehiclePlating1", 
+                "ResearchVehiclePlating2", 
+                "ResearchVehiclePlating3", 
+                "ResearchVehicleWeapons1", 
+                "ResearchVehicleWeapons2", 
+                "ResearchVehicleWeapons3", 
+                "ResearchShipPlating1", 
+                "ResearchShipPlating2", 
+                "ResearchShipPlating3", 
+                "ResearchShipWeapons1", 
+                "ResearchShipWeapons2", 
+                "ResearchShipWeapons3", 
+                "CancelUnit", 
+                "HaltBuilding", 
+                "Cancel"
+            ]
+        }, 
+        "14849": {
+            "uid": "FusionCore", 
+            "vid": "FusionCore", 
+            "title": "FusionCore", 
+            "race": "Terran", 
+            "mechanical": true, 
+            "ground": true, 
+            "structure": true, 
+            "research": true, 
+            "abilities": [
+                "ResearchYamatoCannon", 
+                "Cancel", 
+                "HaltBuilding", 
+                "CancelUnit"
+            ]
+        }, 
+        "24833": {
+            "uid": "DarkShrine", 
+            "vid": "DarkShrine", 
+            "title": "DarkShrine", 
+            "race": "Protoss", 
+            "mechanical": true, 
+            "ground": true, 
+            "structure": true, 
+            "abilities": []
+        }, 
+        "31489": {
+            "uid": "NydusNetwork", 
+            "vid": "NydusNetwork", 
+            "title": "NydusNetwork", 
+            "race": "Zerg", 
+            "ground": true, 
+            "structure": true, 
+            "abilities": [
+                "LoadNydusNetwork", 
+                "UnloadNydusNetwork", 
+                "UnloadNydusNetwork", 
+                "BuildNydusWorm"
+            ]
+        }
+    }, 
+    "attacker_abilities": [
+        "attack_move", 
+        "attack_object", 
+        "stop"
+    ], 
+    "ability_defaults": {
+        "build_queue": 0, 
+        "target": null, 
+        "vid": "", 
+        "title": "", 
+        "food": 0, 
+        "energy": 0, 
+        "gas": 0, 
+        "build_time": 0, 
+        "build_unit": null, 
+        "cooldown": 0, 
+        "target_player": null, 
+        "build": false, 
+        "cancel": false, 
+        "research": false, 
+        "minerals": 0, 
+        "uid": ""
+    }
+}
