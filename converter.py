@@ -239,14 +239,14 @@ def transform(version):
                     energy = 0,
                     cooldown = 0,
 
-                    target = None, # location, bio, mechanical, structure, flying, ground
-                        target_player = None, # self, enemy, ally,
+                    target = [], # location, bio, mechanical, structure, flying, ground
+                        target_player = [], # self, enemy, ally,
 
                     research = False,
                     cancel = False,
 
                     build = False,
-                        build_unit = None,
+                        build_unit = "",
                         build_time = 0,
                         build_queue = 0,
                 ),

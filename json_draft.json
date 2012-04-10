@@ -1,0 +1,172 @@
+/* JSON Draft
+
+Notes on Design
+===================
+
+It was decided to keep a very flat and simple object model with little to no
+inheritance. A trade off was made for super common abilities and to provide
+sensible defaults. In theory, loading the data from JSON should be as simple
+as mashing each object specified with it's corresponding defaults, no crazy
+inheritance or trickery necessary.
+
+Identification Codes
+=======================
+
+SC2 Data can be broadly classified into objects and their abilities. Objects
+and abilities are identified by a hex code that is unique per version of
+Starcraft. These hex identifiers can and do change between Starcraft versions.
+
+VersionID (vid): To overcome this limitation each hex identifier is mapped to
+a human readable equivalent that is constant through out versions, for instance
+"RoachBurrowed" or "GatherResourcesZerg". This string represents the same data
+object across all versions of Starcraft and must be unique.
+
+UnionIDUnits and abilities in Starcraft often have different forms. For instance
+a viking in fighter and assault mode or Gather Resources which actually has an
+implementation for each race. To mask these details we provide a third
+identifier that handles this level of conceptual grouping. All data sharing
+the same id are considered to be different forms or variations of the same
+thing.
+
+These three identifiers allow for reasonable identification of objects and
+abilities on any level of granularity: conceptual, implementation, and version
+specific.
+
+
+Objects
+===========
+
+Objects include units, buildings, critters, destructables, resources, and other
+neutral buildings. Tons of metadata exist for these objects but most of it is
+not currently useful within the scope of this project. The object model may be
+expanded in the future but currently consists of identifiers, race, abilities,
+and a set of flags for use in automated consistency checking.
+
+Abilities must be specified by their uid.
+
+
+Abilities
+===========
+
+Again, there is a large set of meta data for abilities but most of it is not
+currently useful within the scope of this project. The ability model may be
+expanded in the future but currently consists of identifiers, costs, flags,
+and, in some cases, targets. Some of this information may be useful to for
+analysis. Some for consistency checking.
+
+
+Defaults
+===========
+
+To make writing of the json less cumbersome, we provide a the object_defaults
+and ability_defaults objects which provide values for any object properties
+missing from the defined data objects. To simplify the writing of unit data
+we have provided the attacker_abilities and moveable_abilities arrays which
+should be appended to the abilities list of any unit with the corresponding
+flags.
+
+
+*/
+{
+	// Some flags have special abilities associated
+	"attacker_abilities": [ "AttackLocation", "AttackObject", "Stop" ],
+	"moveable_abilities": [ "Move", "Patrol", "HoldPosition", "Follow", "Stop" ],
+
+	"object_defaults": {
+		"uid": "",
+		"title": "",
+
+		"race": "Neutral",
+		
+		"biological": false,
+		"massive": false,
+		"mechanical": false,
+		"psionic": false,
+		"air": false,
+		"ground": false,
+		"structure": false,
+
+		"worker": false,
+		"production": false,
+		"research": false,
+		"main": false,
+
+		"attacker": false,
+		"moveable": false,
+
+
+		"abilities": ["RightClickLocation", "RightClickTarget"]
+	},
+
+	"ability_defaults": {
+		"uid": "",
+		"vid": "",
+		"title": "",
+
+		"minerals": 0,
+		"gas": 0,
+		"supply": 0,
+		"energy": 0,
+		"cooldown": 0,
+
+		"target": [], // location, bio, mechanical, structure, flying, ground
+			"target_player": [], // self, enemy, ally, 
+
+		"research": false,
+		"cancel": false,
+
+		"build": false,
+			"build_unit": "",
+			"build_time": 0,
+			"build_queue": 0,
+		// flags for other special abilities...
+	},
+
+	// Examples, except that JSON doesn't support hex *tear*
+	"objects": {
+		0x008a01: {
+			"uid": "Roach",
+			"vid": "Roach",
+			"title": "Roach",
+			"race": "Zerg",
+			"attacker": true,
+			"moveable": true,
+			"abilities": [ "BurrowRoach" ]
+		},
+
+		0x009201: {
+			"uid": "Roach",
+			"vid": "BurrowedRoach",
+			"title": "Roach (Burrowed)",
+			"race": "Zerg",
+			"moveable": true,
+			"abilities": [ "UnburrowRoach" ]
+		}
+	},
+
+	// Ability Examples
+	"abilities": {
+		0x013401: {
+			"uid": "Move",
+			"vid": "Move",
+			"title": "Move",
+
+			"target": ["location"],
+		},
+
+		0x027201: {
+			"uid": "MutateRoach",
+			"vid": "MutateRoach",
+
+			"title": "Mutate into Roach",
+
+			"minerals": 75,
+			"gas": 25,
+			"food": 2,
+
+			"build": true,
+			"build_unit": "Roach",
+			"build_time": 34,
+		}
+	}
+}
