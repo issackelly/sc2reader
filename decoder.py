@@ -2,19 +2,35 @@ import json
 import os
 import logging
 
-abilities = {}
-objects = {}
+__all__ = ["Package", "test"]
 
-def create_class(base, obj):
-    return type(str(obj['vid']), (base,), obj)
-
+class Package(object):
+    """Simple class that wraps the create_package result"""
+    def __init__(self, filename):
+        super(Package, self).__init__()
+        package = create_package(filename)
+        self.abilities = package["abilities"]
+        self.objects = package["objects"]
+        self.bases = package['default']
+        
 class Base(object):
+    def __init__(self, obj_id, replay_hash=None):
+        super(Base, self).__init__()
+        self.id = obj_id
+        self.replay_hash = replay_hash
     def __str__(self):
         return self.title
     def __repr__(self):
         return "<'%(title)s'>" % {
                       "title": self.title if self.title else self.vid if self.vid else self.__class__.__bases__[0].__name__
                       }
+    def __eq__(self, other):
+        return hash(self) == hash(other)
+    def __hash__(self):
+        return hash((self.id, self.replay_hash, self.uid))
+
+def create_class(base, obj):
+    return type(str(obj['vid']), (base,), obj)
 
 def create_package(filename):
     with open(filename, "rb") as f:
@@ -84,9 +100,6 @@ def create_class(base, obj):
     except KeyError:
         print obj
 
-def create_multiple_x(base, dictionary):
-    return [create_class(base, obj) for key, obj in dictionary.iteritems()]
-
 def create_multiple(base, dictionary):
     result, temp = {}, {}
     for key, obj in dictionary.iteritems():
@@ -106,5 +119,5 @@ def test(dir="sc2reader/new_data/"):
     p = []
     for filename in ["v12.json", "v13.json", "v14.json", "v133.json", "v142.json"]:
         print "Starting: " + filename
-        p.append(create_package(os.path.join(dir, filename)))
+        p.append(Package(os.path.join(dir, filename)))
     return p
