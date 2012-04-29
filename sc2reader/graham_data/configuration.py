@@ -214,6 +214,12 @@ def Data(conf):
             addObject(abilities,conf.SiegeTank.seige_mode_on,196,  "changestate" ,  "siege_mode")
             addObject(abilities,conf.SiegeTank.seige_mode_off,197,  "changestate" ,  "tank_mode")
 
+            @Attacker
+            @DataObject
+            class Sieged():
+                abilities = {}
+                code = conf.SiegeTank.Sieged.code
+
         @Attacker
         @Moveable
         @DataObject
@@ -230,6 +236,13 @@ def Data(conf):
             code = conf.Viking.code
             addObject(abilities,conf.Viking.assault_mode_on,213,  "changestate" ,  "assault_mode")
             addObject(abilities,conf.Viking.assault_mode_off,214,  "changestate" ,  "fighter_mode")
+
+            @Attacker
+            @Moveable
+            @DataObject
+            class Assault():
+                abilities = {}
+                code = conf.Viking.Assault.code
 
         @Attacker
         @Moveable

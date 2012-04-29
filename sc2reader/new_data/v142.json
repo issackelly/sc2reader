@@ -56,14 +56,10 @@
             "title": "Cancel Nuke", 
             "cancel": true
         }, 
-        "70658": {
-            "uid": "ResearchInfantryWeapons1", 
-            "vid": "ResearchInfantryWeapons1", 
-            "title": "Research Infantry Weapons1", 
-            "gas": 100, 
-            "minerals": 100, 
-            "build_time": 160, 
-            "research": true
+        "1026": {
+            "uid": "UnloadNydusWorm", 
+            "vid": "UnloadNydusWorm", 
+            "title": "Unload Nydus Worm"
         }, 
         "133123": {
             "uid": "Heal", 
@@ -177,9 +173,9 @@
             "title": "Attack Object"
         }, 
         "84224": {
-            "uid": "Burrow", 
-            "vid": "Burrow", 
-            "title": "Burrow"
+            "uid": "BurrowQueen", 
+            "vid": "BurrowQueen", 
+            "title": "Burrow Queen"
         }, 
         "80": {
             "uid": "CancelBuilding", 
@@ -227,9 +223,9 @@
             "cancel": true
         }, 
         "85248": {
-            "uid": "Burrow", 
-            "vid": "Burrow", 
-            "title": "Burrow"
+            "uid": "BurrowInfestor", 
+            "vid": "BurrowInfestor", 
+            "title": "Burrow Infestor"
         }, 
         "69632": {
             "uid": "Raise", 
@@ -315,6 +311,15 @@
             "vid": "PsionicStorm", 
             "title": "Psionic Storm"
         }, 
+        "70658": {
+            "uid": "ResearchInfantryWeapons1", 
+            "vid": "ResearchInfantryWeapons1", 
+            "title": "Research Infantry Weapons1", 
+            "gas": 100, 
+            "minerals": 100, 
+            "build_time": 160, 
+            "research": true
+        }, 
         "89344": {
             "uid": "ResearchYamatoCannon", 
             "vid": "ResearchYamatoCannon", 
@@ -332,11 +337,15 @@
             "build": true, 
             "build_unit": "Colossus"
         }, 
-        "211201": {
-            "uid": "CancelRootSporeCrawler", 
-            "vid": "CancelRootSporeCrawler", 
-            "title": "Cancel Root Spore Crawler", 
-            "cancel": true
+        "67841": {
+            "uid": "BuildReactor", 
+            "vid": "BuildReactor", 
+            "title": "Build Reactor", 
+            "gas": 50, 
+            "minerals": 50, 
+            "build_time": 50, 
+            "build": true, 
+            "build_unit": "Reactor"
         }, 
         "76034": {
             "uid": "MorphToExtractor", 
@@ -386,9 +395,9 @@
             "build_unit": "SCV"
         }, 
         "80896": {
-            "uid": "Unburrow", 
-            "vid": "Unburrow", 
-            "title": "Unburrow"
+            "uid": "UnburrowRoach", 
+            "vid": "UnburrowRoach", 
+            "title": "Unburrow Roach"
         }, 
         "23809": {
             "uid": "EvolveGlialRecon", 
@@ -408,16 +417,6 @@
             "uid": "RootSpineCrawler", 
             "vid": "RootSpineCrawler", 
             "title": "Root Spine Crawler"
-        }, 
-        "72706": {
-            "uid": "WarpInAssimilator", 
-            "vid": "WarpInAssimilator", 
-            "title": "Warp In Assimilator", 
-            "gas": 0, 
-            "minerals": 100, 
-            "build_time": 30, 
-            "build": true, 
-            "build_unit": "Assimilator"
         }, 
         "76067": {
             "uid": "MorphToSpawningPool", 
@@ -654,9 +653,9 @@
             "title": "Mass Recall"
         }, 
         "79872": {
-            "uid": "Unburrow", 
-            "vid": "Unburrow", 
-            "title": "Unburrow"
+            "uid": "UnburrowDrone", 
+            "vid": "UnburrowDrone", 
+            "title": "Unburrow Drone"
         }, 
         "95489": {
             "uid": "CancelCreep", 
@@ -690,14 +689,10 @@
             "vid": "MergeIntoArchon", 
             "title": "Merge Into Archon"
         }, 
-        "86528": {
-            "uid": "EvolveCentrifugalHooks", 
-            "vid": "EvolveCentrifugalHooks", 
-            "title": "Evolve Centrifugal Hooks", 
-            "gas": 150, 
-            "minerals": 150, 
-            "build_time": 110, 
-            "research": true
+        "31232": {
+            "uid": "TankMode", 
+            "vid": "TankMode", 
+            "title": "Tank Mode"
         }, 
         "66049": {
             "uid": "UnloadAllCommandCenter", 
@@ -755,14 +750,16 @@
             "build_time": 110, 
             "research": true
         }, 
-        "72450": {
-            "uid": "ResearchVehiclePlating1", 
-            "vid": "ResearchVehiclePlating1", 
-            "title": "Research Vehicle Plating1", 
-            "gas": 100, 
+        "70402": {
+            "uid": "BuildRaven", 
+            "vid": "BuildRaven", 
+            "title": "Build Raven", 
+            "gas": 200, 
             "minerals": 100, 
-            "build_time": 160, 
-            "research": true
+            "build_time": 60, 
+            "supply": 2, 
+            "build": true, 
+            "build_unit": "Raven"
         }, 
         "76547": {
             "uid": "EvolveGroundCarapace1", 
@@ -938,9 +935,9 @@
             "build_unit": "Medivac"
         }, 
         "87040": {
-            "uid": "Unburrow", 
-            "vid": "Unburrow", 
-            "title": "Unburrow"
+            "uid": "UnburrowUltralisk", 
+            "vid": "UnburrowUltralisk", 
+            "title": "Unburrow Ultralisk"
         }, 
         "70401": {
             "uid": "BuildBanshee", 
@@ -962,17 +959,6 @@
             "uid": "LiftOrbitalCommand", 
             "vid": "LiftOrbitalCommand", 
             "title": "Lift Orbital Command"
-        }, 
-        "70402": {
-            "uid": "BuildRaven", 
-            "vid": "BuildRaven", 
-            "title": "Build Raven", 
-            "gas": 200, 
-            "minerals": 100, 
-            "build_time": 60, 
-            "supply": 2, 
-            "build": true, 
-            "build_unit": "Raven"
         }, 
         "29478": {
             "uid": "BuildBunker", 
@@ -1028,15 +1014,14 @@
             "build_time": 190, 
             "research": true
         }, 
-        "78594": {
-            "uid": "MorphToOverlord", 
-            "vid": "MorphToOverlord", 
-            "title": "Morph To Overlord", 
-            "gas": 0, 
+        "72450": {
+            "uid": "ResearchVehiclePlating1", 
+            "vid": "ResearchVehiclePlating1", 
+            "title": "Research Vehicle Plating1", 
+            "gas": 100, 
             "minerals": 100, 
-            "build_time": 25, 
-            "build": true, 
-            "build_unit": "Overlord"
+            "build_time": 160, 
+            "research": true
         }, 
         "72451": {
             "uid": "ResearchVehiclePlating2", 
@@ -1458,9 +1443,9 @@
             "build_unit": "Zergling"
         }, 
         "79616": {
-            "uid": "Burrow", 
-            "vid": "Burrow", 
-            "title": "Burrow"
+            "uid": "BurrowDrone", 
+            "vid": "BurrowDrone", 
+            "title": "Burrow Drone"
         }, 
         "30720": {
             "uid": "ToggleAutoHeal", 
@@ -1486,6 +1471,16 @@
             "vid": "Creep", 
             "title": "Creep"
         }, 
+        "78594": {
+            "uid": "MorphToOverlord", 
+            "vid": "MorphToOverlord", 
+            "title": "Morph To Overlord", 
+            "gas": 0, 
+            "minerals": 100, 
+            "build_time": 25, 
+            "build": true, 
+            "build_unit": "Overlord"
+        }, 
         "14081": {
             "uid": "ResearchGravitonCatapult", 
             "vid": "ResearchGravitonCatapult", 
@@ -1496,9 +1491,9 @@
             "research": true
         }, 
         "80640": {
-            "uid": "Burrow", 
-            "vid": "Burrow", 
-            "title": "Burrow"
+            "uid": "BurrowRoach", 
+            "vid": "BurrowRoach", 
+            "title": "Burrow Roach"
         }, 
         "19264": {
             "uid": "SeekerMissle", 
@@ -1545,10 +1540,15 @@
             "build": true, 
             "build_unit": "HighTemplar"
         }, 
-        "1026": {
-            "uid": "UnloadNydusWorm", 
-            "vid": "UnloadNydusWorm", 
-            "title": "Unload Nydus Worm"
+        "72706": {
+            "uid": "WarpInAssimilator", 
+            "vid": "WarpInAssimilator", 
+            "title": "Warp In Assimilator", 
+            "gas": 0, 
+            "minerals": 100, 
+            "build_time": 30, 
+            "build": true, 
+            "build_unit": "Assimilator"
         }, 
         "1027": {
             "uid": "UnloadNydusWorm", 
@@ -1625,16 +1625,14 @@
             "vid": "LoadCommandCenter", 
             "title": "Load Command Center"
         }, 
-        "73221": {
-            "uid": "BuildSentry", 
-            "vid": "BuildSentry", 
-            "title": "Build Sentry", 
-            "gas": 100, 
-            "minerals": 50, 
-            "build_time": 42, 
-            "supply": 2, 
-            "build": true, 
-            "build_unit": "Sentry"
+        "75269": {
+            "uid": "ResearchGroundArmor3", 
+            "vid": "ResearchGroundArmor3", 
+            "title": "Research Ground Armor3", 
+            "gas": 250, 
+            "minerals": 250, 
+            "build_time": 220, 
+            "research": true
         }, 
         "23584": {
             "uid": "EvolveUnitRally", 
@@ -1807,9 +1805,9 @@
             "title": "Explode"
         }, 
         "86784": {
-            "uid": "Burrow", 
-            "vid": "Burrow", 
-            "title": "Burrow"
+            "uid": "BurrowUltralisk", 
+            "vid": "BurrowUltralisk", 
+            "title": "Burrow Ultralisk"
         }, 
         "72736": {
             "uid": "WarpInNexus", 
@@ -1884,19 +1882,15 @@
             "research": true
         }, 
         "79104": {
-            "uid": "Burrow", 
-            "vid": "Burrow", 
-            "title": "Burrow"
+            "uid": "BurrowBaneling", 
+            "vid": "BurrowBaneling", 
+            "title": "Burrow Baneling"
         }, 
-        "66817": {
-            "uid": "TrainReactor", 
-            "vid": "TrainReactor", 
-            "title": "Train Reactor", 
-            "gas": 50, 
-            "minerals": 50, 
-            "build_time": 50, 
-            "build": true, 
-            "build_unit": "Reactor"
+        "77057": {
+            "uid": "CancelHive", 
+            "vid": "CancelHive", 
+            "title": "Cancel Hive", 
+            "cancel": true
         }, 
         "23810": {
             "uid": "EvolveTunnelingClaws", 
@@ -1973,9 +1967,9 @@
             "title": "Unload Warp Prism"
         }, 
         "914": {
-            "uid": "EvolveBurrow", 
-            "vid": "EvolveBurrow", 
-            "title": "Evolve Burrow", 
+            "uid": "EvolveBurrowHatchery", 
+            "vid": "EvolveBurrowHatchery", 
+            "title": "Evolve Burrow Hatchery", 
             "gas": 100, 
             "minerals": 100, 
             "build_time": 100, 
@@ -2025,9 +2019,9 @@
             "research": true
         }, 
         "80384": {
-            "uid": "Unburrow", 
-            "vid": "Unburrow", 
-            "title": "Unburrow"
+            "uid": "UnburrowHydralisk", 
+            "vid": "UnburrowHydralisk", 
+            "title": "Unburrow Hydralisk"
         }, 
         "10784": {
             "uid": "AttackMove", 
@@ -2072,9 +2066,9 @@
             "research": true
         }, 
         "79360": {
-            "uid": "Unburrow", 
-            "vid": "Unburrow", 
-            "title": "Unburrow"
+            "uid": "UnburrowBaneling", 
+            "vid": "UnburrowBaneling", 
+            "title": "Unburrow Baneling"
         }, 
         "96000": {
             "uid": "UprootSpineCrawler", 
@@ -2085,15 +2079,6 @@
             "uid": "Stop", 
             "vid": "Stop", 
             "title": "Stop"
-        }, 
-        "75269": {
-            "uid": "ResearchGroundArmor3", 
-            "vid": "ResearchGroundArmor3", 
-            "title": "Research Ground Armor3", 
-            "gas": 250, 
-            "minerals": 250, 
-            "build_time": 220, 
-            "research": true
         }, 
         "14848": {
             "uid": "AutoRepair", 
@@ -2188,14 +2173,16 @@
             "build_time": 190, 
             "research": true
         }, 
-        "89605": {
-            "uid": "ResearchAirArmor3", 
-            "vid": "ResearchAirArmor3", 
-            "title": "Research Air Armor3", 
-            "gas": 300, 
-            "minerals": 300, 
-            "build_time": 220, 
-            "research": true
+        "73221": {
+            "uid": "BuildSentry", 
+            "vid": "BuildSentry", 
+            "title": "Build Sentry", 
+            "gas": 100, 
+            "minerals": 50, 
+            "build_time": 42, 
+            "supply": 2, 
+            "build": true, 
+            "build_unit": "Sentry"
         }, 
         "89606": {
             "uid": "ResearchWarpIngate", 
@@ -2206,15 +2193,14 @@
             "build_time": 140, 
             "research": true
         }, 
-        "67841": {
-            "uid": "BuildReactor", 
-            "vid": "BuildReactor", 
-            "title": "Build Reactor", 
-            "gas": 50, 
-            "minerals": 50, 
-            "build_time": 50, 
-            "build": true, 
-            "build_unit": "Reactor"
+        "75271": {
+            "uid": "ResearchShield2", 
+            "vid": "ResearchShield2", 
+            "title": "Research Shield2", 
+            "gas": 300, 
+            "minerals": 300, 
+            "build_time": 190, 
+            "research": true
         }, 
         "75272": {
             "uid": "ResearchShield3", 
@@ -2285,6 +2271,16 @@
             "vid": "Chronoboost", 
             "title": "Chronoboost"
         }, 
+        "66817": {
+            "uid": "TrainReactor", 
+            "vid": "TrainReactor", 
+            "title": "Train Reactor", 
+            "gas": 50, 
+            "minerals": 50, 
+            "build_time": 50, 
+            "build": true, 
+            "build_unit": "Reactor"
+        }, 
         "67840": {
             "uid": "BuildTechlab", 
             "vid": "BuildTechlab", 
@@ -2296,9 +2292,9 @@
             "build_unit": "Techlab"
         }, 
         "84480": {
-            "uid": "Unburrow", 
-            "vid": "Unburrow", 
-            "title": "Unburrow"
+            "uid": "UnburrowQueen", 
+            "vid": "UnburrowQueen", 
+            "title": "Unburrow Queen"
         }, 
         "68864": {
             "uid": "TrainSCV", 
@@ -2311,19 +2307,10 @@
             "build": true, 
             "build_unit": "SCV"
         }, 
-        "75271": {
-            "uid": "ResearchShield2", 
-            "vid": "ResearchShield2", 
-            "title": "Research Shield2", 
-            "gas": 300, 
-            "minerals": 300, 
-            "build_time": 190, 
-            "research": true
-        }, 
         "85504": {
-            "uid": "Unburrow", 
-            "vid": "Unburrow", 
-            "title": "Unburrow"
+            "uid": "UnburrowInfestor", 
+            "vid": "UnburrowInfestor", 
+            "title": "Unburrow Infestor"
         }, 
         "90624": {
             "uid": "Salvage", 
@@ -2345,6 +2332,15 @@
             "supply": 1, 
             "build": true, 
             "build_unit": "Marine"
+        }, 
+        "86528": {
+            "uid": "EvolveCentrifugalHooks", 
+            "vid": "EvolveCentrifugalHooks", 
+            "title": "Evolve Centrifugal Hooks", 
+            "gas": 150, 
+            "minerals": 150, 
+            "build_time": 110, 
+            "research": true
         }, 
         "69889": {
             "uid": "TrainReaper", 
@@ -2438,9 +2434,9 @@
             "build_unit": "Carrier"
         }, 
         "77571": {
-            "uid": "EvolveBurrow", 
-            "vid": "EvolveBurrow", 
-            "title": "Evolve Burrow", 
+            "uid": "EvolveBurrowHive", 
+            "vid": "EvolveBurrowHive", 
+            "title": "Evolve Burrow Hive", 
             "gas": 100, 
             "minerals": 100, 
             "build_time": 100, 
@@ -2550,11 +2546,14 @@
             "vid": "GatherResourcesSCV", 
             "title": "Gather Resources SCV"
         }, 
-        "77057": {
-            "uid": "CancelHive", 
-            "vid": "CancelHive", 
-            "title": "Cancel Hive", 
-            "cancel": true
+        "89605": {
+            "uid": "ResearchAirArmor3", 
+            "vid": "ResearchAirArmor3", 
+            "title": "Research Air Armor3", 
+            "gas": 300, 
+            "minerals": 300, 
+            "build_time": 220, 
+            "research": true
         }, 
         "29184": {
             "uid": "ToggleAutoRepair", 
@@ -2600,24 +2599,25 @@
             "research": true
         }, 
         "80128": {
-            "uid": "Burrow", 
-            "vid": "Burrow", 
-            "title": "Burrow"
+            "uid": "BurrowHydralisk", 
+            "vid": "BurrowHydralisk", 
+            "title": "Burrow Hydralisk"
         }, 
         "30209": {
             "uid": "Uncloak", 
             "vid": "Uncloak", 
             "title": "Uncloak"
         }, 
-        "31232": {
-            "uid": "TankMode", 
-            "vid": "TankMode", 
-            "title": "Tank Mode"
-        }, 
         "28928": {
             "uid": "CancelUnit", 
             "vid": "CancelUnit", 
             "title": "Cancel Unit", 
+            "cancel": true
+        }, 
+        "211201": {
+            "uid": "CancelRootSporeCrawler", 
+            "vid": "CancelRootSporeCrawler", 
+            "title": "Cancel Root Spore Crawler", 
             "cancel": true
         }
     }, 
@@ -2659,6 +2659,7 @@
             "race": "Protoss", 
             "mechanical": true, 
             "air": true, 
+            "moveable": true, 
             "abilities": [
                 "Hold", 
                 "Stop", 
@@ -2666,32 +2667,46 @@
                 "Follow"
             ]
         }, 
-        "31745": {
-            "uid": "BanelingNest", 
-            "vid": "BanelingNest", 
-            "title": "BanelingNest", 
-            "race": "Zerg", 
+        "15361": {
+            "uid": "SiegeTank", 
+            "vid": "SiegeTank", 
+            "title": "SiegeTank", 
+            "race": "Terran", 
+            "mechanical": true, 
             "ground": true, 
-            "structure": true, 
-            "research": true, 
+            "attacker": true, 
+            "moveable": true, 
             "abilities": [
-                "EvolveCentrifugalHooks", 
-                "Cancel", 
-                "CancelUnit"
+                "SiegeMode", 
+                "TankMode", 
+                "Hold", 
+                "Stop", 
+                "Patrol", 
+                "AttackMove", 
+                "Follow", 
+                "AttackObject"
             ]
         }, 
-        "24577": {
-            "uid": "TemplarArchives", 
-            "vid": "TemplarArchives", 
-            "title": "TemplarArchives", 
+        "23297": {
+            "uid": "Forge", 
+            "vid": "Forge", 
+            "title": "Forge", 
             "race": "Protoss", 
             "mechanical": true, 
             "ground": true, 
             "structure": true, 
             "research": true, 
             "abilities": [
+                "ResearchGroundWeapons1", 
+                "ResearchGroundWeapons2", 
+                "ResearchGroundWeapons3", 
+                "ResearchGroundArmor1", 
+                "ResearchGroundArmor2", 
+                "ResearchGroundArmor3", 
+                "ResearchShield1", 
+                "ResearchShield2", 
+                "ResearchShield3", 
                 "CancelUnit", 
-                "ResearchPsionicStorm", 
                 "Cancel"
             ]
         }, 
@@ -2717,6 +2732,8 @@
             "race": "Terran", 
             "mechanical": true, 
             "air": true, 
+            "attacker": true, 
+            "moveable": true, 
             "abilities": [
                 "AssaultMode", 
                 "FighterMode", 
@@ -2735,6 +2752,7 @@
             "race": "Zerg", 
             "ground": true, 
             "structure": true, 
+            "attacker": true, 
             "abilities": [
                 "UprootSporeCrawler", 
                 "RootSporeCrawler", 
@@ -2755,7 +2773,7 @@
                 "EvolveHive", 
                 "CancelHive", 
                 "EvolveVentralSacs", 
-                "EvolveBurrow", 
+                "EvolveBurrowLair", 
                 "EvolveWorkerRally", 
                 "EvolveUnitRally", 
                 "EvolveQueen", 
@@ -2769,6 +2787,8 @@
             "race": "Protoss", 
             "mechanical": true, 
             "ground": true, 
+            "attacker": true, 
+            "moveable": true, 
             "abilities": [
                 "Hold", 
                 "Stop", 
@@ -2790,7 +2810,7 @@
             "main": true, 
             "abilities": [
                 "EvolveVentralSacs", 
-                "EvolveBurrow", 
+                "EvolveBurrowHive", 
                 "EvolveWorkerRally", 
                 "EvolveUnitRally", 
                 "EvolveQueen", 
@@ -2806,6 +2826,8 @@
             "mechanical": true, 
             "ground": true, 
             "worker": true, 
+            "attacker": true, 
+            "moveable": true, 
             "abilities": [
                 "ReturnCargo", 
                 "BuildRefinery", 
@@ -2833,25 +2855,18 @@
                 "AttackObject"
             ]
         }, 
-        "33281": {
-            "uid": "GreaterSpire", 
-            "vid": "GreaterSpire", 
-            "title": "GreaterSpire", 
+        "31745": {
+            "uid": "BanelingNest", 
+            "vid": "BanelingNest", 
+            "title": "BanelingNest", 
             "race": "Zerg", 
             "ground": true, 
             "structure": true, 
             "research": true, 
             "abilities": [
-                "EvolveFlyerAttack1", 
-                "EvolveFlyerAttack2", 
-                "EvolveFlyerAttack3", 
-                "EvolveFlyerCarapace1", 
-                "EvolveFlyerCarapace2", 
-                "EvolveFlyerCarapace3", 
+                "EvolveCentrifugalHooks", 
                 "Cancel", 
-                "CancelGreaterSpire", 
-                "CancelUnit", 
-                "EvolveGreaterSpire"
+                "CancelUnit"
             ]
         }, 
         "33537": {
@@ -2861,6 +2876,8 @@
             "race": "Zerg", 
             "biological": true, 
             "ground": true, 
+            "attacker": true, 
+            "moveable": true, 
             "abilities": [
                 "Cancel egg"
             ]
@@ -2898,11 +2915,13 @@
             "biological": true, 
             "ground": true, 
             "worker": true, 
+            "attacker": true, 
+            "moveable": true, 
             "abilities": [
-                "Unburrow", 
+                "UnburrowDrone", 
                 "ReturnCargo", 
                 "MorphToExtractor", 
-                "Burrow", 
+                "BurrowDrone", 
                 "Hold", 
                 "GatherResourcesDrone", 
                 "Patrol", 
@@ -2949,6 +2968,8 @@
             "race": "Zerg", 
             "biological": true, 
             "ground": true, 
+            "attacker": true, 
+            "moveable": true, 
             "abilities": [
                 "MorphToBaneling", 
                 "Hold", 
@@ -2966,6 +2987,7 @@
             "race": "Zerg", 
             "biological": true, 
             "air": true, 
+            "moveable": true, 
             "abilities": [
                 "Creep", 
                 "CancelCreep", 
@@ -2978,6 +3000,25 @@
                 "Follow"
             ]
         }, 
+        "7425": {
+            "uid": "Colossus", 
+            "vid": "Colossus", 
+            "title": "Colossus", 
+            "race": "Protoss", 
+            "mechanical": true, 
+            "ground": true, 
+            "massive": true, 
+            "attacker": true, 
+            "moveable": true, 
+            "abilities": [
+                "Hold", 
+                "Stop", 
+                "Patrol", 
+                "Follow", 
+                "AttackObject", 
+                "AttackMove"
+            ]
+        }, 
         "34561": {
             "uid": "Hydralisk", 
             "vid": "Hydralisk", 
@@ -2985,9 +3026,11 @@
             "race": "Zerg", 
             "biological": true, 
             "ground": true, 
+            "attacker": true, 
+            "moveable": true, 
             "abilities": [
-                "Burrow", 
-                "Unburrow", 
+                "BurrowHydralisk", 
+                "UnburrowHydralisk", 
                 "Hold", 
                 "Stop", 
                 "Patrol", 
@@ -3005,6 +3048,8 @@
             "psionic": true, 
             "air": true, 
             "massive": true, 
+            "attacker": true, 
+            "moveable": true, 
             "abilities": [
                 "Vortex", 
                 "MassRecall", 
@@ -3023,6 +3068,8 @@
             "race": "Zerg", 
             "biological": true, 
             "air": true, 
+            "attacker": true, 
+            "moveable": true, 
             "abilities": [
                 "Hold", 
                 "Stop", 
@@ -3064,37 +3111,17 @@
             "biological": true, 
             "ground": true, 
             "massive": true, 
+            "attacker": true, 
+            "moveable": true, 
             "abilities": [
-                "Burrow", 
-                "Unburrow", 
+                "BurrowUltralisk", 
+                "UnburrowUltralisk", 
                 "Hold", 
                 "Stop", 
                 "Patrol", 
                 "AttackMove", 
                 "Follow", 
                 "AttackObject"
-            ]
-        }, 
-        "25601": {
-            "uid": "CyberneticsCore", 
-            "vid": "CyberneticsCore", 
-            "title": "CyberneticsCore", 
-            "race": "Protoss", 
-            "mechanical": true, 
-            "ground": true, 
-            "structure": true, 
-            "research": true, 
-            "abilities": [
-                "ResearchAirWeapons1", 
-                "ResearchAirWeapons2", 
-                "ResearchAirWeapons3", 
-                "ResearchAirArmor1", 
-                "ResearchAirArmor2", 
-                "ResearchAirArmor3", 
-                "ResearchWarpIngate", 
-                "ResearchHallucination", 
-                "CancelUnit", 
-                "Cancel"
             ]
         }, 
         "35329": {
@@ -3104,9 +3131,11 @@
             "race": "Zerg", 
             "biological": true, 
             "ground": true, 
+            "attacker": true, 
+            "moveable": true, 
             "abilities": [
-                "Burrow", 
-                "Unburrow", 
+                "BurrowRoach", 
+                "UnburrowRoach", 
                 "Hold", 
                 "Stop", 
                 "Patrol", 
@@ -3123,9 +3152,10 @@
             "biological": true, 
             "psionic": true, 
             "ground": true, 
+            "moveable": true, 
             "abilities": [
-                "Burrow", 
-                "Unburrow", 
+                "BurrowInfestor", 
+                "UnburrowInfestor", 
                 "Hold", 
                 "Stop", 
                 "Fungal", 
@@ -3137,21 +3167,18 @@
                 "Infested"
             ]
         }, 
-        "19457": {
-            "uid": "Marine", 
-            "vid": "Marine", 
-            "title": "Marine", 
-            "race": "Terran", 
-            "biological": true, 
+        "32257": {
+            "uid": "SpineCrawler", 
+            "vid": "SpineCrawler", 
+            "title": "SpineCrawler", 
+            "race": "Zerg", 
             "ground": true, 
+            "structure": true, 
+            "attacker": true, 
             "abilities": [
-                "StimPackMixed", 
-                "Hold", 
-                "Stop", 
-                "Patrol", 
-                "AttackMove", 
-                "Follow", 
-                "AttackObject"
+                "UprootSpineCrawler", 
+                "RootSpineCrawler", 
+                "CancelRootSpineCrawler"
             ]
         }, 
         "19713": {
@@ -3161,6 +3188,8 @@
             "race": "Terran", 
             "biological": true, 
             "ground": true, 
+            "attacker": true, 
+            "moveable": true, 
             "abilities": [
                 "Hold", 
                 "Stop", 
@@ -3186,19 +3215,6 @@
                 "AttackMove"
             ]
         }, 
-        "32257": {
-            "uid": "SpineCrawler", 
-            "vid": "SpineCrawler", 
-            "title": "SpineCrawler", 
-            "race": "Zerg", 
-            "ground": true, 
-            "structure": true, 
-            "abilities": [
-                "UprootSpineCrawler", 
-                "RootSpineCrawler", 
-                "CancelRootSpineCrawler"
-            ]
-        }, 
         "20225": {
             "uid": "Marauder", 
             "vid": "Marauder", 
@@ -3206,6 +3222,8 @@
             "race": "Terran", 
             "biological": true, 
             "ground": true, 
+            "attacker": true, 
+            "moveable": true, 
             "abilities": [
                 "StimPack", 
                 "StimPackMixed", 
@@ -3231,7 +3249,7 @@
                 "EvolveLair", 
                 "CancelLair", 
                 "EvolveVentralSacs", 
-                "EvolveBurrow", 
+                "EvolveBurrowHatchery", 
                 "EvolveWorkerRally", 
                 "EvolveUnitRally", 
                 "EvolveQueen", 
@@ -3246,6 +3264,8 @@
             "mechanical": true, 
             "ground": true, 
             "massive": true, 
+            "attacker": true, 
+            "moveable": true, 
             "abilities": [
                 "StrikeCannons", 
                 "Hold", 
@@ -3266,6 +3286,25 @@
                 "Creep cancel"
             ]
         }, 
+        "19457": {
+            "uid": "Marine", 
+            "vid": "Marine", 
+            "title": "Marine", 
+            "race": "Terran", 
+            "biological": true, 
+            "ground": true, 
+            "attacker": true, 
+            "moveable": true, 
+            "abilities": [
+                "StimPackMixed", 
+                "Hold", 
+                "Stop", 
+                "Patrol", 
+                "AttackMove", 
+                "Follow", 
+                "AttackObject"
+            ]
+        }, 
         "20993": {
             "uid": "Medivac", 
             "vid": "Medivac", 
@@ -3273,6 +3312,7 @@
             "race": "Terran", 
             "mechanical": true, 
             "air": true, 
+            "moveable": true, 
             "abilities": [
                 "LoadUnitMedivac", 
                 "ToggleAutoHeal", 
@@ -3295,6 +3335,8 @@
             "race": "Zerg", 
             "biological": true, 
             "air": true, 
+            "attacker": true, 
+            "moveable": true, 
             "abilities": [
                 "MorphToBroodlord", 
                 "Corruption", 
@@ -3314,6 +3356,7 @@
             "mechanical": true, 
             "ground": true, 
             "structure": true, 
+            "attacker": true, 
             "abilities": [
                 "Salvage", 
                 "Stimpack", 
@@ -3330,6 +3373,8 @@
             "race": "Terran", 
             "mechanical": true, 
             "air": true, 
+            "attacker": true, 
+            "moveable": true, 
             "abilities": [
                 "Cloak", 
                 "Uncloak", 
@@ -3348,6 +3393,8 @@
             "race": "Protoss", 
             "mechanical": true, 
             "ground": true, 
+            "attacker": true, 
+            "moveable": true, 
             "abilities": [
                 "Blink", 
                 "Hold", 
@@ -3365,6 +3412,7 @@
             "race": "Terran", 
             "mechanical": true, 
             "air": true, 
+            "moveable": true, 
             "abilities": [
                 "BuildAutoTurret", 
                 "BuildPointDefenceDrone", 
@@ -3383,6 +3431,8 @@
             "mechanical": true, 
             "air": true, 
             "massive": true, 
+            "attacker": true, 
+            "moveable": true, 
             "abilities": [
                 "YamatoCannon", 
                 "Hold", 
@@ -3445,9 +3495,11 @@
             "biological": true, 
             "psionic": true, 
             "ground": true, 
+            "attacker": true, 
+            "moveable": true, 
             "abilities": [
-                "Burrow", 
-                "Unburrow", 
+                "BurrowQueen", 
+                "UnburrowQueen", 
                 "Hold", 
                 "Stop", 
                 "Patrol", 
@@ -3498,6 +3550,7 @@
             "race": "Zerg", 
             "biological": true, 
             "air": true, 
+            "moveable": true, 
             "abilities": [
                 "SpawnChangeling", 
                 "Contaminate", 
@@ -3517,6 +3570,8 @@
             "biological": true, 
             "psionic": true, 
             "ground": true, 
+            "attacker": true, 
+            "moveable": true, 
             "abilities": [
                 "Cloak", 
                 "Uncloak", 
@@ -3534,29 +3589,6 @@
                 "EMPRound"
             ]
         }, 
-        "23297": {
-            "uid": "Forge", 
-            "vid": "Forge", 
-            "title": "Forge", 
-            "race": "Protoss", 
-            "mechanical": true, 
-            "ground": true, 
-            "structure": true, 
-            "research": true, 
-            "abilities": [
-                "ResearchGroundWeapons1", 
-                "ResearchGroundWeapons2", 
-                "ResearchGroundWeapons3", 
-                "ResearchGroundArmor1", 
-                "ResearchGroundArmor2", 
-                "ResearchGroundArmor3", 
-                "ResearchShield1", 
-                "ResearchShield2", 
-                "ResearchShield3", 
-                "CancelUnit", 
-                "Cancel"
-            ]
-        }, 
         "27393": {
             "uid": "Carrier", 
             "vid": "Carrier", 
@@ -3565,6 +3597,8 @@
             "mechanical": true, 
             "air": true, 
             "massive": true, 
+            "attacker": true, 
+            "moveable": true, 
             "abilities": [
                 "Interceptor", 
                 "Hold", 
@@ -3670,6 +3704,8 @@
             "psionic": true, 
             "ground": true, 
             "massive": true, 
+            "attacker": true, 
+            "moveable": true, 
             "abilities": [
                 "Hold", 
                 "Stop", 
@@ -3679,29 +3715,40 @@
                 "AttackMove"
             ]
         }, 
-        "40961": {
-            "uid": "OrbitalCommand", 
-            "vid": "OrbitalCommand", 
-            "title": "OrbitalCommand", 
-            "race": "Terran", 
+        "24577": {
+            "uid": "TemplarArchives", 
+            "vid": "TemplarArchives", 
+            "title": "TemplarArchives", 
+            "race": "Protoss", 
             "mechanical": true, 
             "ground": true, 
             "structure": true, 
-            "production": true, 
-            "main": true, 
+            "research": true, 
             "abilities": [
-                "LiftOrbitalCommand", 
-                "CalldownMuleLocation", 
                 "CancelUnit", 
+                "ResearchPsionicStorm", 
+                "Cancel"
+            ]
+        }, 
+        "33281": {
+            "uid": "GreaterSpire", 
+            "vid": "GreaterSpire", 
+            "title": "GreaterSpire", 
+            "race": "Zerg", 
+            "ground": true, 
+            "structure": true, 
+            "research": true, 
+            "abilities": [
+                "EvolveFlyerAttack1", 
+                "EvolveFlyerAttack2", 
+                "EvolveFlyerAttack3", 
+                "EvolveFlyerCarapace1", 
+                "EvolveFlyerCarapace2", 
+                "EvolveFlyerCarapace3", 
                 "Cancel", 
-                "HaltBuilding", 
-                "SetRallyTarget", 
-                "TrainSCV", 
-                "CancelBuilding", 
-                "ScannerSweep", 
-                "SetRallyTarget", 
-                "CalldownExtraSupplies", 
-                "SetRallyPoint"
+                "CancelGreaterSpire", 
+                "CancelUnit", 
+                "EvolveGreaterSpire"
             ]
         }, 
         "41217": {
@@ -3751,6 +3798,8 @@
             "mechanical": true, 
             "psionic": true, 
             "ground": true, 
+            "attacker": true, 
+            "moveable": true, 
             "abilities": [
                 "HallucinateArchon", 
                 "HallucinateColossus", 
@@ -3779,9 +3828,11 @@
             "race": "Zerg", 
             "biological": true, 
             "ground": true, 
+            "attacker": true, 
+            "moveable": true, 
             "abilities": [
-                "Burrow", 
-                "Unburrow", 
+                "BurrowBaneling", 
+                "UnburrowBaneling", 
                 "Hold", 
                 "Attack", 
                 "Patrol", 
@@ -3792,21 +3843,26 @@
                 "AttackObject"
             ]
         }, 
-        "7425": {
-            "uid": "Colossus", 
-            "vid": "Colossus", 
-            "title": "Colossus", 
+        "25601": {
+            "uid": "CyberneticsCore", 
+            "vid": "CyberneticsCore", 
+            "title": "CyberneticsCore", 
             "race": "Protoss", 
             "mechanical": true, 
             "ground": true, 
-            "massive": true, 
+            "structure": true, 
+            "research": true, 
             "abilities": [
-                "Hold", 
-                "Stop", 
-                "Patrol", 
-                "Follow", 
-                "AttackObject", 
-                "AttackMove"
+                "ResearchAirWeapons1", 
+                "ResearchAirWeapons2", 
+                "ResearchAirWeapons3", 
+                "ResearchAirArmor1", 
+                "ResearchAirArmor2", 
+                "ResearchAirArmor3", 
+                "ResearchWarpIngate", 
+                "ResearchHallucination", 
+                "CancelUnit", 
+                "Cancel"
             ]
         }, 
         "25857": {
@@ -3816,6 +3872,8 @@
             "race": "Protoss", 
             "biological": true, 
             "ground": true, 
+            "attacker": true, 
+            "moveable": true, 
             "abilities": [
                 "Hold", 
                 "Stop", 
@@ -3832,6 +3890,7 @@
             "race": "Zerg", 
             "biological": true, 
             "ground": true, 
+            "moveable": true, 
             "abilities": [
                 "Hold", 
                 "Stop", 
@@ -3873,6 +3932,7 @@
             "biological": true, 
             "psionic": true, 
             "ground": true, 
+            "moveable": true, 
             "abilities": [
                 "PsionicStorm", 
                 "Feedback", 
@@ -3893,6 +3953,8 @@
             "biological": true, 
             "psionic": true, 
             "ground": true, 
+            "attacker": true, 
+            "moveable": true, 
             "abilities": [
                 "MergeIntoArchon", 
                 "Hold", 
@@ -3939,28 +4001,11 @@
             "mechanical": true, 
             "ground": true, 
             "structure": true, 
+            "attacker": true, 
             "abilities": [
                 "AttackObject", 
                 "Stop", 
                 "AttackMove"
-            ]
-        }, 
-        "15617": {
-            "uid": "SiegeTank", 
-            "vid": "SiegeTank", 
-            "title": "SiegeTank", 
-            "race": "Terran", 
-            "mechanical": true, 
-            "ground": true, 
-            "abilities": [
-                "SiegeMode", 
-                "TankMode", 
-                "Hold", 
-                "Stop", 
-                "Patrol", 
-                "AttackMove", 
-                "Follow", 
-                "AttackObject"
             ]
         }, 
         "27649": {
@@ -3970,6 +4015,8 @@
             "race": "Protoss", 
             "mechanical": true, 
             "air": true, 
+            "attacker": true, 
+            "moveable": true, 
             "abilities": [
                 "Hold", 
                 "Stop", 
@@ -4042,6 +4089,8 @@
             "mechanical": true, 
             "ground": true, 
             "worker": true, 
+            "attacker": true, 
+            "moveable": true, 
             "abilities": [
                 "Stop", 
                 "ReturnCargo", 
@@ -4074,6 +4123,8 @@
             "race": "Zerg", 
             "biological": true, 
             "ground": true, 
+            "attacker": true, 
+            "moveable": true, 
             "abilities": [
                 "MorphToDrone", 
                 "MorphToZergling", 
@@ -4094,6 +4145,7 @@
             "mechanical": true, 
             "ground": true, 
             "structure": true, 
+            "attacker": true, 
             "abilities": [
                 "Stop", 
                 "HaltBuilding", 
@@ -4122,6 +4174,8 @@
             "race": "Zerg", 
             "biological": true, 
             "ground": true, 
+            "attacker": true, 
+            "moveable": true, 
             "abilities": []
         }, 
         "29697": {
@@ -4141,6 +4195,7 @@
             "mechanical": true, 
             "ground": true, 
             "worker": true, 
+            "moveable": true, 
             "abilities": [
                 "AutoRepair", 
                 "Repair", 
@@ -4200,6 +4255,7 @@
             "mechanical": true, 
             "psionic": true, 
             "air": true, 
+            "moveable": true, 
             "abilities": [
                 "LoadWarpPrism", 
                 "PhaseMode", 
@@ -4225,6 +4281,31 @@
                 "EvolveGroovedSpines", 
                 "CancelUnit", 
                 "Cancel"
+            ]
+        }, 
+        "40961": {
+            "uid": "OrbitalCommand", 
+            "vid": "OrbitalCommand", 
+            "title": "OrbitalCommand", 
+            "race": "Terran", 
+            "mechanical": true, 
+            "ground": true, 
+            "structure": true, 
+            "production": true, 
+            "main": true, 
+            "abilities": [
+                "LiftOrbitalCommand", 
+                "CalldownMuleLocation", 
+                "CancelUnit", 
+                "Cancel", 
+                "HaltBuilding", 
+                "SetRallyTarget", 
+                "TrainSCV", 
+                "CancelBuilding", 
+                "ScannerSweep", 
+                "SetRallyTarget", 
+                "CalldownExtraSupplies", 
+                "SetRallyPoint"
             ]
         }, 
         "31233": {

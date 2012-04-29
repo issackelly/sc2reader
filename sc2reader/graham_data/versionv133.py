@@ -1,11 +1,11 @@
 ###This class holds all variable information between versions!
 ###These are codes, times, minerals, gas, and supply
 class version(object):
-	
+
 	class Thrash():
 		thrash = [0x72a3, 0x72a0, 0x72a1, 0x4b40, 0x72a4, 0x2aa0, 0x6c00, 0x72a6, 0x5601]
 		#['0x10ba0', '0x144a2', '0x15d09', '0x72a5', '0x128a6', '0x72a8', '0x128a4', '0x128a3', '0x162a0', '0x128a0', '0x7ba2', '0x103a0', '0x7ca0', '0x147a3', '0x147a0', '0x147a1', '0x10da0', '0x147a4', '0x147a5', '0x11ba9', '0x13d00', '0x26a0', '0x5b41', '0x11ba0', '0x11ba1', '0x11ba3', '0x11ba4', '0x16f40', '0x11ba6', '0x11ba7', '0x1fa0e', '0x11bab', '0x4ba0', '0x10aa0', '0x106a1', '0x37a0', '0x26a1', '0x128a5', '0x26a3', '0x72a9', '0x6240', '0x7000', '0x175a0', '0x178a0', '0x104a1', '0x6f00', '0x128a9', '0x17ba0', '0x72ab', '0x3140', '0x158a0', '0x72aa', '0x72af', '0x72ad', '0x15c01', '0x128af', '0x128ae', '0x128ad', '0x17aa0', '0x128aa', '0x159a0', '0x128a8', '0x106a0', '0x14f01', '0x14442', '0x5940', '0x1840e', '0x2640', '0x10821', '0x6c61', '0x10620', '0x14ba0', '0x17da0', '0x108a0', '0x13c00', '0x11baa', '0x17801', '0x11bac', '0x11bad', '0x11bae', '0x14422', '0x7b42']
-		
+
 	class DataObject():
 		right_click = { "code" : 0x3700 }
 		right_click_in_fog = { "code" : 0x5700 }
@@ -61,22 +61,22 @@ class version(object):
 		starport = { "code" : 0x00722b, "min" : 150, "gas" : 100, "time" : 50}
 		armory = { "code" : 0x00722d, "min" : 150, "gas" : 100, "time" : 65}
 		fusion_core = { "code" : 0x00722f, "min" : 150, "gas" : 150, "time" : 65}
-	
+
 	class SensorTower():
 		code = 0x003401
-		
+
 	class MissileTurret():
 		code = 0x003201
-		
+
 	class Refinery():
 		code = 0x002f01
-	
+
 	class TechLab():
 		code = 0x001e01
-	
+
 	class Reactor():
 		code = 0x001f01
-		
+
 	class MULE():
 		code = 0x00b901
 		toggle_auto_repair = { "code" : 0x003900}
@@ -103,16 +103,18 @@ class version(object):
 		sniper_round = { "code" : 0x007640}
 
 	class SiegeTank():
-		code = 0x003d01
+		code = 0x003c01
 		seige_mode_on = { "code" : 0x007800}
 		seige_mode_off = { "code" : 0x007900}
+		class Sieged():
+			code = 0x3d01
 
 	class Reaper():
 		code = 0x004d01
-	
+
 	class Hellion():
 		code = 0x005101
-		
+
 	class Thor():
 		code = 0x005001
 		strike_cannons = { "code" : 0x006340}
@@ -121,6 +123,8 @@ class version(object):
 		code = 0x003e01
 		assault_mode_on = { "code" : 0x007e00}
 		assault_mode_off = { "code" : 0x007f00}
+		class Assault():
+			code = 0x3f01
 
 	class Medivac():
 		code = 0x005201
@@ -139,10 +143,10 @@ class version(object):
 
 	class AutoTurret():
 		code = 0x003b01
-		
+
 	class PointDefenceDrone():
 		code = 0x002501
-		
+
 	class Banshee():
 		code = 0x005301
 		cloak_on = { "code" : 0x007a00}
@@ -170,7 +174,7 @@ class version(object):
 		upgradeto_planetary_fortress_cancel = { "code" : 0x030f01}
 		class Flying():
 			code = 0x004001
-			
+
 	class OrbitalCommand():
 		code = 0x00a001
 		lift_up = { "code" : 0x015700	}
@@ -181,7 +185,7 @@ class version(object):
 		scanner_sweep = { "code" :0x007c20}
 		class Flying():
 			code = 0x00a201
-			
+
 	class PlanetaryFortress():
 		code = 0x009e01
 		cancel_pf = { "code" : 0x012e00}  #????
@@ -238,17 +242,17 @@ class version(object):
 		ship_weapons_2 = { "code" : 0x011a0c, "min" : 175, "gas" : 175, "time" : 190}
 		ship_weapons_3 = { "code" : 0x011a0d, "min" : 250, "gas" : 250, "time" : 220}
 
-	
+
 	class Barracks():
 		code = 0x003001
 		marine = { "code" : 0x011000, "min" : 50, "gas" : 0, "time" : 25}
 		reaper = { "code" : 0x011001, "min" : 50, "gas" : 50, "time" : 45}
 		ghost = { "code" : 0x011002, "min" : 150, "gas" : 150, "time" : 40}
 		marauder = { "code" : 0x011003, "min" : 100, "gas" : 25, "time" : 30}
-		
+
 		lift_up = { "code" : 0x010500}
 		lift_down = { "code" : 0x010d20}
-	
+
 		addon_techlab = { "code" : 0x010400 ,"min" : 50, "gas" : 25, "time" : 25}
 		addon_techlab_move = { "code" : 0x010420,"min" : 50, "gas" : 25, "time" : 25}
 		addon_techlab_cancel = { "code" : 0x02c406}
@@ -263,7 +267,7 @@ class version(object):
 			stimpack = { "code" : 0x011600, "min" : 100, "gas" : 100, "time" : 140}
 			combat_shield = { "code" : 0x011601, "min" : 100, "gas" : 100, "time" : 110}
 			concussive_shells = { "code" : 0x011602, "min" : 50, "gas" : 50, "time" : 60}
-			
+
 			cancel_research = { "code" : 0x012f00}
 			cancel_specific_research = { "code" : 0x012f31}
 
@@ -274,7 +278,7 @@ class version(object):
 			code = 0x004a01
 
 	class Factory():
-		code = 0x003601 
+		code = 0x003601
 		lift_up = { "code" : 0x010700}
 		lift_down = { "code" : 0x010a20}
 
@@ -295,7 +299,7 @@ class version(object):
 			siege_tech = { "code" : 0x011700, "min" : 100, "gas" : 100, "time" : 80}
 			infernal_preignighter = { "code" : 0x011701, "min" : 150, "gas" : 150, "time" : 110}
 			strike_cannon = { "code" : 0x011702, "min" : 150, "gas" : 150, "time" : 110}
-			
+
 			cancel_research = { "code" : 0x012f00}
 			cancel_specific_research = { "code" : 0x012f31}
 
@@ -331,7 +335,7 @@ class version(object):
 			corvid_reactor = { "code" : 0x011803, "min" : 150, "gas" : 150, "time" : 110}
 			seeker_missle = { "code" : 0x011806,  "min" : 150, "gas" : 150, "time" : 110}
 			durable_materials = { "code" : 0x011807, "min" : 150, "gas" : 150, "time" : 110}
-			
+
 			cancel_research = { "code" : 0x012f00}
 			cancel_specific_research = { "code" : 0x012f31}
 
@@ -366,7 +370,7 @@ class version(object):
 
 	class Zealot():
 		code = 0x006501
-		
+
 	class Stalker():
 		code = 0x006601
 		blink = { "code" : 0x014b20}
@@ -385,7 +389,7 @@ class version(object):
 		hallucinate_zealot = { "code" : 0x004800}
 		guardian_shield = { "code" : 0x003800}
 		force_field = { "code" : 0x015920}
-	
+
 	class HighTemplar():
 		code = 0x006701
 		psionic_storm = { "code" : 0x012120}
@@ -412,21 +416,21 @@ class version(object):
 
 	class Voidray():
 		code = 0x006c01
-		
+
 	class Pheonix():
 		code = 0x006a01
 		gravitation_beam_on = { "code" : 0x004c40}
 
 	class Colossus():
-		code = 0x001d01 
-		
+		code = 0x001d01
+
 	class Carrier():
 		code = 0x006b01
 		interceptor = { "code" : 0x012400}
 
 	class Observer():
 		code = 0x006e01
-	
+
 	class Mothership():
 		code = 0x002401
 		vortex = { "code" : 0x016320}
@@ -434,16 +438,16 @@ class version(object):
 
 	class Immortal():
 		code = 0x006f01
-		
+
 	class Pylon():
 		code = 0x005801
-		
+
 	class Assimilator():
-		code = 0x005901 
-	
+		code = 0x005901
+
 	class PhotonCannon():
 		code = 0x005e01
-			
+
 	class Nexus():
 		code = 0x005701
 		probe = { "code" : 0x012000,  "min" : 50, "gas" : 0, "time" : 17}
@@ -510,7 +514,7 @@ class version(object):
 
 	class DarkShrine():
 		code = 0x006101
-		
+
 	class TwilightCouncil():
 		code = 0x005d01
 		charge = { "code" : 0x015e00, "min" : 200, "gas" : 200, "time" : 140}
@@ -562,7 +566,7 @@ class version(object):
 		return_cargo = { "code" : 0x012901} #Return cargo',
 		burrow = { "code" : 0x013600} #Burrow',
 		unburrow = { "code" : 0x013700}
-		
+
 		hatchery = { "code" : 0x012820, "min" : 300, "gas" : 0, "time" : 100}
 		spawning_pool = { "code" : 0x012823, "min" : 200, "gas" : 0, "time" : 65}
 		evolution_chamber = { "code" : 0x012824, "min" : 75, "gas" : 0, "time" : 35}
@@ -576,7 +580,7 @@ class version(object):
 		roach_warren = { "code" : 0x01282d, "min" : 150, "gas" : 0, "time" : 55}
 		spine_crawler = { "code" : 0x01282e, "min" : 100, "gas" : 0, "time" : 50}
 		spore_crawler = { "code" : 0x01282f, "min" : 75, "gas" : 0, "time" : 30}
-		
+
 		class Burrowed():
 			code = 0x009001
 
@@ -592,17 +596,17 @@ class version(object):
 
 	class Mutalisk():
 		code = 0x008801
-		
+
 	class Zergling():
 		code = 0x008501
 		burrow = { "code" : 0x013c00} #Burrow',
 		unburrow = { "code" : 0x013d00}
 		baneling = { "code" : 0x003a00, "min" : 25, "gas" : 25, "time" : 20}
-		
+
 		class BanelingCocoon():
 			code = 0x002201
 			cancel_baneling = { "code" : "UA.CANCEL_BANELING_MORPHING,U.ZERGLING"}
-			
+
 		class Burrowed():
 			code = 0x009301
 
@@ -621,15 +625,15 @@ class version(object):
 		unburrow = { "code" : 0x013b00}
 		class Burrowed():
 			code = 0x009201
-			
+
 
 	class Hydralisk():
 		code = 0x008701
 		burrow = { "code" : 0x013800} #Burrow',
 		unburrow = { "code" : 0x013900}
 		class Burrowed():
-			code = 0x009101 
-			
+			code = 0x009101
+
 	class Infestor():
 		code = 0x008b01
 		burrow = { "code" : 0x014c00} #Burrow',
@@ -639,7 +643,7 @@ class version(object):
 		infested_terran = { "code" : 0x005e20} #Infested Terran',
 		neural_parasite = { "code" : 0x005f40}
 		class Burrowed():
-			code = 0x009b01 
+			code = 0x009b01
 
 	class Ultralisk():
 		code = 0x008901
@@ -653,23 +657,23 @@ class version(object):
 		class Burrowed():
 			code = 0x009401
 		class Egg():
-			code = 0x00b001 
+			code = 0x00b001
 
 	class Corruptor():
 		code = 0x008c01
 		corruption = { "code" : 0x003100} #Corruption',
 		broodlord = { "code" : 0x013300, "min" : 150, "gas" : 150, "time" : 34}
-		
+
 		class BroodlordCocoon():
 			code = 0x008d01
 			cancel_broodlord = { "code" : 0x023301}
-			
+
 		class Broodlord():
 			code = 0x008e01
 
 	class Broodling():
 		code = 0x00d001
-		
+
 	class Overlord():
 		code = 0x008601
 		unload_all = { "code" : 0x014422}
@@ -679,13 +683,13 @@ class version(object):
 		creep = { "code" : 0x017400} #Generate Creep',
 		cancel_creep = { "code" : 0x017401} #Stop generating Creep',
 		unload_at = { "code" : 0x014401} #Unload all at',
-		
+
 		overseer = { "code" : 0x014e00, "min" : 50, "gas" : 100, "time" : 17}
 		cancel_overseer = { "code" : 0x014e01}
-		
+
 		class OverseerCocoon():
 			code = 0x009c01
-			
+
 	class Overseer():
 		code = 0x009d01
 		changling = { "code" : 0x005000} #Changeling',
@@ -717,13 +721,13 @@ class version(object):
 			code = 0x00a701
 	class Extractor():
 		code = 0x007401
-		
+
 	class ZergMain(Production, Research):
 		worker_rally_point = { "code" : 0x005b21} #Set worker rally point',
 		worker_rally_target = { "code" : 0x005b21} #Set worker rally target',
 		unit_rally_point = { "code" : 0x005b20} #Set unit rally point',
 		unit_rally_target = { "code" : 0x005b20} #Set unit rally target',
-		
+
 		queen = { "code" : 0x016400, "min" : 150, "gas" : 0, "time" : 50}
 		evolve_burrow = { "code" : 0x012e03, "min" : 100, "gas" : 100, "time" : 100}
 		evolve_carapace = { "code" : 0x012e01, "min" : 100, "gas" : 100, "time" : 60}
@@ -734,7 +738,7 @@ class version(object):
 		code = 0x007201
 		lair = { "code" : 0x012b00, "min" : 150, "gas" : 100, "time" : 80}
 		cancel_lair = { "code" : 0x012b01}
-	
+
 	class Lair():
 		code = 0x008001
 		hive = { "code" : 0x012c00, "min" : 200, "gas" : 150, "time" : 100}
@@ -814,5 +818,5 @@ class version(object):
 	class UltraliskCavern():
 		code = 0x007901
 		chitinous = { "code" : 0x006602, "min" : 150, "gas" : 150, "time" : 110}
-		
+
 

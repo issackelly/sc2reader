@@ -22,14 +22,17 @@ def fix_name(name):
     return name
 
 protoss_units = set(['Probe','Zealot','Stalker','Sentry','HighTemplar','DarkTemplar','Archon','WarpPrism','WarpPrismPhasing','Voidray','Pheonix','Colossus','Carrier','Intercepter','Observer','Mothership','Immortal','Pylon','Assimilator','PhotonCannon','Nexus','Gateway','WarpGate','Forge','CyberneticsCore','RoboticsFacility','RoboticsBay','Stargate','DarkShrine','TwilightCouncil','FleetBeacon','TemplarArchives'])
-terran_units = set(['SCV','SensorTower','MissileTurret','Refinery','Techlab','Reactor','MULE','Marine','Marauder','Ghost','SiegeTank','Reaper','Hellion','Thor','Viking','Medivac','Raven','AutoTurret','PointDefenceDrone','Banshee','Battlecruiser','CommandCenter','CommandCenterFlying','OrbitalCommand','OrbitalCommandFlying','PlanetaryFortress','SupplyDepot','SupplyDepotLowered','EngineeringBay','GhostAcademy','FusionCore','Bunker','Armory','Barracks','BarracksTechlab','BarracksReactor','BarracksFlying','Factory','FactoryTechlab','FactoryReactor','FactoryFlying','Starport','StarportTechlab','StarportReactor','StarportFlying'])
-zerg_units = set(['Larva','Egg','Drone','Queen','Mutalisk','Zergling','ZerglingBurrowed','ZerglingBanelingCocoon','Baneling','BanelingBurrowed','Roach','RoachBurrowed','Hydralisk','HydraliskBurrowed','Changeling','Infestor','InfestorBurrowed','Ultralisk','UltraliskBurrowed','InfestedTerran','InfestedTerranBurrowed','InfestedTerranEgg','Corruptor','CurruptorBroodlord','CorruptorBroodlordCocoon','Broodling','Overlord','Overseer','OverlordOverseerCocoon','Changeling','NydusWorm','SpineCrawler','SpineCrawlerUprooted','SporeCrawler','SporeCrawlerUprooted','Extractor','Hatchery','Lair','Hive','SpawningPool','EvolutionChamber','RoachWarren','BanelingNest','CreepTumor','CreepTumorBurrowed','HydraliskDen','InfestationPit','NydusNetwork','Spire','GreaterSpire','UltraliskCavern'])
+terran_units = set(['SCV','SensorTower','MissileTurret','Refinery','Techlab','Reactor','MULE','Marine','Marauder','Ghost','SiegeTank','SiegeTankSieged','Reaper','Hellion','Thor','Viking','VikingAssault','Medivac','Raven','AutoTurret','PointDefenceDrone','Banshee','Battlecruiser','CommandCenter','CommandCenterFlying','OrbitalCommand','OrbitalCommandFlying','PlanetaryFortress','SupplyDepot','SupplyDepotLowered','EngineeringBay','GhostAcademy','FusionCore','Bunker','Armory','Barracks','BarracksTechlab','BarracksReactor','BarracksFlying','Factory','FactoryTechlab','FactoryReactor','FactoryFlying','Starport','StarportTechlab','StarportReactor','StarportFlying'])
+zerg_units = set(['Larva','Egg','Drone','DroneBurrowed','Queen','QueenBurrowed','Mutalisk','Zergling','ZerglingBurrowed','ZerglingBanelingCocoon','Baneling','BanelingBurrowed','Roach','RoachBurrowed','Hydralisk','HydraliskBurrowed','Changeling','Infestor','InfestorBurrowed','Ultralisk','UltraliskBurrowed','InfestedTerran','InfestedTerranBurrowed','InfestedTerranEgg','Corruptor','CurruptorBroodlord','CorruptorBroodlordCocoon','Broodling','Overlord','Overseer','OverlordOverseerCocoon','Changeling','NydusWorm','SpineCrawler','SpineCrawlerUprooted','SporeCrawler','SporeCrawlerUprooted','Extractor','Hatchery','Lair','Hive','SpawningPool','EvolutionChamber','RoachWarren','BanelingNest','CreepTumor','CreepTumorBurrowed','HydraliskDen','InfestationPit','NydusNetwork','Spire','GreaterSpire','UltraliskCavern'])
 
 buildings = set(['Pylon','Assimilator','PhotonCannon','Nexus','Gateway','WarpGate','Forge','CyberneticsCore','RoboticsFacility','RoboticsBay','Stargate','DarkShrine','TwilightCouncil','FleetBeacon','TemplarArchives','SensorTower','MissileTurret','Refinery','Techlab','Reactor','CommandCenter','CommandCenterFlying','OrbitalCommand','OrbitalCommandFlying','PlanetaryFortress','SupplyDepot','SupplyDepotLowered','EngineeringBay','GhostAcademy','FusionCore','Bunker','Armory','Barracks','BarracksTechlab','BarracksReactor','BarracksFlying','Factory','FactoryTechlab','FactoryReactor','FactoryFlying','Starport','StarportTechlab','StarportReactor','StarportFlying','NydusWorm','SpineCrawler','SpineCrawlerUprooted','SporeCrawler','SporeCrawlerUprooted','Extractor','Hatchery','Lair','Hive','SpawningPool','EvolutionChamber','RoachWarren','BanelingNest','HydraliskDen','InfestationPit','NydusNetwork','Spire','GreaterSpire','UltraliskCavern'])
 research_buildings = set(['EngineeringBay','GhostAcademy','FusionCore','Armory','Forge','CyberneticsCore','TwilightCouncil','FleetBeacon','TemplarArchives','RoboticsBay','EvolutionChamber','SpawningPool','RoachWarren','BanelingNest','HydraliskDen','InfestationPit','Spire','GreaterSpire','UltraliskCavern','BarracksTechlab','StarportTechlab','FactoryTechlab','Hatchery','Lair','Hive'])
 main_buildings = set(["CommandCenter","Nexus","Hatchery","Lair","Hive","OrbitalCommand","OrbitalCommandFlying","CommandCenterFlying","PlanetaryFortress"])
 
 non_zerg_bio = set(['Zealot','DarkTemplar','HighTemplar','SCV','Marine','Marauder','Reaper','Ghost'])
+
+attackers = ((protoss_units | terran_units | zerg_units) - buildings - set(['Infestor','InfestorBurrowed','HighTemplar','WarpPrism','WarpPrismPhasing','Medivac','Overlord','Overseer','Observer','Raven','Changeling','MULE','ZerglingBurrowed','UltraliskBurrowed','HydraliskBurrowed','QueenBurrowed','DroneBurrowed'])) | set(['SpineCrawler','SporeCrawler','Bunker','PhotonCannon','MissileTurret'])
+moveables = ((protoss_units | terran_units | zerg_units) - buildings - set(['WarpPrismPhasing','BanelingBurrowed','ZerglingBurrowed','UltraliskBurrowed','HydraliskBurrowed','QueenBurrowed','DroneBurrowed','SiegeTankSieged'])) | set (['SporeCrawlerUprooted','SpineCrawlerUprooted','FactoryFlying','StarportFlying','BarracksFlying','CommandCenterFlying','OrbitalCommandFlying'])
 
 def add_abilities(out, unit, unit_name=None):
 
@@ -48,14 +51,16 @@ def add_abilities(out, unit, unit_name=None):
                 ability_name = 'ArmSilo'
             elif ability_name != 'WarpPrism' and ability_name[:4] == 'Warp':
                 ability_name = 'WarpIn'+ability_name[4:]
-            elif re.search('Land|Lift|Uproot|Root|Addon|Load|Unload|Gather',ability_name):
-                ability_name += unit_name
 
             ability = OrderedDict(
                 uid=ability_name,
                 vid=ability_name,
                 title=ability_name
             )
+
+            if re.search('Burrow|Unburrow|Land|Lift|Uproot|Root|Addon|Load|Unload|Gather',ability_name):
+                ability_name += unit_name
+                ability['vid'] = ability_name
 
             if 'gas' in item:
                 ability['gas'] = item['gas']
@@ -145,7 +150,7 @@ def add_unit(out, unit, name=None):
         title = ''.join(name_parts)
 
     d = OrderedDict(
-        uid=re.sub('Burrowed|Flying|Lowered|Uprooted','',name),
+        uid=re.sub('Burrowed|Flying|Lowered|Uprooted|Sieged|Assault|Phasing|Cocoon','',name),
         vid=name,
         title=title
     )
@@ -191,6 +196,12 @@ def add_unit(out, unit, name=None):
 
     if name in main_buildings:
         d['main'] = True
+
+    if name in attackers:
+        d['attacker'] = True
+
+    if name in moveables:
+        d['moveable'] = True
 
     d['abilities']=list()
     out['objects'][unit.code] = d
