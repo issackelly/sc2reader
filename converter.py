@@ -48,8 +48,7 @@ def add_abilities(out, unit, unit_name=None):
                 ability_name = 'ArmSilo'
             elif ability_name != 'WarpPrism' and ability_name[:4] == 'Warp':
                 ability_name = 'WarpIn'+ability_name[4:]
-
-            if re.search('Land|Lift|Uproot|Root|Addon|Load|Unload|Gather',ability_name):
+            elif re.search('Land|Lift|Uproot|Root|Addon|Load|Unload|Gather',ability_name):
                 ability_name += unit_name
 
             ability = OrderedDict(
@@ -122,7 +121,7 @@ def add_abilities(out, unit, unit_name=None):
                 ability['vid'] = prefix+ability['vid']
                 ability['title'] = prefix+" "+ability['title']
 
-            ability['title'] = ' '.join(re.findall('[A-Z]+[a-z]*[0-9]',ability['title']))
+            ability['title'] = ' '.join(re.findall('[A-Z]+[a-z]*[0-9]?',ability['title']))
             code = item['code'] or sum(ord(a) for a in str(ability_name))*-1
             out['abilities'][code] = ability
 

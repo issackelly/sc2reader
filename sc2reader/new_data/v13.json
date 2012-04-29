@@ -3,12 +3,12 @@
         "198656": {
             "uid": "Burrow", 
             "vid": "Burrow", 
-            "title": ""
+            "title": "Burrow"
         }, 
         "139264": {
             "uid": "BuildProbe", 
             "vid": "BuildProbe", 
-            "title": "", 
+            "title": "Build Probe", 
             "gas": 0, 
             "minerals": 50, 
             "build_time": 17, 
@@ -18,7 +18,7 @@
         "135170": {
             "uid": "TrainGhost", 
             "vid": "TrainGhost", 
-            "title": "", 
+            "title": "Train Ghost", 
             "gas": 150, 
             "minerals": 150, 
             "build_time": 40, 
@@ -28,7 +28,7 @@
         "135171": {
             "uid": "TrainMarauder", 
             "vid": "TrainMarauder", 
-            "title": "", 
+            "title": "Train Marauder", 
             "gas": 25, 
             "minerals": 100, 
             "build_time": 30, 
@@ -38,7 +38,7 @@
         "65536": {
             "uid": "HallucinateColossus", 
             "vid": "HallucinateColossus", 
-            "title": "", 
+            "title": "Hallucinate Colossus", 
             "energy": 100, 
             "build": true, 
             "build_unit": "Colossus"
@@ -46,23 +46,23 @@
         "142337": {
             "uid": "CancelHive", 
             "vid": "CancelHive", 
-            "title": "", 
+            "title": "Cancel Hive", 
             "cancel": true
         }, 
         "133376": {
             "uid": "LiftStarport", 
             "vid": "LiftStarport", 
-            "title": ""
+            "title": "Lift Starport"
         }, 
         "1026": {
             "uid": "UnloadNydusWorm", 
             "vid": "UnloadNydusWorm", 
-            "title": ""
+            "title": "Unload Nydus Worm"
         }, 
         "141328": {
             "uid": "MorphToHatchery", 
             "vid": "MorphToHatchery", 
-            "title": "", 
+            "title": "Morph To Hatchery", 
             "gas": 0, 
             "minerals": 300, 
             "build_time": 100, 
@@ -72,7 +72,7 @@
         "157713": {
             "uid": "MorphToNydusNetwork", 
             "vid": "MorphToNydusNetwork", 
-            "title": "", 
+            "title": "Morph To Nydus Network", 
             "gas": 200, 
             "minerals": 150, 
             "build_time": 50, 
@@ -82,7 +82,7 @@
         "157714": {
             "uid": "MorphToBanelingNest", 
             "vid": "MorphToBanelingNest", 
-            "title": "", 
+            "title": "Morph To Baneling Nest", 
             "gas": 50, 
             "minerals": 100, 
             "build_time": 60, 
@@ -92,7 +92,7 @@
         "141331": {
             "uid": "MorphToSpawningPool", 
             "vid": "MorphToSpawningPool", 
-            "title": "", 
+            "title": "Morph To Spawning Pool", 
             "gas": 0, 
             "minerals": 200, 
             "build_time": 65, 
@@ -102,7 +102,7 @@
         "141332": {
             "uid": "MorphToEvolutionChamber", 
             "vid": "MorphToEvolutionChamber", 
-            "title": "", 
+            "title": "Morph To Evolution Chamber", 
             "gas": 0, 
             "minerals": 75, 
             "build_time": 35, 
@@ -112,7 +112,7 @@
         "157717": {
             "uid": "MorphToRoachWarren", 
             "vid": "MorphToRoachWarren", 
-            "title": "", 
+            "title": "Morph To Roach Warren", 
             "gas": 0, 
             "minerals": 150, 
             "build_time": 55, 
@@ -122,7 +122,7 @@
         "141334": {
             "uid": "MorphToSpire", 
             "vid": "MorphToSpire", 
-            "title": "", 
+            "title": "Morph To Spire", 
             "gas": 200, 
             "minerals": 200, 
             "build_time": 100, 
@@ -132,7 +132,7 @@
         "141335": {
             "uid": "MorphToUltralisk", 
             "vid": "MorphToUltralisk", 
-            "title": "", 
+            "title": "Morph To Ultralisk", 
             "gas": 200, 
             "minerals": 150, 
             "build_time": 65, 
@@ -142,17 +142,17 @@
         "1028": {
             "uid": "LoadNydusWorm", 
             "vid": "LoadNydusWorm", 
-            "title": ""
+            "title": "Load Nydus Worm"
         }, 
         "75808": {
             "uid": "GatherResourcesSCV", 
             "vid": "GatherResourcesSCV", 
-            "title": ""
+            "title": "Gather Resources SCV"
         }, 
         "141346": {
             "uid": "MorphToExtractor", 
             "vid": "MorphToExtractor", 
-            "title": "", 
+            "title": "Morph To Extractor", 
             "gas": 0, 
             "minerals": 25, 
             "build_time": 30, 
@@ -162,18 +162,18 @@
         "131073": {
             "uid": "UnloadAllBunker", 
             "vid": "UnloadAllBunker", 
-            "title": ""
+            "title": "Unload All Bunker"
         }, 
         "10246": {
             "uid": "CancelReactor", 
             "vid": "CancelReactor", 
-            "title": "", 
+            "title": "Cancel Reactor", 
             "cancel": true
         }, 
         "132096": {
             "uid": "TrainTechlab", 
             "vid": "TrainTechlab", 
-            "title": "", 
+            "title": "Train Techlab", 
             "gas": 25, 
             "minerals": 50, 
             "build_time": 25, 
@@ -183,37 +183,37 @@
         "131123": {
             "uid": "UnloadUnitBunker", 
             "vid": "UnloadUnitBunker", 
-            "title": ""
+            "title": "Unload Unit Bunker"
         }, 
         "58": {
             "uid": "Stop", 
             "vid": "Stop", 
-            "title": ""
+            "title": "Stop"
         }, 
         "59": {
             "uid": "Hold", 
             "vid": "Hold", 
-            "title": ""
+            "title": "Hold"
         }, 
         "61": {
             "uid": "Patrol", 
             "vid": "Patrol", 
-            "title": ""
+            "title": "Patrol"
         }, 
         "62": {
             "uid": "Follow", 
             "vid": "Follow", 
-            "title": ""
+            "title": "Follow"
         }, 
         "67": {
             "uid": "AttackObject", 
             "vid": "AttackObject", 
-            "title": ""
+            "title": "Attack Object"
         }, 
         "132097": {
             "uid": "TrainReactor", 
             "vid": "TrainReactor", 
-            "title": "", 
+            "title": "Train Reactor", 
             "gas": 50, 
             "minerals": 50, 
             "build_time": 50, 
@@ -223,7 +223,7 @@
         "67584": {
             "uid": "HallucinateZealot", 
             "vid": "HallucinateZealot", 
-            "title": "", 
+            "title": "Hallucinate Zealot", 
             "energy": 100, 
             "build": true, 
             "build_unit": "Zealot"
@@ -231,57 +231,57 @@
         "80": {
             "uid": "CancelBuilding", 
             "vid": "CancelBuilding", 
-            "title": "", 
+            "title": "Cancel Building", 
             "cancel": true
         }, 
         "84": {
             "uid": "HaltBuilding", 
             "vid": "HaltBuilding", 
-            "title": ""
+            "title": "Halt Building"
         }, 
         "88": {
             "uid": "Cancel", 
             "vid": "Cancel", 
-            "title": "", 
+            "title": "Cancel", 
             "cancel": true
         }, 
         "89": {
             "uid": "CancelUnit", 
             "vid": "CancelUnit", 
-            "title": "", 
+            "title": "Cancel Unit", 
             "cancel": true
         }, 
         "93": {
             "uid": "SetRallyPoint", 
             "vid": "SetRallyPoint", 
-            "title": ""
+            "title": "Set Rally Point"
         }, 
         "94": {
             "uid": "SetRallyTarget", 
             "vid": "SetRallyTarget", 
-            "title": ""
+            "title": "Set Rally Target"
         }, 
         "95": {
             "uid": "Cancel", 
             "vid": "Cancel", 
-            "title": "", 
+            "title": "Cancel", 
             "cancel": true
         }, 
         "96": {
             "uid": "CancelUnit", 
             "vid": "CancelUnit", 
-            "title": "", 
+            "title": "Cancel Unit", 
             "cancel": true
         }, 
         "210960": {
             "uid": "RootSpineCrawler", 
             "vid": "RootSpineCrawler", 
-            "title": ""
+            "title": "Root Spine Crawler"
         }, 
         "133121": {
             "uid": "BuildReactor", 
             "vid": "BuildReactor", 
-            "title": "", 
+            "title": "Build Reactor", 
             "gas": 50, 
             "minerals": 50, 
             "build_time": 50, 
@@ -291,12 +291,12 @@
         "199680": {
             "uid": "Burrow", 
             "vid": "Burrow", 
-            "title": ""
+            "title": "Burrow"
         }, 
         "141333": {
             "uid": "MorphToHydraliskDen", 
             "vid": "MorphToHydraliskDen", 
-            "title": "", 
+            "title": "Morph To Hydralisk Den", 
             "gas": 100, 
             "minerals": 100, 
             "build_time": 40, 
@@ -306,7 +306,7 @@
         "157718": {
             "uid": "MorphToSpineCrawler", 
             "vid": "MorphToSpineCrawler", 
-            "title": "", 
+            "title": "Morph To Spine Crawler", 
             "gas": 0, 
             "minerals": 100, 
             "build_time": 50, 
@@ -316,7 +316,7 @@
         "69632": {
             "uid": "SpawnChangeling", 
             "vid": "SpawnChangeling", 
-            "title": "", 
+            "title": "Spawn Changeling", 
             "energy": 50, 
             "build": true, 
             "build_unit": "Changeling"
@@ -324,7 +324,7 @@
         "157719": {
             "uid": "MorphToSporeCrawler", 
             "vid": "MorphToSporeCrawler", 
-            "title": "", 
+            "title": "Morph To Spore Crawler", 
             "gas": 0, 
             "minerals": 75, 
             "build_time": 30, 
@@ -334,17 +334,17 @@
         "12576": {
             "uid": "Corruption", 
             "vid": "Corruption", 
-            "title": ""
+            "title": "Corruption"
         }, 
         "133123": {
             "uid": "Heal", 
             "vid": "Heal", 
-            "title": ""
+            "title": "Heal"
         }, 
         "135169": {
             "uid": "TrainReaper", 
             "vid": "TrainReaper", 
-            "title": "", 
+            "title": "Train Reaper", 
             "gas": 50, 
             "minerals": 50, 
             "build_time": 45, 
@@ -354,7 +354,7 @@
         "201728": {
             "uid": "UpgradeToOrbitalCommand", 
             "vid": "UpgradeToOrbitalCommand", 
-            "title": "", 
+            "title": "Upgrade To Orbital Command", 
             "gas": 0, 
             "minerals": 150, 
             "build_time": 35, 
@@ -364,17 +364,17 @@
         "71952": {
             "uid": "SetRallyTarget", 
             "vid": "SetRallyTarget", 
-            "title": ""
+            "title": "Set Rally Target"
         }, 
         "138272": {
             "uid": "LoadWarpPrism", 
             "vid": "LoadWarpPrism", 
-            "title": ""
+            "title": "Load Warp Prism"
         }, 
         "200706": {
             "uid": "EvolvePathogenGlands", 
             "vid": "EvolvePathogenGlands", 
-            "title": "", 
+            "title": "Evolve Pathogen Glands", 
             "gas": 150, 
             "minerals": 150, 
             "build_time": 80, 
@@ -383,18 +383,18 @@
         "201729": {
             "uid": "UpgradeToOrbitalCommandCancel", 
             "vid": "UpgradeToOrbitalCommandCancel", 
-            "title": "", 
+            "title": "Upgrade To Orbital Command Cancel", 
             "cancel": true
         }, 
         "144384": {
             "uid": "Burrow", 
             "vid": "Burrow", 
-            "title": ""
+            "title": "Burrow"
         }, 
         "200707": {
             "uid": "EvolveNeuralParasite", 
             "vid": "EvolveNeuralParasite", 
-            "title": "", 
+            "title": "Evolve Neural Parasite", 
             "gas": 150, 
             "minerals": 150, 
             "build_time": 110, 
@@ -403,7 +403,7 @@
         "203776": {
             "uid": "ResearchYamatoCannon", 
             "vid": "ResearchYamatoCannon", 
-            "title": "", 
+            "title": "Research Yamato Cannon", 
             "gas": 150, 
             "minerals": 150, 
             "build_time": 60, 
@@ -412,12 +412,12 @@
         "139536": {
             "uid": "PsionicStorm", 
             "vid": "PsionicStorm", 
-            "title": ""
+            "title": "Psionic Storm"
         }, 
         "65792": {
             "uid": "HallucinateHighTemplar", 
             "vid": "HallucinateHighTemplar", 
-            "title": "", 
+            "title": "Hallucinate High Templar", 
             "energy": 100, 
             "build": true, 
             "build_unit": "HighTemplar"
@@ -425,12 +425,12 @@
         "131329": {
             "uid": "UnloadAllCommandCenter", 
             "vid": "UnloadAllCommandCenter", 
-            "title": ""
+            "title": "Unload All Command Center"
         }, 
         "143618": {
             "uid": "EvolveFlyerAttack3", 
             "vid": "EvolveFlyerAttack3", 
-            "title": "Attack3", 
+            "title": "Evolve Flyer Attack3", 
             "gas": 250, 
             "minerals": 250, 
             "build_time": 220, 
@@ -439,7 +439,7 @@
         "143619": {
             "uid": "EvolveFlyerCarapace1", 
             "vid": "EvolveFlyerCarapace1", 
-            "title": "Carapace1", 
+            "title": "Evolve Flyer Carapace1", 
             "gas": 150, 
             "minerals": 150, 
             "build_time": 160, 
@@ -448,7 +448,7 @@
         "143620": {
             "uid": "EvolveFlyerCarapace2", 
             "vid": "EvolveFlyerCarapace2", 
-            "title": "Carapace2", 
+            "title": "Evolve Flyer Carapace2", 
             "gas": 225, 
             "minerals": 225, 
             "build_time": 190, 
@@ -457,7 +457,7 @@
         "143621": {
             "uid": "EvolveFlyerCarapace3", 
             "vid": "EvolveFlyerCarapace3", 
-            "title": "Carapace3", 
+            "title": "Evolve Flyer Carapace3", 
             "gas": 300, 
             "minerals": 300, 
             "build_time": 220, 
@@ -466,12 +466,12 @@
         "263": {
             "uid": "SetRallyTarget", 
             "vid": "SetRallyTarget", 
-            "title": ""
+            "title": "Set Rally Target"
         }, 
         "264": {
             "uid": "TrainSCV", 
             "vid": "TrainSCV", 
-            "title": "", 
+            "title": "Train SCV", 
             "gas": 0, 
             "minerals": 50, 
             "build_time": 17, 
@@ -481,32 +481,32 @@
         "209920": {
             "uid": "Creep", 
             "vid": "Creep", 
-            "title": ""
+            "title": "Creep"
         }, 
         "203024": {
             "uid": "ForceField", 
             "vid": "ForceField", 
-            "title": ""
+            "title": "Force Field"
         }, 
         "141600": {
             "uid": "GatherResourcesDrone", 
             "vid": "GatherResourcesDrone", 
-            "title": ""
+            "title": "Gather Resources Drone"
         }, 
         "140288": {
             "uid": "Interceptor", 
             "vid": "Interceptor", 
-            "title": ""
+            "title": "Interceptor"
         }, 
         "79872": {
             "uid": "SiegeMode", 
             "vid": "SiegeMode", 
-            "title": ""
+            "title": "Siege Mode"
         }, 
         "156928": {
             "uid": "ResearchShield3", 
             "vid": "ResearchShield3", 
-            "title": "Shield3", 
+            "title": "Research Shield3", 
             "gas": 400, 
             "minerals": 400, 
             "build_time": 220, 
@@ -515,17 +515,17 @@
         "131379": {
             "uid": "UnloadCommandCenter", 
             "vid": "UnloadCommandCenter", 
-            "title": ""
+            "title": "Unload Command Center"
         }, 
         "199200": {
             "uid": "LoadNydusNetwork", 
             "vid": "LoadNydusNetwork", 
-            "title": ""
+            "title": "Load Nydus Network"
         }, 
         "142080": {
             "uid": "EvolveLair", 
             "vid": "EvolveLair", 
-            "title": "", 
+            "title": "Evolve Lair", 
             "gas": 100, 
             "minerals": 150, 
             "build_time": 80, 
@@ -534,33 +534,33 @@
         "75777": {
             "uid": "ReturnCargo", 
             "vid": "ReturnCargo", 
-            "title": ""
+            "title": "Return Cargo"
         }, 
         "76800": {
             "uid": "Cancel", 
             "vid": "Cancel", 
-            "title": "", 
+            "title": "Cancel", 
             "cancel": true
         }, 
         "145408": {
             "uid": "Burrow", 
             "vid": "Burrow", 
-            "title": ""
+            "title": "Burrow"
         }, 
         "79392": {
             "uid": "SniperRound", 
             "vid": "SniperRound", 
-            "title": ""
+            "title": "Sniper Round"
         }, 
         "208896": {
             "uid": "Stimpack", 
             "vid": "Stimpack", 
-            "title": ""
+            "title": "Stimpack"
         }, 
         "204288": {
             "uid": "ResearchCharge", 
             "vid": "ResearchCharge", 
-            "title": "", 
+            "title": "Research Charge", 
             "gas": 200, 
             "minerals": 200, 
             "build_time": 140, 
@@ -569,22 +569,22 @@
         "210688": {
             "uid": "UprootSporeCrawler", 
             "vid": "UprootSporeCrawler", 
-            "title": ""
+            "title": "Uproot Spore Crawler"
         }, 
         "77825": {
             "uid": "HaltBuilding", 
             "vid": "HaltBuilding", 
-            "title": ""
+            "title": "Halt Building"
         }, 
         "78848": {
             "uid": "StimPack", 
             "vid": "StimPack", 
-            "title": ""
+            "title": "Stim Pack"
         }, 
         "143362": {
             "uid": "EvolveGroovedSpines", 
             "vid": "EvolveGroovedSpines", 
-            "title": "", 
+            "title": "Evolve Grooved Spines", 
             "gas": 150, 
             "minerals": 150, 
             "build_time": 80, 
@@ -593,23 +593,23 @@
         "209921": {
             "uid": "CancelCreep", 
             "vid": "CancelCreep", 
-            "title": "", 
+            "title": "Cancel Creep", 
             "cancel": true
         }, 
         "14336": {
             "uid": "GuardianShield", 
             "vid": "GuardianShield", 
-            "title": ""
+            "title": "Guardian Shield"
         }, 
         "15632": {
             "uid": "MassRecall", 
             "vid": "MassRecall", 
-            "title": ""
+            "title": "Mass Recall"
         }, 
         "94739": {
             "uid": "BuildStarport", 
             "vid": "BuildStarport", 
-            "title": "", 
+            "title": "Build Starport", 
             "gas": 100, 
             "minerals": 150, 
             "build_time": 50, 
@@ -619,7 +619,7 @@
         "212240": {
             "uid": "BuildNydusWorm", 
             "vid": "BuildNydusWorm", 
-            "title": "", 
+            "title": "Build Nydus Worm", 
             "gas": 100, 
             "minerals": 100, 
             "build_time": 20, 
@@ -629,7 +629,7 @@
         "133120": {
             "uid": "BuildTechlab", 
             "vid": "BuildTechlab", 
-            "title": "", 
+            "title": "Build Techlab", 
             "gas": 25, 
             "minerals": 50, 
             "build_time": 25, 
@@ -639,12 +639,12 @@
         "211968": {
             "uid": "MergeIntoArchon", 
             "vid": "MergeIntoArchon", 
-            "title": ""
+            "title": "Merge Into Archon"
         }, 
         "143872": {
             "uid": "MorphToDrone", 
             "vid": "MorphToDrone", 
-            "title": "", 
+            "title": "Morph To Drone", 
             "gas": 0, 
             "minerals": 50, 
             "build_time": 17, 
@@ -654,12 +654,12 @@
         "135681": {
             "uid": "Banshee", 
             "vid": "Banshee", 
-            "title": ""
+            "title": "Banshee"
         }, 
         "141826": {
             "uid": "EvolveMeleeAttack3", 
             "vid": "EvolveMeleeAttack3", 
-            "title": "Attack3", 
+            "title": "Evolve Melee Attack3", 
             "gas": 200, 
             "minerals": 200, 
             "build_time": 200, 
@@ -668,12 +668,12 @@
         "135683": {
             "uid": "Battlecruiser", 
             "vid": "Battlecruiser", 
-            "title": ""
+            "title": "Battlecruiser"
         }, 
         "143876": {
             "uid": "MorphToMutalisk", 
             "vid": "MorphToMutalisk", 
-            "title": "", 
+            "title": "Morph To Mutalisk", 
             "gas": 100, 
             "minerals": 100, 
             "build_time": 33, 
@@ -683,7 +683,7 @@
         "137733": {
             "uid": "ResearchVehicleWeapons1", 
             "vid": "ResearchVehicleWeapons1", 
-            "title": "Weapons1", 
+            "title": "Research Vehicle Weapons1", 
             "gas": 100, 
             "minerals": 100, 
             "build_time": 160, 
@@ -692,12 +692,12 @@
         "127494": {
             "uid": " haltConstruction", 
             "vid": " haltConstruction", 
-            "title": ""
+            "title": "Construction"
         }, 
         "141831": {
             "uid": "EvolveMissileAttack2", 
             "vid": "EvolveMissileAttack2", 
-            "title": "Attack2", 
+            "title": "Evolve Missile Attack2", 
             "gas": 150, 
             "minerals": 150, 
             "build_time": 190, 
@@ -706,7 +706,7 @@
         "78352": {
             "uid": "BuildCommandCenter", 
             "vid": "BuildCommandCenter", 
-            "title": "", 
+            "title": "Build Command Center", 
             "gas": 0, 
             "minerals": 400, 
             "build_time": 100, 
@@ -716,7 +716,7 @@
         "78353": {
             "uid": "BuildSupplyDepot", 
             "vid": "BuildSupplyDepot", 
-            "title": "", 
+            "title": "Build Supply Depot", 
             "gas": 0, 
             "minerals": 100, 
             "build_time": 30, 
@@ -726,7 +726,7 @@
         "94738": {
             "uid": "BuildFactory", 
             "vid": "BuildFactory", 
-            "title": "", 
+            "title": "Build Factory", 
             "gas": 100, 
             "minerals": 150, 
             "build_time": 60, 
@@ -736,7 +736,7 @@
         "78355": {
             "uid": "BuildBarracks", 
             "vid": "BuildBarracks", 
-            "title": "", 
+            "title": "Build Barracks", 
             "gas": 0, 
             "minerals": 150, 
             "build_time": 60, 
@@ -746,7 +746,7 @@
         "78356": {
             "uid": "BuildEngineeringBay", 
             "vid": "BuildEngineeringBay", 
-            "title": "", 
+            "title": "Build Engineering Bay", 
             "gas": 0, 
             "minerals": 125, 
             "build_time": 35, 
@@ -756,7 +756,7 @@
         "94741": {
             "uid": "BuildArmory", 
             "vid": "BuildArmory", 
-            "title": "", 
+            "title": "Build Armory", 
             "gas": 100, 
             "minerals": 150, 
             "build_time": 65, 
@@ -766,7 +766,7 @@
         "78358": {
             "uid": "BuildBunker", 
             "vid": "BuildBunker", 
-            "title": "", 
+            "title": "Build Bunker", 
             "gas": 0, 
             "minerals": 100, 
             "build_time": 35, 
@@ -776,7 +776,7 @@
         "94743": {
             "uid": "BuildFusionCore", 
             "vid": "BuildFusionCore", 
-            "title": "", 
+            "title": "Build Fusion Core", 
             "gas": 150, 
             "minerals": 150, 
             "build_time": 65, 
@@ -786,7 +786,7 @@
         "66304": {
             "uid": "HallucinatePhoenix", 
             "vid": "HallucinatePhoenix", 
-            "title": "", 
+            "title": "Hallucinate Phoenix", 
             "energy": 100, 
             "build": true, 
             "build_unit": "Phoenix"
@@ -794,12 +794,12 @@
         "74272": {
             "uid": "CalldownExtraSupplies", 
             "vid": "CalldownExtraSupplies", 
-            "title": ""
+            "title": "Calldown Extra Supplies"
         }, 
         "78370": {
             "uid": "BuildRefinery", 
             "vid": "BuildRefinery", 
-            "title": "", 
+            "title": "Build Refinery", 
             "gas": 0, 
             "minerals": 75, 
             "build_time": 30, 
@@ -809,22 +809,22 @@
         "201984": {
             "uid": "WarpInMode", 
             "vid": "WarpInMode", 
-            "title": ""
+            "title": "Warp In Mode"
         }, 
         "199219": {
             "uid": "UnloadNydusNetwork", 
             "vid": "UnloadNydusNetwork", 
-            "title": ""
+            "title": "Unload Nydus Network"
         }, 
         "572": {
             "uid": "MergeIntoArchon", 
             "vid": "MergeIntoArchon", 
-            "title": ""
+            "title": "Merge Into Archon"
         }, 
         "67328": {
             "uid": "HallucinateWarpPrism", 
             "vid": "HallucinateWarpPrism", 
-            "title": "", 
+            "title": "Hallucinate Warp Prism", 
             "energy": 100, 
             "build": true, 
             "build_unit": "WarpPrism"
@@ -832,12 +832,12 @@
         "71440": {
             "uid": "SetRallyPoint", 
             "vid": "SetRallyPoint", 
-            "title": ""
+            "title": "Set Rally Point"
         }, 
         "154385": {
             "uid": "WarpInStargate", 
             "vid": "WarpInStargate", 
-            "title": "", 
+            "title": "Warp In Stargate", 
             "gas": 150, 
             "minerals": 150, 
             "build_time": 60, 
@@ -847,12 +847,12 @@
         "80658": {
             "uid": "UnloadAllMedivac", 
             "vid": "UnloadAllMedivac", 
-            "title": ""
+            "title": "Unload All Medivac"
         }, 
         "154387": {
             "uid": "WarpInDarkShrine", 
             "vid": "WarpInDarkShrine", 
-            "title": "", 
+            "title": "Warp In Dark Shrine", 
             "gas": 250, 
             "minerals": 100, 
             "build_time": 100, 
@@ -862,7 +862,7 @@
         "138004": {
             "uid": "WarpInForge", 
             "vid": "WarpInForge", 
-            "title": "", 
+            "title": "Warp In Forge", 
             "gas": 0, 
             "minerals": 150, 
             "build_time": 45, 
@@ -872,12 +872,12 @@
         "134912": {
             "uid": "Raise", 
             "vid": "Raise", 
-            "title": ""
+            "title": "Raise"
         }, 
         "154389": {
             "uid": "WarpInRoboticsFacility", 
             "vid": "WarpInRoboticsFacility", 
-            "title": "", 
+            "title": "Warp In Robotics Facility", 
             "gas": 100, 
             "minerals": 200, 
             "build_time": 65, 
@@ -887,7 +887,7 @@
         "134144": {
             "uid": "TrainSCV", 
             "vid": "TrainSCV", 
-            "title": "", 
+            "title": "Train SCV", 
             "gas": 0, 
             "minerals": 50, 
             "build_time": 17, 
@@ -897,7 +897,7 @@
         "154390": {
             "uid": "WarpInCyberneticsCore", 
             "vid": "WarpInCyberneticsCore", 
-            "title": "", 
+            "title": "Warp In Cybernetics Core", 
             "gas": 0, 
             "minerals": 150, 
             "build_time": 50, 
@@ -907,13 +907,13 @@
         "200449": {
             "uid": "UpgradeToPlanetaryFortressCancel", 
             "vid": "UpgradeToPlanetaryFortressCancel", 
-            "title": "", 
+            "title": "Upgrade To Planetary Fortress Cancel", 
             "cancel": true
         }, 
         "135936": {
             "uid": "ResearchHisecAutoTracking", 
             "vid": "ResearchHisecAutoTracking", 
-            "title": "", 
+            "title": "Research Hisec Auto Tracking", 
             "gas": 100, 
             "minerals": 100, 
             "build_time": 80, 
@@ -922,22 +922,22 @@
         "71456": {
             "uid": "SetRallyTarget", 
             "vid": "SetRallyTarget", 
-            "title": ""
+            "title": "Set Rally Target"
         }, 
         "80674": {
             "uid": "UnloadAllMovingMedivac", 
             "vid": "UnloadAllMovingMedivac", 
-            "title": ""
+            "title": "Unload All Moving Medivac"
         }, 
         "203520": {
             "uid": "TransportMode", 
             "vid": "TransportMode", 
-            "title": ""
+            "title": "Transport Mode"
         }, 
         "139008": {
             "uid": "BuildWarpPrism", 
             "vid": "BuildWarpPrism", 
-            "title": "", 
+            "title": "Build Warp Prism", 
             "gas": 0, 
             "minerals": 200, 
             "build_time": 50, 
@@ -947,12 +947,12 @@
         "13056": {
             "uid": "WeaponsFree", 
             "vid": "WeaponsFree", 
-            "title": ""
+            "title": "Weapons Free"
         }, 
         "135937": {
             "uid": "ResearchBuildingArmor", 
             "vid": "ResearchBuildingArmor", 
-            "title": "", 
+            "title": "Research Building Armor", 
             "gas": 150, 
             "minerals": 150, 
             "build_time": 140, 
@@ -961,7 +961,7 @@
         "135938": {
             "uid": "ResearchInfantryWeapons1", 
             "vid": "ResearchInfantryWeapons1", 
-            "title": "Weapons1", 
+            "title": "Research Infantry Weapons1", 
             "gas": 100, 
             "minerals": 100, 
             "build_time": 160, 
@@ -970,7 +970,7 @@
         "135939": {
             "uid": "ResearchInfantryWeapons2", 
             "vid": "ResearchInfantryWeapons2", 
-            "title": "Weapons2", 
+            "title": "Research Infantry Weapons2", 
             "gas": 175, 
             "minerals": 175, 
             "build_time": 190, 
@@ -979,7 +979,7 @@
         "135940": {
             "uid": "ResearchInfantryWeapons3", 
             "vid": "ResearchInfantryWeapons3", 
-            "title": "Weapons3", 
+            "title": "Research Infantry Weapons3", 
             "gas": 250, 
             "minerals": 250, 
             "build_time": 220, 
@@ -988,7 +988,7 @@
         "135941": {
             "uid": "ResearchNeosteelFrame", 
             "vid": "ResearchNeosteelFrame", 
-            "title": "", 
+            "title": "Research Neosteel Frame", 
             "gas": 100, 
             "minerals": 100, 
             "build_time": 110, 
@@ -997,7 +997,7 @@
         "135942": {
             "uid": "ResearchInfantryArmor1", 
             "vid": "ResearchInfantryArmor1", 
-            "title": "Armor1", 
+            "title": "Research Infantry Armor1", 
             "gas": 100, 
             "minerals": 100, 
             "build_time": 160, 
@@ -1006,7 +1006,7 @@
         "135943": {
             "uid": "ResearchInfantryArmor2", 
             "vid": "ResearchInfantryArmor2", 
-            "title": "Armor2", 
+            "title": "Research Infantry Armor2", 
             "gas": 175, 
             "minerals": 175, 
             "build_time": 190, 
@@ -1015,13 +1015,13 @@
         "72464": {
             "uid": "EvolveUnitRally", 
             "vid": "EvolveUnitRally", 
-            "title": "", 
+            "title": "Evolve Unit Rally", 
             "research": true
         }, 
         "138001": {
             "uid": "WarpInPylon", 
             "vid": "WarpInPylon", 
-            "title": "", 
+            "title": "Warp In Pylon", 
             "gas": 0, 
             "minerals": 100, 
             "build_time": 25, 
@@ -1031,7 +1031,7 @@
         "154386": {
             "uid": "WarpInTemplarArchives", 
             "vid": "WarpInTemplarArchives", 
-            "title": "", 
+            "title": "Warp In Templar Archives", 
             "gas": 200, 
             "minerals": 150, 
             "build_time": 50, 
@@ -1041,7 +1041,7 @@
         "138003": {
             "uid": "WarpInGateway", 
             "vid": "WarpInGateway", 
-            "title": "", 
+            "title": "Warp In Gateway", 
             "gas": 0, 
             "minerals": 150, 
             "build_time": 65, 
@@ -1051,7 +1051,7 @@
         "154388": {
             "uid": "WarpInRoboticsBay", 
             "vid": "WarpInRoboticsBay", 
-            "title": "", 
+            "title": "Warp In Robotics Bay", 
             "gas": 200, 
             "minerals": 200, 
             "build_time": 65, 
@@ -1061,7 +1061,7 @@
         "138005": {
             "uid": "WarpInFleetBeacon", 
             "vid": "WarpInFleetBeacon", 
-            "title": "", 
+            "title": "Warp In Fleet Beacon", 
             "gas": 200, 
             "minerals": 300, 
             "build_time": 60, 
@@ -1071,7 +1071,7 @@
         "138006": {
             "uid": "WarpInTwilightCouncil", 
             "vid": "WarpInTwilightCouncil", 
-            "title": "", 
+            "title": "Warp In Twilight Council", 
             "gas": 100, 
             "minerals": 150, 
             "build_time": 50, 
@@ -1081,7 +1081,7 @@
         "138007": {
             "uid": "WarpInPhotonCannon", 
             "vid": "WarpInPhotonCannon", 
-            "title": "", 
+            "title": "Warp In Photon Cannon", 
             "gas": 0, 
             "minerals": 150, 
             "build_time": 40, 
@@ -1091,18 +1091,18 @@
         "204545": {
             "uid": "CancelNuke", 
             "vid": "CancelNuke", 
-            "title": "", 
+            "title": "Cancel Nuke", 
             "cancel": true
         }, 
         "74528": {
             "uid": "StrikeCannons", 
             "vid": "StrikeCannons", 
-            "title": ""
+            "title": "Strike Cannons"
         }, 
         "138018": {
             "uid": "WarpInAssimilator", 
             "vid": "WarpInAssimilator", 
-            "title": "", 
+            "title": "Warp In Assimilator", 
             "gas": 0, 
             "minerals": 100, 
             "build_time": 30, 
@@ -1112,7 +1112,7 @@
         "135168": {
             "uid": "TrainMarine", 
             "vid": "TrainMarine", 
-            "title": "", 
+            "title": "Train Marine", 
             "gas": 0, 
             "minerals": 50, 
             "build_time": 25, 
@@ -1122,7 +1122,7 @@
         "138496": {
             "uid": "BuildZealot", 
             "vid": "BuildZealot", 
-            "title": "", 
+            "title": "Build Zealot", 
             "gas": 0, 
             "minerals": 100, 
             "build_time": 38, 
@@ -1132,17 +1132,17 @@
         "80691": {
             "uid": "UnloadUnitMedivac", 
             "vid": "UnloadUnitMedivac", 
-            "title": ""
+            "title": "Unload Unit Medivac"
         }, 
         "78112": {
             "uid": "Repair", 
             "vid": "Repair", 
-            "title": ""
+            "title": "Repair"
         }, 
         "154113": {
             "uid": "ResearchShipPlating2", 
             "vid": "ResearchShipPlating2", 
-            "title": "Plating2", 
+            "title": "Research Ship Plating2", 
             "gas": 175, 
             "minerals": 175, 
             "build_time": 190, 
@@ -1151,13 +1151,13 @@
         "76544": {
             "uid": "Cancel egg", 
             "vid": "Cancel egg", 
-            "title": "", 
+            "title": "Cancel", 
             "cancel": true
         }, 
         "204032": {
             "uid": "ResearchAirWeapons1", 
             "vid": "ResearchAirWeapons1", 
-            "title": "Weapons1", 
+            "title": "Research Air Weapons1", 
             "gas": 100, 
             "minerals": 100, 
             "build_time": 160, 
@@ -1166,13 +1166,13 @@
         "142081": {
             "uid": "CancelLair", 
             "vid": "CancelLair", 
-            "title": "", 
+            "title": "Cancel Lair", 
             "cancel": true
         }, 
         "143104": {
             "uid": "EvolveAdrenalGlands", 
             "vid": "EvolveAdrenalGlands", 
-            "title": "", 
+            "title": "Evolve Adrenal Glands", 
             "gas": 200, 
             "minerals": 200, 
             "build_time": 130, 
@@ -1181,7 +1181,7 @@
         "75266": {
             "uid": "EvolveChitinous", 
             "vid": "EvolveChitinous", 
-            "title": "", 
+            "title": "Evolve Chitinous", 
             "gas": 150, 
             "minerals": 150, 
             "build_time": 110, 
@@ -1190,18 +1190,18 @@
         "909": {
             "uid": "EvolveWorkerRally", 
             "vid": "EvolveWorkerRally", 
-            "title": "", 
+            "title": "Evolve Worker Rally", 
             "research": true
         }, 
         "14624": {
             "uid": "Repair", 
             "vid": "Repair", 
-            "title": ""
+            "title": "Repair"
         }, 
         "913": {
             "uid": "EvolveQueen", 
             "vid": "EvolveQueen", 
-            "title": "", 
+            "title": "Evolve Queen", 
             "gas": 0, 
             "minerals": 150, 
             "build_time": 50, 
@@ -1210,7 +1210,7 @@
         "914": {
             "uid": "EvolveBurrow", 
             "vid": "EvolveBurrow", 
-            "title": "", 
+            "title": "Evolve Burrow", 
             "gas": 100, 
             "minerals": 100, 
             "build_time": 100, 
@@ -1219,7 +1219,7 @@
         "915": {
             "uid": "EvolveCarapace", 
             "vid": "EvolveCarapace", 
-            "title": "", 
+            "title": "Evolve Carapace", 
             "gas": 100, 
             "minerals": 100, 
             "build_time": 60, 
@@ -1228,7 +1228,7 @@
         "916": {
             "uid": "EvolveVentralSacs", 
             "vid": "EvolveVentralSacs", 
-            "title": "", 
+            "title": "Evolve Ventral Sacs", 
             "gas": 200, 
             "minerals": 200, 
             "build_time": 130, 
@@ -1237,7 +1237,7 @@
         "143105": {
             "uid": "EvolveMetabolicBoost", 
             "vid": "EvolveMetabolicBoost", 
-            "title": "", 
+            "title": "Evolve Metabolic Boost", 
             "gas": 100, 
             "minerals": 100, 
             "build_time": 110, 
@@ -1246,7 +1246,7 @@
         "144128": {
             "uid": "MorphToBroodlord", 
             "vid": "MorphToBroodlord", 
-            "title": "", 
+            "title": "Morph To Broodlord", 
             "gas": 150, 
             "minerals": 150, 
             "build_time": 34, 
@@ -1256,32 +1256,32 @@
         "81184": {
             "uid": "YamatoCannon", 
             "vid": "YamatoCannon", 
-            "title": ""
+            "title": "Yamato Cannon"
         }, 
         "132864": {
             "uid": "LiftFactory", 
             "vid": "LiftFactory", 
-            "title": ""
+            "title": "Lift Factory"
         }, 
         "145152": {
             "uid": "Unburrow", 
             "vid": "Unburrow", 
-            "title": ""
+            "title": "Unburrow"
         }, 
         "131104": {
             "uid": "LoadBunker", 
             "vid": "LoadBunker", 
-            "title": ""
+            "title": "Load Bunker"
         }, 
         "164": {
             "uid": "StimPackMixed", 
             "vid": "StimPackMixed", 
-            "title": ""
+            "title": "Stim Pack Mixed"
         }, 
         "15104": {
             "uid": "BuildMothership", 
             "vid": "BuildMothership", 
-            "title": "", 
+            "title": "Build Mothership", 
             "gas": 400, 
             "minerals": 400, 
             "build_time": 160, 
@@ -1291,12 +1291,12 @@
         "146176": {
             "uid": "Unburrow", 
             "vid": "Unburrow", 
-            "title": ""
+            "title": "Unburrow"
         }, 
         "16128": {
             "uid": "HallucinateArchon", 
             "vid": "HallucinateArchon", 
-            "title": "", 
+            "title": "Hallucinate Archon", 
             "energy": 100, 
             "build": true, 
             "build_unit": "Archon"
@@ -1304,7 +1304,7 @@
         "205824": {
             "uid": "EvolveQueen", 
             "vid": "EvolveQueen", 
-            "title": "", 
+            "title": "Evolve Queen", 
             "gas": 0, 
             "minerals": 150, 
             "build_time": 50, 
@@ -1313,7 +1313,7 @@
         "72705": {
             "uid": "EvolveGlialRecon", 
             "vid": "EvolveGlialRecon", 
-            "title": "", 
+            "title": "Evolve Glial Recon", 
             "gas": 100, 
             "minerals": 100, 
             "build_time": 110, 
@@ -1322,7 +1322,7 @@
         "72706": {
             "uid": "EvolveTunnelingClaws", 
             "vid": "EvolveTunnelingClaws", 
-            "title": "", 
+            "title": "Evolve Tunneling Claws", 
             "gas": 150, 
             "minerals": 150, 
             "build_time": 110, 
@@ -1331,12 +1331,12 @@
         "1027": {
             "uid": "UnloadNydusWorm", 
             "vid": "UnloadNydusWorm", 
-            "title": ""
+            "title": "Unload Nydus Worm"
         }, 
         "204033": {
             "uid": "ResearchAirWeapons2", 
             "vid": "ResearchAirWeapons2", 
-            "title": "Weapons2", 
+            "title": "Research Air Weapons2", 
             "gas": 175, 
             "minerals": 175, 
             "build_time": 190, 
@@ -1345,13 +1345,13 @@
         "181254": {
             "uid": "CancelReactor", 
             "vid": "CancelReactor", 
-            "title": "", 
+            "title": "Cancel Reactor", 
             "cancel": true
         }, 
         "132609": {
             "uid": "BuildReactor", 
             "vid": "BuildReactor", 
-            "title": "", 
+            "title": "Build Reactor", 
             "gas": 50, 
             "minerals": 50, 
             "build_time": 50, 
@@ -1361,22 +1361,22 @@
         "9730": {
             "uid": "Hold", 
             "vid": "Hold", 
-            "title": ""
+            "title": "Hold"
         }, 
         "80912": {
             "uid": "ScannerSweep", 
             "vid": "ScannerSweep", 
-            "title": ""
+            "title": "Scanner Sweep"
         }, 
         "138258": {
             "uid": "UnloadAllWarpPrism", 
             "vid": "UnloadAllWarpPrism", 
-            "title": ""
+            "title": "Unload All Warp Prism"
         }, 
         "160259": {
             "uid": "MorphToCorruptor", 
             "vid": "MorphToCorruptor", 
-            "title": "", 
+            "title": "Morph To Corruptor", 
             "gas": 150, 
             "minerals": 150, 
             "build_time": 40, 
@@ -1386,13 +1386,13 @@
         "1045": {
             "uid": "CancelRootSpineCrawler", 
             "vid": "CancelRootSpineCrawler", 
-            "title": "", 
+            "title": "Cancel Root Spine Crawler", 
             "cancel": true
         }, 
         "66048": {
             "uid": "HallucinateImmortal", 
             "vid": "HallucinateImmortal", 
-            "title": "", 
+            "title": "Hallucinate Immortal", 
             "energy": 100, 
             "build": true, 
             "build_unit": "Immortal"
@@ -1400,7 +1400,7 @@
         "137732": {
             "uid": "ResearchVehiclePlating3", 
             "vid": "ResearchVehiclePlating3", 
-            "title": "Plating3", 
+            "title": "Research Vehicle Plating3", 
             "gas": 250, 
             "minerals": 250, 
             "build_time": 220, 
@@ -1409,7 +1409,7 @@
         "154117": {
             "uid": "ResearchShipWeapons3", 
             "vid": "ResearchShipWeapons3", 
-            "title": "Weapons3", 
+            "title": "Research Ship Weapons3", 
             "gas": 250, 
             "minerals": 250, 
             "build_time": 220, 
@@ -1418,17 +1418,17 @@
         "68640": {
             "uid": "GravitonBeam", 
             "vid": "GravitonBeam", 
-            "title": ""
+            "title": "Graviton Beam"
         }, 
         "138274": {
             "uid": "UnloadAllMovingWarpPrism", 
             "vid": "UnloadAllMovingWarpPrism", 
-            "title": ""
+            "title": "Unload All Moving Warp Prism"
         }, 
         "141830": {
             "uid": "EvolveMissileAttack1", 
             "vid": "EvolveMissileAttack1", 
-            "title": "Attack1", 
+            "title": "Evolve Missile Attack1", 
             "gas": 100, 
             "minerals": 100, 
             "build_time": 160, 
@@ -1437,7 +1437,7 @@
         "137735": {
             "uid": "ResearchVehicleWeapons3", 
             "vid": "ResearchVehicleWeapons3", 
-            "title": "Weapons3", 
+            "title": "Research Vehicle Weapons3", 
             "gas": 250, 
             "minerals": 250, 
             "build_time": 220, 
@@ -1446,18 +1446,18 @@
         "76849": {
             "uid": "CancelUnit", 
             "vid": "CancelUnit", 
-            "title": "", 
+            "title": "Cancel Unit", 
             "cancel": true
         }, 
         "138291": {
             "uid": "UnloadWarpPrism", 
             "vid": "UnloadWarpPrism", 
-            "title": ""
+            "title": "Unload Warp Prism"
         }, 
         "67072": {
             "uid": "HallucinateVoidray", 
             "vid": "HallucinateVoidray", 
-            "title": "", 
+            "title": "Hallucinate Voidray", 
             "energy": 100, 
             "build": true, 
             "build_unit": "Voidray"
@@ -1465,22 +1465,22 @@
         "199440": {
             "uid": "Blink", 
             "vid": "Blink", 
-            "title": ""
+            "title": "Blink"
         }, 
         "81664": {
             "uid": "FighterMode", 
             "vid": "FighterMode", 
-            "title": ""
+            "title": "Fighter Mode"
         }, 
         "141569": {
             "uid": "ReturnCargo", 
             "vid": "ReturnCargo", 
-            "title": ""
+            "title": "Return Cargo"
         }, 
         "94736": {
             "uid": "BuildSensorTower", 
             "vid": "BuildSensorTower", 
-            "title": "", 
+            "title": "Build Sensor Tower", 
             "gas": 100, 
             "minerals": 125, 
             "build_time": 25, 
@@ -1490,7 +1490,7 @@
         "94737": {
             "uid": "BuildGhostAcademy", 
             "vid": "BuildGhostAcademy", 
-            "title": "", 
+            "title": "Build Ghost Academy", 
             "gas": 50, 
             "minerals": 150, 
             "build_time": 40, 
@@ -1500,17 +1500,17 @@
         "9747": {
             "uid": "ScanTarget", 
             "vid": "ScanTarget", 
-            "title": ""
+            "title": "Scan Target"
         }, 
         "199169": {
             "uid": "UnloadNydusNetwork", 
             "vid": "UnloadNydusNetwork", 
-            "title": ""
+            "title": "Unload Nydus Network"
         }, 
         "200192": {
             "uid": "MorphToOverseer", 
             "vid": "MorphToOverseer", 
-            "title": "", 
+            "title": "Morph To Overseer", 
             "gas": 100, 
             "minerals": 50, 
             "build_time": 17, 
@@ -1520,7 +1520,7 @@
         "78357": {
             "uid": "BuildMissileTurret", 
             "vid": "BuildMissileTurret", 
-            "title": "", 
+            "title": "Build Missile Turret", 
             "gas": 0, 
             "minerals": 100, 
             "build_time": 25, 
@@ -1530,24 +1530,24 @@
         "260614": {
             "uid": "Creep cancel", 
             "vid": "Creep cancel", 
-            "title": "", 
+            "title": "Creep", 
             "cancel": true
         }, 
         "200193": {
             "uid": "CancelOverseer", 
             "vid": "CancelOverseer", 
-            "title": "", 
+            "title": "Cancel Overseer", 
             "cancel": true
         }, 
         "201216": {
             "uid": "Burrow", 
             "vid": "Burrow", 
-            "title": ""
+            "title": "Burrow"
         }, 
         "152320": {
             "uid": "ResearchInfantryArmor3", 
             "vid": "ResearchInfantryArmor3", 
-            "title": "Armor3", 
+            "title": "Research Infantry Armor3", 
             "gas": 250, 
             "minerals": 250, 
             "build_time": 220, 
@@ -1556,12 +1556,12 @@
         "202240": {
             "uid": "GatewayMode", 
             "vid": "GatewayMode", 
-            "title": ""
+            "title": "Gateway Mode"
         }, 
         "138000": {
             "uid": "WarpInNexus", 
             "vid": "WarpInNexus", 
-            "title": "", 
+            "title": "Warp In Nexus", 
             "gas": 0, 
             "minerals": 400, 
             "build_time": 100, 
@@ -1571,43 +1571,43 @@
         "68128": {
             "uid": "SeekerMissle", 
             "vid": "SeekerMissle", 
-            "title": ""
+            "title": "Seeker Missle"
         }, 
         "73760": {
             "uid": "Larva", 
             "vid": "Larva", 
-            "title": ""
+            "title": "Larva"
         }, 
         "135682": {
             "uid": "Raven", 
             "vid": "Raven", 
-            "title": ""
+            "title": "Raven"
         }, 
         "203264": {
             "uid": "PhaseMode", 
             "vid": "PhaseMode", 
-            "title": ""
+            "title": "Phase Mode"
         }, 
         "72465": {
             "uid": "EvolveWorkerRally", 
             "vid": "EvolveWorkerRally", 
-            "title": "", 
+            "title": "Evolve Worker Rally", 
             "research": true
         }, 
         "204560": {
             "uid": "Nuke", 
             "vid": "Nuke", 
-            "title": ""
+            "title": "Nuke"
         }, 
         "131584": {
             "uid": "LiftCommandCenter", 
             "vid": "LiftCommandCenter", 
-            "title": ""
+            "title": "Lift Command Center"
         }, 
         "138752": {
             "uid": "BuildPhoenix", 
             "vid": "BuildPhoenix", 
-            "title": "", 
+            "title": "Build Phoenix", 
             "gas": 100, 
             "minerals": 150, 
             "build_time": 35, 
@@ -1617,12 +1617,12 @@
         "205584": {
             "uid": "Vortex", 
             "vid": "Vortex", 
-            "title": ""
+            "title": "Vortex"
         }, 
         "66816": {
             "uid": "HallucinateStalker", 
             "vid": "HallucinateStalker", 
-            "title": "", 
+            "title": "Hallucinate Stalker", 
             "energy": 100, 
             "build": true, 
             "build_unit": "Stalker"
@@ -1630,7 +1630,7 @@
         "220417": {
             "uid": "ResearchHallucination", 
             "vid": "ResearchHallucination", 
-            "title": "", 
+            "title": "Research Hallucination", 
             "gas": 100, 
             "minerals": 100, 
             "build_time": 80, 
@@ -1639,7 +1639,7 @@
         "204034": {
             "uid": "ResearchAirWeapons3", 
             "vid": "ResearchAirWeapons3", 
-            "title": "Weapons3", 
+            "title": "Research Air Weapons3", 
             "gas": 250, 
             "minerals": 250, 
             "build_time": 220, 
@@ -1648,7 +1648,7 @@
         "138499": {
             "uid": "BuildHighTemplar", 
             "vid": "BuildHighTemplar", 
-            "title": "", 
+            "title": "Build High Templar", 
             "gas": 150, 
             "minerals": 50, 
             "build_time": 55, 
@@ -1658,7 +1658,7 @@
         "140548": {
             "uid": "ResearchGroundArmor2", 
             "vid": "ResearchGroundArmor2", 
-            "title": "Armor2", 
+            "title": "Research Ground Armor2", 
             "gas": 175, 
             "minerals": 175, 
             "build_time": 190, 
@@ -1667,7 +1667,7 @@
         "138501": {
             "uid": "BuildSentry", 
             "vid": "BuildSentry", 
-            "title": "", 
+            "title": "Build Sentry", 
             "gas": 100, 
             "minerals": 50, 
             "build_time": 42, 
@@ -1677,7 +1677,7 @@
         "204038": {
             "uid": "ResearchWarpIngate", 
             "vid": "ResearchWarpIngate", 
-            "title": "", 
+            "title": "Research Warp Ingate", 
             "gas": 50, 
             "minerals": 50, 
             "build_time": 140, 
@@ -1686,7 +1686,7 @@
         "140551": {
             "uid": "ResearchShield2", 
             "vid": "ResearchShield2", 
-            "title": "Shield2", 
+            "title": "Research Shield2", 
             "gas": 300, 
             "minerals": 300, 
             "build_time": 190, 
@@ -1695,17 +1695,17 @@
         "135684": {
             "uid": "Viking", 
             "vid": "Viking", 
-            "title": ""
+            "title": "Viking"
         }, 
         "210192": {
             "uid": "Creep", 
             "vid": "Creep", 
-            "title": ""
+            "title": "Creep"
         }, 
         "137730": {
             "uid": "ResearchVehiclePlating1", 
             "vid": "ResearchVehiclePlating1", 
-            "title": "Plating1", 
+            "title": "Research Vehicle Plating1", 
             "gas": 100, 
             "minerals": 100, 
             "build_time": 160, 
@@ -1714,7 +1714,7 @@
         "204289": {
             "uid": "ResearchBlink", 
             "vid": "ResearchBlink", 
-            "title": "", 
+            "title": "Research Blink", 
             "gas": 100, 
             "minerals": 150, 
             "build_time": 110, 
@@ -1723,17 +1723,17 @@
         "144896": {
             "uid": "Burrow", 
             "vid": "Burrow", 
-            "title": ""
+            "title": "Burrow"
         }, 
         "75040": {
             "uid": "Chronoboost", 
             "vid": "Chronoboost", 
-            "title": ""
+            "title": "Chronoboost"
         }, 
         "157712": {
             "uid": "MorphToInfestationPit", 
             "vid": "MorphToInfestationPit", 
-            "title": "", 
+            "title": "Morph To Infestation Pit", 
             "gas": 100, 
             "minerals": 100, 
             "build_time": 50, 
@@ -1743,7 +1743,7 @@
         "137731": {
             "uid": "ResearchVehiclePlating2", 
             "vid": "ResearchVehiclePlating2", 
-            "title": "Plating2", 
+            "title": "Research Vehicle Plating2", 
             "gas": 175, 
             "minerals": 175, 
             "build_time": 190, 
@@ -1752,7 +1752,7 @@
         "138754": {
             "uid": "BuildCarrier", 
             "vid": "BuildCarrier", 
-            "title": "", 
+            "title": "Build Carrier", 
             "gas": 250, 
             "minerals": 350, 
             "build_time": 120, 
@@ -1762,7 +1762,7 @@
         "200448": {
             "uid": "UpgradeToPlanetaryFortress", 
             "vid": "UpgradeToPlanetaryFortress", 
-            "title": "", 
+            "title": "Upgrade To Planetary Fortress", 
             "gas": 150, 
             "minerals": 150, 
             "build_time": 50, 
@@ -1772,7 +1772,7 @@
         "14848": {
             "uid": "MorphToBaneling", 
             "vid": "MorphToBaneling", 
-            "title": "", 
+            "title": "Morph To Baneling", 
             "gas": 25, 
             "minerals": 25, 
             "build_time": 20, 
@@ -1782,7 +1782,7 @@
         "66560": {
             "uid": "HallucinateProbe", 
             "vid": "HallucinateProbe", 
-            "title": "", 
+            "title": "Hallucinate Probe", 
             "energy": 100, 
             "build": true, 
             "build_unit": "Probe"
@@ -1790,7 +1790,7 @@
         "140801": {
             "uid": "ResearchBooster", 
             "vid": "ResearchBooster", 
-            "title": "", 
+            "title": "Research Booster", 
             "gas": 100, 
             "minerals": 100, 
             "build_time": 80, 
@@ -1799,7 +1799,7 @@
         "141824": {
             "uid": "EvolveMeleeAttack1", 
             "vid": "EvolveMeleeAttack1", 
-            "title": "Attack1", 
+            "title": "Evolve Melee Attack1", 
             "gas": 100, 
             "minerals": 100, 
             "build_time": 160, 
@@ -1808,13 +1808,13 @@
         "911": {
             "uid": "EvolveUnitRally", 
             "vid": "EvolveUnitRally", 
-            "title": "", 
+            "title": "Evolve Unit Rally", 
             "research": true
         }, 
         "140802": {
             "uid": "ResearchDrive", 
             "vid": "ResearchDrive", 
-            "title": "", 
+            "title": "Research Drive", 
             "gas": 100, 
             "minerals": 100, 
             "build_time": 80, 
@@ -1823,7 +1823,7 @@
         "141825": {
             "uid": "EvolveMeleeAttack2", 
             "vid": "EvolveMeleeAttack2", 
-            "title": "Attack2", 
+            "title": "Evolve Melee Attack2", 
             "gas": 150, 
             "minerals": 150, 
             "build_time": 190, 
@@ -1832,12 +1832,12 @@
         "68368": {
             "uid": "CalldownMuleLocation", 
             "vid": "CalldownMuleLocation", 
-            "title": ""
+            "title": "Calldown Mule Location"
         }, 
         "137734": {
             "uid": "ResearchVehicleWeapons2", 
             "vid": "ResearchVehicleWeapons2", 
-            "title": "Weapons2", 
+            "title": "Research Vehicle Weapons2", 
             "gas": 175, 
             "minerals": 175, 
             "build_time": 190, 
@@ -1846,7 +1846,7 @@
         "142849": {
             "uid": "EvolveCarapace", 
             "vid": "EvolveCarapace", 
-            "title": "", 
+            "title": "Evolve Carapace", 
             "gas": 100, 
             "minerals": 100, 
             "build_time": 60, 
@@ -1855,22 +1855,22 @@
         "12800": {
             "uid": "HoldFire", 
             "vid": "HoldFire", 
-            "title": ""
+            "title": "Hold Fire"
         }, 
         "14096": {
             "uid": "Fungal", 
             "vid": "Fungal", 
-            "title": ""
+            "title": "Fungal"
         }, 
         "15392": {
             "uid": "Feedback", 
             "vid": "Feedback", 
-            "title": ""
+            "title": "Feedback"
         }, 
         "141827": {
             "uid": "EvolveGroundCarapace1", 
             "vid": "EvolveGroundCarapace1", 
-            "title": "Carapace1", 
+            "title": "Evolve Ground Carapace1", 
             "gas": 150, 
             "minerals": 150, 
             "build_time": 160, 
@@ -1879,7 +1879,7 @@
         "143873": {
             "uid": "MorphToZergling", 
             "vid": "MorphToZergling", 
-            "title": "", 
+            "title": "Morph To Zergling", 
             "gas": 0, 
             "minerals": 50, 
             "build_time": 24, 
@@ -1889,27 +1889,27 @@
         "210432": {
             "uid": "UprootSpineCrawler", 
             "vid": "UprootSpineCrawler", 
-            "title": ""
+            "title": "Uproot Spine Crawler"
         }, 
         "145920": {
             "uid": "Burrow", 
             "vid": "Burrow", 
-            "title": ""
+            "title": "Burrow"
         }, 
         "211728": {
             "uid": "BuildAutoTurret", 
             "vid": "BuildAutoTurret", 
-            "title": ""
+            "title": "Build Auto Turret"
         }, 
         "9216": {
             "uid": "Stop", 
             "vid": "Stop", 
-            "title": ""
+            "title": "Stop"
         }, 
         "141828": {
             "uid": "EvolveGroundCarapace2", 
             "vid": "EvolveGroundCarapace2", 
-            "title": "Carapace2", 
+            "title": "Evolve Ground Carapace2", 
             "gas": 225, 
             "minerals": 225, 
             "build_time": 190, 
@@ -1918,7 +1918,7 @@
         "143874": {
             "uid": "MorphToOverlord", 
             "vid": "MorphToOverlord", 
-            "title": "", 
+            "title": "Morph To Overlord", 
             "gas": 0, 
             "minerals": 100, 
             "build_time": 25, 
@@ -1928,7 +1928,7 @@
         "13825": {
             "uid": "ResearchGravitonCatapult", 
             "vid": "ResearchGravitonCatapult", 
-            "title": "", 
+            "title": "Research Graviton Catapult", 
             "gas": 150, 
             "minerals": 150, 
             "build_time": 80, 
@@ -1937,22 +1937,22 @@
         "80384": {
             "uid": "Cloak", 
             "vid": "Cloak", 
-            "title": ""
+            "title": "Cloak"
         }, 
         "201472": {
             "uid": "Unburrow", 
             "vid": "Unburrow", 
-            "title": ""
+            "title": "Unburrow"
         }, 
         "262944": {
             "uid": "Contaminate", 
             "vid": "Contaminate", 
-            "title": ""
+            "title": "Contaminate"
         }, 
         "141829": {
             "uid": "EvolveGroundCarapace3", 
             "vid": "EvolveGroundCarapace3", 
-            "title": "Carapace3", 
+            "title": "Evolve Ground Carapace3", 
             "gas": 300, 
             "minerals": 300, 
             "build_time": 220, 
@@ -1961,7 +1961,7 @@
         "143875": {
             "uid": "MorphToHydralisk", 
             "vid": "MorphToHydralisk", 
-            "title": "", 
+            "title": "Morph To Hydralisk", 
             "gas": 50, 
             "minerals": 100, 
             "build_time": 33, 
@@ -1971,17 +1971,17 @@
         "80385": {
             "uid": "Uncloak", 
             "vid": "Uncloak", 
-            "title": ""
+            "title": "Uncloak"
         }, 
         "81408": {
             "uid": "AssaultMode", 
             "vid": "AssaultMode", 
-            "title": ""
+            "title": "Assault Mode"
         }, 
         "132608": {
             "uid": "BuildTechlab", 
             "vid": "BuildTechlab", 
-            "title": "", 
+            "title": "Build Techlab", 
             "gas": 25, 
             "minerals": 50, 
             "build_time": 25, 
@@ -1991,12 +1991,12 @@
         "205056": {
             "uid": "Salvage", 
             "vid": "Salvage", 
-            "title": ""
+            "title": "Salvage"
         }, 
         "142850": {
             "uid": "EvolveVentralSacs", 
             "vid": "EvolveVentralSacs", 
-            "title": "", 
+            "title": "Evolve Ventral Sacs", 
             "gas": 200, 
             "minerals": 200, 
             "build_time": 130, 
@@ -2005,7 +2005,7 @@
         "142851": {
             "uid": "EvolveBurrow", 
             "vid": "EvolveBurrow", 
-            "title": "", 
+            "title": "Evolve Burrow", 
             "gas": 100, 
             "minerals": 100, 
             "build_time": 100, 
@@ -2014,7 +2014,7 @@
         "138756": {
             "uid": "BuildVoidray", 
             "vid": "BuildVoidray", 
-            "title": "", 
+            "title": "Build Voidray", 
             "gas": 150, 
             "minerals": 250, 
             "build_time": 60, 
@@ -2024,7 +2024,7 @@
         "140805": {
             "uid": "ResearchThermalLance", 
             "vid": "ResearchThermalLance", 
-            "title": "", 
+            "title": "Research Thermal Lance", 
             "gas": 200, 
             "minerals": 200, 
             "build_time": 140, 
@@ -2033,18 +2033,18 @@
         "181766": {
             "uid": "CancelReactor", 
             "vid": "CancelReactor", 
-            "title": "", 
+            "title": "Cancel Reactor", 
             "cancel": true
         }, 
         "135425": {
             "uid": "SeigeTank", 
             "vid": "SeigeTank", 
-            "title": ""
+            "title": "Seige Tank"
         }, 
         "140546": {
             "uid": "ResearchGroundWeapons3", 
             "vid": "ResearchGroundWeapons3", 
-            "title": "Weapons3", 
+            "title": "Research Ground Weapons3", 
             "gas": 250, 
             "minerals": 250, 
             "build_time": 220, 
@@ -2053,17 +2053,17 @@
         "73232": {
             "uid": "Infested", 
             "vid": "Infested", 
-            "title": ""
+            "title": "Infested"
         }, 
         "9745": {
             "uid": "Patrol", 
             "vid": "Patrol", 
-            "title": ""
+            "title": "Patrol"
         }, 
         "204035": {
             "uid": "ResearchAirArmor1", 
             "vid": "ResearchAirArmor1", 
-            "title": "Armor1", 
+            "title": "Research Air Armor1", 
             "gas": 150, 
             "minerals": 150, 
             "build_time": 160, 
@@ -2072,7 +2072,7 @@
         "204036": {
             "uid": "ResearchAirArmor2", 
             "vid": "ResearchAirArmor2", 
-            "title": "Armor2", 
+            "title": "Research Air Armor2", 
             "gas": 225, 
             "minerals": 225, 
             "build_time": 190, 
@@ -2081,7 +2081,7 @@
         "140549": {
             "uid": "ResearchGroundArmor3", 
             "vid": "ResearchGroundArmor3", 
-            "title": "Armor3", 
+            "title": "Research Ground Armor3", 
             "gas": 250, 
             "minerals": 250, 
             "build_time": 220, 
@@ -2090,12 +2090,12 @@
         "206368": {
             "uid": "Transfuse", 
             "vid": "Transfuse", 
-            "title": ""
+            "title": "Transfuse"
         }, 
         "140550": {
             "uid": "ResearchShield1", 
             "vid": "ResearchShield1", 
-            "title": "Shield1", 
+            "title": "Research Shield1", 
             "gas": 200, 
             "minerals": 200, 
             "build_time": 160, 
@@ -2104,12 +2104,12 @@
         "132352": {
             "uid": "LiftBarracks", 
             "vid": "LiftBarracks", 
-            "title": ""
+            "title": "Lift Barracks"
         }, 
         "143878": {
             "uid": "MorphToUltralisk", 
             "vid": "MorphToUltralisk", 
-            "title": "", 
+            "title": "Morph To Ultralisk", 
             "gas": 200, 
             "minerals": 300, 
             "build_time": 70, 
@@ -2119,32 +2119,32 @@
         "198912": {
             "uid": "Unburrow", 
             "vid": "Unburrow", 
-            "title": ""
+            "title": "Unburrow"
         }, 
         "211216": {
             "uid": "RootSporeCrawler", 
             "vid": "RootSporeCrawler", 
-            "title": ""
+            "title": "Root Spore Crawler"
         }, 
         "78080": {
             "uid": "ToggleAutoRepair", 
             "vid": "ToggleAutoRepair", 
-            "title": ""
+            "title": "Toggle Auto Repair"
         }, 
         "199936": {
             "uid": "Unburrow", 
             "vid": "Unburrow", 
-            "title": ""
+            "title": "Unburrow"
         }, 
         "131332": {
             "uid": "LoadCommandCenter", 
             "vid": "LoadCommandCenter", 
-            "title": ""
+            "title": "Load Command Center"
         }, 
         "200960": {
             "uid": "EvolveCentrifugalHooks", 
             "vid": "EvolveCentrifugalHooks", 
-            "title": "", 
+            "title": "Evolve Centrifugal Hooks", 
             "gas": 150, 
             "minerals": 150, 
             "build_time": 110, 
@@ -2153,7 +2153,7 @@
         "136448": {
             "uid": "ResearchArmSiloWithNuke", 
             "vid": "ResearchArmSiloWithNuke", 
-            "title": "", 
+            "title": "Research Arm Silo With Nuke", 
             "gas": 100, 
             "minerals": 100, 
             "build_time": 60, 
@@ -2162,22 +2162,22 @@
         "79104": {
             "uid": "Cloak", 
             "vid": "Cloak", 
-            "title": ""
+            "title": "Cloak"
         }, 
         "72208": {
             "uid": "Rally", 
             "vid": "Rally", 
-            "title": ""
+            "title": "Rally"
         }, 
         "76064": {
             "uid": "GatherResourcesProbe", 
             "vid": "GatherResourcesProbe", 
-            "title": ""
+            "title": "Gather Resources Probe"
         }, 
         "137472": {
             "uid": "ResearchPersonalCloaking", 
             "vid": "ResearchPersonalCloaking", 
-            "title": "", 
+            "title": "Research Personal Cloaking", 
             "gas": 150, 
             "minerals": 150, 
             "build_time": 120, 
@@ -2186,12 +2186,12 @@
         "134656": {
             "uid": "Lower", 
             "vid": "Lower", 
-            "title": ""
+            "title": "Lower"
         }, 
         "154112": {
             "uid": "ResearchShipPlating1", 
             "vid": "ResearchShipPlating1", 
-            "title": "Plating1", 
+            "title": "Research Ship Plating1", 
             "gas": 100, 
             "minerals": 100, 
             "build_time": 160, 
@@ -2200,7 +2200,7 @@
         "137473": {
             "uid": "ResearchMoebiusReactor", 
             "vid": "ResearchMoebiusReactor", 
-            "title": "", 
+            "title": "Research Moebius Reactor", 
             "gas": 100, 
             "minerals": 100, 
             "build_time": 80, 
@@ -2209,27 +2209,27 @@
         "72960": {
             "uid": "Attack", 
             "vid": "Attack", 
-            "title": ""
+            "title": "Attack"
         }, 
         "144640": {
             "uid": "Unburrow", 
             "vid": "Unburrow", 
-            "title": ""
+            "title": "Unburrow"
         }, 
         "205328": {
             "uid": "EMPRound", 
             "vid": "EMPRound", 
-            "title": ""
+            "title": "EMPRound"
         }, 
         "202496": {
             "uid": "LiftOrbitalCommand", 
             "vid": "LiftOrbitalCommand", 
-            "title": ""
+            "title": "Lift Orbital Command"
         }, 
         "139009": {
             "uid": "BuildObserver", 
             "vid": "BuildObserver", 
-            "title": "", 
+            "title": "Build Observer", 
             "gas": 75, 
             "minerals": 25, 
             "build_time": 40, 
@@ -2239,7 +2239,7 @@
         "139010": {
             "uid": "BuildColossus", 
             "vid": "BuildColossus", 
-            "title": "", 
+            "title": "Build Colossus", 
             "gas": 200, 
             "minerals": 300, 
             "build_time": 75, 
@@ -2249,7 +2249,7 @@
         "139011": {
             "uid": "BuildImmortal", 
             "vid": "BuildImmortal", 
-            "title": "", 
+            "title": "Build Immortal", 
             "gas": 100, 
             "minerals": 250, 
             "build_time": 55, 
@@ -2259,7 +2259,7 @@
         "141060": {
             "uid": "ResearchPsionicStorm", 
             "vid": "ResearchPsionicStorm", 
-            "title": "", 
+            "title": "Research Psionic Storm", 
             "gas": 200, 
             "minerals": 200, 
             "build_time": 110, 
@@ -2268,12 +2268,12 @@
         "135428": {
             "uid": "Thor", 
             "vid": "Thor", 
-            "title": ""
+            "title": "Thor"
         }, 
         "138497": {
             "uid": "BuildStalker", 
             "vid": "BuildStalker", 
-            "title": "", 
+            "title": "Build Stalker", 
             "gas": 50, 
             "minerals": 125, 
             "build_time": 42, 
@@ -2283,12 +2283,12 @@
         "73984": {
             "uid": "StimPackMixed", 
             "vid": "StimPackMixed", 
-            "title": ""
+            "title": "Stim Pack Mixed"
         }, 
         "198416": {
             "uid": "WarpInZealot", 
             "vid": "WarpInZealot", 
-            "title": "", 
+            "title": "Warp In Zealot", 
             "gas": 0, 
             "minerals": 100, 
             "build_time": 5, 
@@ -2298,7 +2298,7 @@
         "198417": {
             "uid": "WarpInStalker", 
             "vid": "WarpInStalker", 
-            "title": "", 
+            "title": "Warp In Stalker", 
             "gas": 50, 
             "minerals": 125, 
             "build_time": 5, 
@@ -2308,7 +2308,7 @@
         "154114": {
             "uid": "ResearchShipPlating3", 
             "vid": "ResearchShipPlating3", 
-            "title": "Plating3", 
+            "title": "Research Ship Plating3", 
             "gas": 250, 
             "minerals": 250, 
             "build_time": 220, 
@@ -2317,7 +2317,7 @@
         "198419": {
             "uid": "WarpInHighTemplar", 
             "vid": "WarpInHighTemplar", 
-            "title": "", 
+            "title": "Warp In High Templar", 
             "gas": 150, 
             "minerals": 50, 
             "build_time": 5, 
@@ -2327,7 +2327,7 @@
         "198420": {
             "uid": "WarpInDarkTemplar", 
             "vid": "WarpInDarkTemplar", 
-            "title": "", 
+            "title": "Warp In Dark Templar", 
             "gas": 125, 
             "minerals": 125, 
             "build_time": 5, 
@@ -2337,7 +2337,7 @@
         "198421": {
             "uid": "WarpInSentry", 
             "vid": "WarpInSentry", 
-            "title": "", 
+            "title": "Warp In Sentry", 
             "gas": 100, 
             "minerals": 50, 
             "build_time": 5, 
@@ -2347,27 +2347,27 @@
         "9744": {
             "uid": "Follow", 
             "vid": "Follow", 
-            "title": ""
+            "title": "Follow"
         }, 
         "79616": {
             "uid": "ToggleAutoHeal", 
             "vid": "ToggleAutoHeal", 
-            "title": ""
+            "title": "Toggle Auto Heal"
         }, 
         "73504": {
             "uid": "Neural", 
             "vid": "Neural", 
-            "title": ""
+            "title": "Neural"
         }, 
         "135429": {
             "uid": "Hellion", 
             "vid": "Hellion", 
-            "title": ""
+            "title": "Hellion"
         }, 
         "140544": {
             "uid": "ResearchGroundWeapons1", 
             "vid": "ResearchGroundWeapons1", 
-            "title": "Weapons1", 
+            "title": "Research Ground Weapons1", 
             "gas": 100, 
             "minerals": 100, 
             "build_time": 160, 
@@ -2376,7 +2376,7 @@
         "154115": {
             "uid": "ResearchShipWeapons1", 
             "vid": "ResearchShipWeapons1", 
-            "title": "Weapons1", 
+            "title": "Research Ship Weapons1", 
             "gas": 100, 
             "minerals": 100, 
             "build_time": 160, 
@@ -2385,12 +2385,12 @@
         "10768": {
             "uid": "AttackObject", 
             "vid": "AttackObject", 
-            "title": ""
+            "title": "Attack Object"
         }, 
         "140545": {
             "uid": "ResearchGroundWeapons2", 
             "vid": "ResearchGroundWeapons2", 
-            "title": "Weapons2", 
+            "title": "Research Ground Weapons2", 
             "gas": 175, 
             "minerals": 175, 
             "build_time": 190, 
@@ -2399,7 +2399,7 @@
         "154116": {
             "uid": "ResearchShipWeapons2", 
             "vid": "ResearchShipWeapons2", 
-            "title": "Weapons2", 
+            "title": "Research Ship Weapons2", 
             "gas": 175, 
             "minerals": 175, 
             "build_time": 190, 
@@ -2408,12 +2408,12 @@
         "80128": {
             "uid": "TankMode", 
             "vid": "TankMode", 
-            "title": ""
+            "title": "Tank Mode"
         }, 
         "158208": {
             "uid": "EvolveMissileAttack3", 
             "vid": "EvolveMissileAttack3", 
-            "title": "Attack3", 
+            "title": "Evolve Missile Attack3", 
             "gas": 200, 
             "minerals": 200, 
             "build_time": 220, 
@@ -2422,7 +2422,7 @@
         "138500": {
             "uid": "BuildDarkTemplar", 
             "vid": "BuildDarkTemplar", 
-            "title": "", 
+            "title": "Build Dark Templar", 
             "gas": 125, 
             "minerals": 125, 
             "build_time": 55, 
@@ -2432,12 +2432,12 @@
         "76033": {
             "uid": "ReturnCargo", 
             "vid": "ReturnCargo", 
-            "title": ""
+            "title": "Return Cargo"
         }, 
         "142592": {
             "uid": "EvolveGreaterSpire", 
             "vid": "EvolveGreaterSpire", 
-            "title": "", 
+            "title": "Evolve Greater Spire", 
             "gas": 150, 
             "minerals": 100, 
             "build_time": 100, 
@@ -2446,12 +2446,12 @@
         "135680": {
             "uid": "Medivac", 
             "vid": "Medivac", 
-            "title": ""
+            "title": "Medivac"
         }, 
         "204037": {
             "uid": "ResearchAirArmor3", 
             "vid": "ResearchAirArmor3", 
-            "title": "Armor3", 
+            "title": "Research Air Armor3", 
             "gas": 300, 
             "minerals": 300, 
             "build_time": 220, 
@@ -2460,7 +2460,7 @@
         "140547": {
             "uid": "ResearchGroundArmor1", 
             "vid": "ResearchGroundArmor1", 
-            "title": "Armor1", 
+            "title": "Research Ground Armor1", 
             "gas": 100, 
             "minerals": 100, 
             "build_time": 160, 
@@ -2469,7 +2469,7 @@
         "142336": {
             "uid": "EvolveHive", 
             "vid": "EvolveHive", 
-            "title": "", 
+            "title": "Evolve Hive", 
             "gas": 150, 
             "minerals": 200, 
             "build_time": 100, 
@@ -2478,13 +2478,13 @@
         "142593": {
             "uid": "CancelGreaterSpire", 
             "vid": "CancelGreaterSpire", 
-            "title": "", 
+            "title": "Cancel Greater Spire", 
             "cancel": true
         }, 
         "143616": {
             "uid": "EvolveFlyerAttack1", 
             "vid": "EvolveFlyerAttack1", 
-            "title": "Attack1", 
+            "title": "Evolve Flyer Attack1", 
             "gas": 100, 
             "minerals": 100, 
             "build_time": 160, 
@@ -2493,17 +2493,17 @@
         "145664": {
             "uid": "Unburrow", 
             "vid": "Unburrow", 
-            "title": ""
+            "title": "Unburrow"
         }, 
         "80672": {
             "uid": "LoadUnitMedivac", 
             "vid": "LoadUnitMedivac", 
-            "title": ""
+            "title": "Load Unit Medivac"
         }, 
         "143617": {
             "uid": "EvolveFlyerAttack2", 
             "vid": "EvolveFlyerAttack2", 
-            "title": "Attack2", 
+            "title": "Evolve Flyer Attack2", 
             "gas": 175, 
             "minerals": 175, 
             "build_time": 190, 
@@ -2512,12 +2512,12 @@
         "13568": {
             "uid": "Explode", 
             "vid": "Explode", 
-            "title": ""
+            "title": "Explode"
         }, 
         "160257": {
             "uid": "MorphToRoach", 
             "vid": "MorphToRoach", 
-            "title": "", 
+            "title": "Morph To Roach", 
             "gas": 25, 
             "minerals": 75, 
             "build_time": 27, 
@@ -2527,22 +2527,22 @@
         "211472": {
             "uid": "Creep", 
             "vid": "Creep", 
-            "title": ""
+            "title": "Creep"
         }, 
         "79105": {
             "uid": "Uncloak", 
             "vid": "Uncloak", 
-            "title": ""
+            "title": "Uncloak"
         }, 
         "14592": {
             "uid": "AutoRepair", 
             "vid": "AutoRepair", 
-            "title": ""
+            "title": "Auto Repair"
         }, 
         "160258": {
             "uid": "MorphToInfestor", 
             "vid": "MorphToInfestor", 
-            "title": "", 
+            "title": "Morph To Infestor", 
             "gas": 150, 
             "minerals": 100, 
             "build_time": 50, 
@@ -2552,18 +2552,18 @@
         "15888": {
             "uid": "BuildPointDefenceDrone", 
             "vid": "BuildPointDefenceDrone", 
-            "title": ""
+            "title": "Build Point Defence Drone"
         }, 
         "77824": {
             "uid": "CancelBuilding", 
             "vid": "CancelBuilding", 
-            "title": "", 
+            "title": "Cancel Building", 
             "cancel": true
         }, 
         "211201": {
             "uid": "CancelRootSporeCrawler", 
             "vid": "CancelRootSporeCrawler", 
-            "title": "", 
+            "title": "Cancel Root Spore Crawler", 
             "cancel": true
         }
     }, 
@@ -4269,16 +4269,16 @@
     ], 
     "ability_defaults": {
         "build_queue": 0, 
-        "target": null, 
+        "target": [], 
         "vid": "", 
         "title": "", 
         "food": 0, 
         "energy": 0, 
         "gas": 0, 
         "build_time": 0, 
-        "build_unit": null, 
+        "build_unit": "", 
         "cooldown": 0, 
-        "target_player": null, 
+        "target_player": [], 
         "build": false, 
         "cancel": false, 
         "research": false, 
