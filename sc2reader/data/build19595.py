@@ -294,7 +294,7 @@ class Data_19595(BaseData):
                 0x11701: 'Combat Shields',
                 0x11702: 'Concussive Shells',
                 0x0: 'Cancel Research',
-                0x0: 'Cancel specific Research',
+                0x7061: 'Cancel Specific Research', ##Click on research in queue
             }
 
         class Reactor(TerranBuilding):
