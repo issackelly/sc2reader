@@ -476,6 +476,7 @@ class Data_17326(BaseData):
     class FleetBeacon(Research):
         abilities = {
             0x003601: 'Graviton Catapult',
+            0x0: 'Anion Crystals'
         }
 
     class TemplarArchive(Research):

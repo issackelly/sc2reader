@@ -211,7 +211,8 @@ class Data_19595(BaseData):
     @UpgradeFrom(CommandCenter, 0x15000, 0x15001)
     class PlanetaryFortress(TerranMain, Production):
         abilties = {
-            0x0: 'Cancel (PF ONLY)', #????
+            0x6f61: 'Cancel (PF ONLY)',
+            0x6f00: 'Cancel (PF ONLY)',
         }
 
     @Lowers(0x10f00, 0x11000)
@@ -567,6 +568,7 @@ class Data_19595(BaseData):
     class FleetBeacon(Research):
         abilities = {
             0x3701: 'Graviton Catapult',
+            0x3702: 'Anion Crystals'
         }
 
     class TemplarArchive(Research):
