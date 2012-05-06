@@ -466,8 +466,7 @@ class Data_16561(BaseData):
 
     class FleetBeacon(Research):
         abilities = {
-            0x0: 'Graviton Catapult',
-            0x0: 'Anion Crystals'
+            0x0: 'Graviton Catapult'
         }
 
     class TemplarArchive(Research):

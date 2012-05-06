@@ -294,7 +294,7 @@ class Data_19595(BaseData):
                 0x11701: 'Combat Shields',
                 0x11702: 'Concussive Shells',
                 0x0: 'Cancel Research',
-                0x7061: 'Cancel Specific Research', ##Click on research in queue
+                0x7061: 'Cancel Specific Research',
             }
 
         class Reactor(TerranBuilding):
@@ -330,7 +330,7 @@ class Data_19595(BaseData):
                 0x11801: 'Infernal Pre-igniter',
                 0x11802: '250mm Strike Cannons',
                 0x0: 'Cancel Research',
-                0x0: 'Cancel specific Research',
+                0x7061: 'Cancel Specific Research',
             }
 
         class Reactor(TerranBuilding):
@@ -371,7 +371,7 @@ class Data_19595(BaseData):
                 0x11906: 'Seeker Missile',
                 0x11907: 'Durable Materials',
                 0x0: 'Cancel Research',
-                0x0: 'Cancel specific Research',
+                0x7061: 'Cancel Specific Research',
             }
 
         class Reactor(TerranBuilding):
