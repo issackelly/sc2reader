@@ -87,6 +87,8 @@ class Data_18317(BaseData):
         abilities = {
             0x0: 'Toggle Auto-Repair',
             0x0: 'Repair',
+            0x0: 'Return Cargo',
+            0x0: 'Gather',
         }
 
     class Marine(Moveable, Attacker):

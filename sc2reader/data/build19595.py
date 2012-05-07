@@ -114,6 +114,8 @@ class Data_19595(BaseData):
         abilities = {
             0x3a00: 'Toggle Auto-Repair',
             0x3a40: 'Repair',
+            0x4a01: 'Return Cargo',
+            0x4a40: 'Gather',
         }
 
     class Marine(Moveable, Attacker):
@@ -143,7 +145,7 @@ class Data_19595(BaseData):
     class SiegeTank(Moveable, Attacker):
         pass
 
-    @Channels('250mm Strike Cannons',0x11802,None)
+    @Channels('250mm Strike Cannons', 0x6440, 0x6401)
     class Thor(Moveable, Attacker):
         pass
 
